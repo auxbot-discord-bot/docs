@@ -6,6 +6,10 @@
 Welcome to AuxBot-Python's documentation!
 =========================================
 
+* **AuxBot**
+.. figure:: images/AuxBot Logo.png
+   :scale: 50%
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -18,5 +22,4 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
