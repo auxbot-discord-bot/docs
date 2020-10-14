@@ -1,21 +1,18 @@
-.. AuxBot-Python documentation master file, created by
-   sphinx-quickstart on Mon Oct 12 12:49:11 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to AuxBot-Python's documentation!
 =========================================
 
 * **AuxBot**
 .. image:: images/AuxBotLogo.png
   :width: 400
-  :alt: Alternative text
+  :alt: AuxBot Logo
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    pages/inviting-the-bot
+   pages/commands
+   pages/aliases
 
 
 
