@@ -9,9 +9,9 @@
   <p align="center">
     Documentation For AuxBot Discord Bot
     <br />
-    <a href="https://discordpy.readthedocs.io/en/latest/"><strong>AuxBot Python Documentation »</strong></a>
+    <a href="https://auxbot-python.readthedocs.io/"><strong>AuxBot Python Documentation »</strong></a>
   <p align="center">
-    <a href="http://auxbot-python.rtfd.io/">
+    <a href="https://auxbot-python.readthedocs.io/">
         <img src="https://img.shields.io/readthedocs/auxbot-python?color=red&logo=Read%20The%20Docs&logoColor=white"
             alt="AuxBot Documentation"></a>
     <br />
