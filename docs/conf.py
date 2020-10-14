@@ -1,3 +1,10 @@
+from recommonmark.parser import CommonMarkParser
+import recommonmark
+
+source_parsers - {
+   '.md': CommonMarkParser
+}
+
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
