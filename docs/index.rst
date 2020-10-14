@@ -1,3 +1,4 @@
+Welcome to AuxBot-Python's documentation!
 =========================================
 
 * **AuxBot**
@@ -12,6 +13,7 @@ AuxBot is multi use discord bot which has many different functions such as loggi
    :caption: Contents:
 
    pages/inviting-the-bot
+   pages/changelogs
    pages/commands
    pages/aliases
 
