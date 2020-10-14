@@ -2,6 +2,7 @@ AuxBot commands
 ===============
 
 * **Moderation**
+|
   ``ban``
   ``kick``
   ``warn``
@@ -19,8 +20,9 @@ AuxBot commands
   ``current_nsfw_toggle``
   ``current_level_toggle``
   ``current_warns_before_ban``
-
+|
 * **Utility**
+|
   ``poll``
   ``ping``
   ``setup``
