@@ -3,17 +3,17 @@
 <br />
 <p align="center">
   <a href="https://auxtal.xyz">
-    <img src="Images/AuxBot Logo.png" alt="Logo" width="100" height="100">
+    <img src="https://i.imgur.com/X1VWwNJ.png" alt="Logo" width="100" height="100">
   </a>
 
   <p align="center">
-    An Awesome Discord Bot For Your Server!
+    Documentation For AuxBot Discord Bot
     <br />
-    <a href="https://discordpy.readthedocs.io/en/latest/"><strong>Discord.py Docs »</strong></a>
+    <a href="https://discordpy.readthedocs.io/en/latest/"><strong>AuxBot Python Documentation»</strong></a>
   <p align="center">
-    <a href="https://discord.com/oauth2/authorize?client_id=701301497501188169&scope=bot&permissions=536341630">
-        <img src="https://img.shields.io/badge/Invite%20AuxBot-green?style=flat-square&logo-discord=appveyor"
-            alt="Invite AuxBot"></a>
+    <a href="http://auxbot-python.rtfd.io/">
+        <img src="https://img.shields.io/readthedocs/auxbot-python?color=red&logo=Read%20The%20Docs&logoColor=white"
+            alt="AuxBot Documentation"></a>
     <br />
     <a href="https://github.com/Auxtal/AuxBot-Debug-Python">AuxBot Debug</a>
     ⋇
