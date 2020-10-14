@@ -29,8 +29,5 @@
         <img src="https://img.shields.io/github/license/Auxtal/AuxBot-Python-Docs?color=orange&label=License&logo=GitHub"
             alt="Repository License"></a>
   <a href="https://github.com/Auxtal/AuxBot-Python-Docs">
-        <img src="https://img.shields.io/github/repo-size/Auxtal/AuxBot-Python-Docs?color=Orange&label=Repo%20Size&logo=GitHub&logoColor=White&style=flat-square"
-            alt="Repository Size"></a>
-  <a href="https://github.com/Auxtal/AuxBot-Python-Docs">
         <img src="https://img.shields.io/github/repo-size/Auxtal/AuxBot-Python-Docs?color=blue&label=Repo%20Size&logo=GitHub&logoColor=white"
-            alt="Repository Code Percent"></a>
+            alt="Repository Code Size"></a>
