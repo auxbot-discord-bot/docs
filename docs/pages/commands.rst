@@ -1,7 +1,7 @@
 AuxBot commands
 ===============
 
-# **Moderation**
-  # ban
-  # kick
-  # warn
+* **Moderation**
+  - ``ban``
+  - ``kick``
+  - ``warn``
