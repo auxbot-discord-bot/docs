@@ -1,9 +1,6 @@
 ChangeLogs
 ==========
 
-AuxBot Versions
----------------
-
 0.0.3
 -----
 **Fixed** Server Stats Command: Permission Error With AuxBot
