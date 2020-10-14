@@ -6,15 +6,11 @@ Welcome to AuxBot-Python's documentation!
   :width: 400
   :alt: AuxBot Logo
 
-This is a simple example:
-::
+.. code-block::
 
-    import math
-    print 'import done'
-
-.. code-block:: python
-
-  AuxBot is multi use discord bot which has many different functions such as logging, moderation, music, memes, fun, and so many more commands. AuxBot has an advanced logging system which integrates with it's advanced moderation commands as well. Check it out by inviting the bot to your server!
+  AuxBot is multi use discord bot which has many different functions such as logging, moderation, music,
+  memes, fun, and so many more commands. AuxBot has an advanced logging system which integrates with
+  it's advanced moderation commands as well. Check it out by inviting the bot to your server!
 
 .. toctree::
    :maxdepth: 2
