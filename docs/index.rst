@@ -7,8 +7,8 @@ Welcome to AuxBot-Python's documentation!
 =========================================
 
 * **AuxBot**
-.. figure:: images/AuxBot Logo.png
-   :scale: 50%
+.. image:: images/AuxBot Logo.png
+   :width: 600
 
 .. toctree::
    :maxdepth: 2
