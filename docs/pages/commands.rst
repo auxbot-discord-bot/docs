@@ -1,6 +1,9 @@
 AuxBot commands
 ===============
 
+Put ``_help`` after any command to receive extra information about that command.
+--------------------------------------------------------------------------------
+
 * **Moderation**
 |
   ``ban``
@@ -37,3 +40,86 @@ AuxBot commands
   ``create_category``
   ``delete_category``
   ``delete_channel``
+|
+* **Fun**
+|
+  ``say``
+  ``rol``
+  ``coin``
+  ``joke``
+  ``poke``
+  ``meme``
+  ``8ball``
+  ``urban``
+  ``love_calculator``
+  ``shut_the_fuck_up``
+|
+* **Chat**
+|
+  ``help``
+  ``code``
+  ``help_1``
+  ``help_2``
+  ``help_3``
+  ``help_4``
+  ``help_5``
+  ``help_6``
+  ``help_7``
+  ``help_8``
+  ``invite``
+  ``prefix``
+  ``report``
+  ``level``
+  ``search``
+|
+* **Log**
+|
+  ``log_toggle``
+  ``log_remove``
+  ``log_channel``
+  ``welcome_toggle``
+  ``welcome_remove``
+  ``welcome_channel``
+|
+* **Music**
+|
+  ``connect``
+  ``play``
+  ``pause``
+  ``resume``
+  ``skip``
+  ``stop``
+  ``volume``
+  ``shuffle``
+  ``equalizer``
+  ``queue``
+  ``now_playing``
+  ``swap_dj``
+|
+* **Nsfw**
+|
+  ``p_porn``
+  ``p_thigh``
+  ``p_pussy``
+  ``p_boobs``
+  ``p_ass``
+  ``p_anal``
+  ``p_4k``
+  ``h_hentai``
+  ``h_thigh``
+  ``h_pussy``
+  ``h_les``
+  ``h_cum``
+  ``h_boobs``
+  ``h_bj``
+  ``h_anal``
+|
+* **Tag**
+|
+  ``tag_dont_ask_to_ask
+  ``tag_developer_mode``
+  ``tag_discord_code``
+  ``tag_markdown``
+  ``tag_server_id``
+  ``tag_channel_id``
+  ``tag_discord_embed
