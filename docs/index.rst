@@ -2,10 +2,15 @@
 Welcome to AuxBot-Python's documentation!
 =========================================
 
-* **AuxBot**
 .. image:: images/AuxBotLogo.png
   :width: 400
   :alt: AuxBot Logo
+
+This is a simple example:
+::
+
+    import math
+    print 'import done'
 
 .. code-block:: python
 
