@@ -116,10 +116,10 @@ Put ``_help`` after any command to receive extra information about that command.
 |
 * **Tag**
 |
-  ``tag_dont_ask_to_ask
+  ``tag_dont_ask_to_ask``
   ``tag_developer_mode``
   ``tag_discord_code``
   ``tag_markdown``
   ``tag_server_id``
   ``tag_channel_id``
-  ``tag_discord_embed
+  ``tag_discord_embed``
