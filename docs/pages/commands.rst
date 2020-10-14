@@ -5,8 +5,8 @@ Extra Help?
 --------------------------------------------------------------------------------
 Put ``_help`` after any command to receive extra information about that command.
 
-* **Moderation**
-----------------
+Moderation
+----------
   ``ban``
   ``kick``
   ``warn``
@@ -24,9 +24,9 @@ Put ``_help`` after any command to receive extra information about that command.
   ``current_nsfw_toggle``
   ``current_level_toggle``
   ``current_warns_before_ban``
-|
-* **Utility**
--------------
+
+Utilities
+---------
   ``poll``
   ``ping``
   ``setup``
@@ -41,9 +41,9 @@ Put ``_help`` after any command to receive extra information about that command.
   ``create_category``
   ``delete_category``
   ``delete_channel``
-|
-* **Fun**
----------
+
+Fun
+---
   ``say``
   ``rol``
   ``coin``
@@ -54,9 +54,9 @@ Put ``_help`` after any command to receive extra information about that command.
   ``urban``
   ``love_calculator``
   ``shut_the_fuck_up``
-|
-* **Chat**
-----------
+
+Chat
+----
   ``help``
   ``code``
   ``help_1``
@@ -72,18 +72,18 @@ Put ``_help`` after any command to receive extra information about that command.
   ``report``
   ``level``
   ``search``
-|
-* **Log**
----------
+
+Log
+---
   ``log_toggle``
   ``log_remove``
   ``log_channel``
   ``welcome_toggle``
   ``welcome_remove``
   ``welcome_channel``
-|
-* **Music**
------------
+
+Music
+-----
   ``connect``
   ``play``
   ``pause``
@@ -96,9 +96,9 @@ Put ``_help`` after any command to receive extra information about that command.
   ``queue``
   ``now_playing``
   ``swap_dj``
-|
-* **Nsfw**
-----------
+
+Nsfw
+----
   ``p_porn``
   ``p_thigh``
   ``p_pussy``
@@ -114,9 +114,9 @@ Put ``_help`` after any command to receive extra information about that command.
   ``h_boobs``
   ``h_bj``
   ``h_anal``
-|
-* **Tag**
----------
+
+Tag
+---
   ``tag_dont_ask_to_ask``
   ``tag_developer_mode``
   ``tag_discord_code``
