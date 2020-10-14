@@ -1,8 +1,9 @@
 AuxBot commands
 ===============
 
-Put ``_help`` after any command to receive extra information about that command.
+Extra Help?
 --------------------------------------------------------------------------------
+Put ``_help`` after any command to receive extra information about that command.
 
 * **Moderation**
 |
