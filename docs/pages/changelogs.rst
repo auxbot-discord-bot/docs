@@ -1,6 +1,12 @@
 ChangeLogs
 ==========
 
+0.0.4
+-----
+| **Fixed** Alot Of Bugs In In The Code
+| **Added** A New Argument System
+| **Changed** The Style Of Most Of The Command Embeds
+
 0.0.3
 -----
 | **Fixed** Server Stats Command: Permission Error With AuxBot
