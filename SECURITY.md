@@ -1,4 +1,4 @@
-# How To Report AuxBot Issues
+# How To Report AuxBot Documentaion Issues
 
 - Join Our Discord [Support Server](https://discord.gg/BmPNn6T)
 - Or Email: support@auxtal.xyz
