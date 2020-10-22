@@ -1,4 +1,4 @@
-AuxBot commands
+AuxBot Commands
 ===============
 
 Extra Help?
