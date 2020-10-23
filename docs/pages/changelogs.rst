@@ -1,6 +1,11 @@
 ChangeLogs
 ==========
 
+0.0.5
+-----
+| **Fixed** A Few Bugs Found In The Code
+| **Created** Docs Command [Used To Search Through AuxBot-Python.ReadTheDocs.io]
+
 0.0.4
 -----
 | **Fixed** Alot Of Bugs In In The Code

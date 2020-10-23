@@ -124,3 +124,19 @@ Tag
   ``tag_server_id``
   ``tag_channel_id``
   ``tag_discord_embed``
+
+Docs
+----
+  ``docs_invite``
+  ``docs_changelogs``
+  ``docs_commands``
+  ``docs_extra_help``
+  ``docs_moderation``
+  ``docs_utilities``
+  ``docs_fun``
+  ``docs_chat``
+  ``docs_log``
+  ``docs_music``
+  ``docs_nsfw``
+  ``docs_tag``
+  ``docs_docs``
