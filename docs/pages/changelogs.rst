@@ -4,7 +4,7 @@ ChangeLogs
 0.0.5
 -----
 | **Fixed** A Few Bugs Found In The Code
-| **Created** Docs Command [Used To Search Through AuxBot-Python.ReadTheDocs.io]
+| **Created** Docs Command [Used To Search Through Docs]
 
 0.0.4
 -----
