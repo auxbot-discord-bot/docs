@@ -1,6 +1,10 @@
 ChangeLogs
 ==========
 
+0.0.6
+-----
+| **New** Logo For AuxBot!!! [Is It Cool?]
+
 0.0.5
 -----
 | **Fixed** A Few Bugs Found In The Code
