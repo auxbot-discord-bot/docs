@@ -2,7 +2,7 @@
 
 <br />
 <p align="center">
-  <a href="https://auxtal.xyz">
+  <a href="https://auxtal.xyz/auxbot">
     <img src="https://i.imgur.com/ymAZeud.png" alt="Logo" width="100" height="100">
   </a>
 
