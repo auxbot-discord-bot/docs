@@ -2,7 +2,7 @@
 Welcome to AuxBot-Python's documentation!
 =========================================
 
-.. image:: images/AuxBotLogo.png
+.. image:: images/AuxBot Logo Round.png
   :width: 400
   :alt: AuxBot Logo
 
