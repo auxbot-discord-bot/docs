@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://auxtal.xyz">
-    <img src="https://i.imgur.com/X1VWwNJ.png" alt="Logo" width="100" height="100">
+    <img src="https://i.imgur.com/ymAZeud.png" alt="Logo" width="100" height="100">
   </a>
 
   <p align="center">
