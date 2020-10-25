@@ -133,6 +133,7 @@ Docs
   ``docs_extra_help``
   ``docs_moderation``
   ``docs_utilities``
+  ``docs_downtime``
   ``docs_fun``
   ``docs_chat``
   ``docs_log``
