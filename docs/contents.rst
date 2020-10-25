@@ -17,7 +17,7 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
    pages/inviting-the-bot
    pages/changelogs
    pages/commands
-   pages/aliases
+   pages/downtime
 
 
 
