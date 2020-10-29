@@ -4,34 +4,42 @@ ChangeLogs
 0.0.7
 -----
 .. note::
-	| **Updated** Discord.Py Version
-	| **Added** All Bot Intents
+	| • **Updated** Discord.Py Version
+	| • **Added** All Bot Intents
 
 0.0.6
 -----
-| **New** Logo For AuxBot!!! [Is It Cool?]
+.. note::
+	| • **New** Logo For AuxBot
 
 0.0.5
 -----
-| **Fixed** A Few Bugs Found In The Code
-| **Created** Docs Command [Used To Search Through Docs]
+.. note::
+	| • **Fixed** A Few Bugs In The Code
+	| • **Created** Docs Command Used For Searching Through Docs
 
 0.0.4
 -----
-| **Fixed** Alot Of Bugs In In The Code
-| **Added** A New Argument System
-| **Changed** The Style Of Most Of The Command Embeds
+.. note::
+	| • **Fixed** Server Stat Command Permission Error With AuxBot
+	| • **Added** A New Argument System With Commands
+	| • **Changed** The Style Of Most The Command Embeds
 
 0.0.3
 -----
-| **Fixed** Server Stats Command: Permission Error With AuxBot
+.. note::
+	| • **Fixed** A Lot of Bugs In The Code
+	| • **Added** A New Argument System With Commands
+	| • **Changed** The Style Of Most The Command Embeds
 
 0.0.2
 -----
-| **Created** Remove Role Command: Used To Remove User Roles
-| **Created** Slow Mode Command: Used To Change The Slow Mode Setting Of A Channel
+.. note::
+	| • **Created** Remove Role Command Use To Remove User Roles
+	| • **Created** Slow Mode Command Used To Change Slow Mode Setting
 
 0.0.1
 -----
-| **Changed** Help Command: Replaced Reactions With Commands [More Reliable]
-| **Changed** Error Embeds: Changed The Look Of Error Embeds [No Code Blocks]
+.. note::
+	| • **Changed** Help Command Replaced Reactions With Commands
+	| • **Changed** Error Embeds Changed The Look Of The Error Embeds
