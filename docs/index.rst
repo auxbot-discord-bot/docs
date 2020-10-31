@@ -18,6 +18,7 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
    pages/changelogs
    pages/commands
    pages/downtime
+   pages/support
 
 
 

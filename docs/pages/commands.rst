@@ -141,3 +141,4 @@ Docs
   ``docs_nsfw``
   ``docs_tag``
   ``docs_docs``
+  ``docs_support``
