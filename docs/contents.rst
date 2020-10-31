@@ -14,11 +14,11 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
    :maxdepth: 2
    :caption: Contents:
 
-   pages/inviting-the-bot
-   pages/changelogs
+   pages/invite
    pages/commands
-   pages/downtime
    pages/support
+   pages/downtime
+   pages/changelogs
 
 
 

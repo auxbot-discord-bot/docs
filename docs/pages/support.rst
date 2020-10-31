@@ -1,5 +1,6 @@
-AuxBot Support
-==============
+=======
+Support
+=======
 
 .. note::
 	If you require any help with auxbot at all please feel free to join our discord support server and have a chat with our support staff they will be happy to help you at any point.
