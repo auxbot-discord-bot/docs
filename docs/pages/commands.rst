@@ -7,6 +7,9 @@ Put ``_help`` after any command to receive extra information about that command.
 
 Moderation
 ----------
+  .. code-block::
+  Use it like this
+
   ``ban``
   ``kick``
   ``warn``
