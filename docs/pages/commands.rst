@@ -5,8 +5,6 @@ Extra Help?
 --------------------------------------------------------------------------------
 Put ``_help`` after any command to receive extra information about that command.
 
-Moderation
-----------
 .. code-block:: php
    :linenos:
 
@@ -17,6 +15,8 @@ Moderation
        $rootPageUid = 123;
        $rssFeedPageType = 9818; // pageType of your RSS feed page
 
+Moderation
+----------
   ``ban``
   ``kick``
   ``warn``
