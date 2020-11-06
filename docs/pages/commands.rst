@@ -9,14 +9,15 @@ ban
 ---
 Bans a user from the server
 
-.. code-block::
+.. code-block:: php
   :linenos:
 
     Aliases:
       None
 
     Usage:
-      !a ban MENTION REASON
+      !a ban MENTION
+
 
   ``ban``
   ``kick``
