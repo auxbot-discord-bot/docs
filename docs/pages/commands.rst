@@ -5,18 +5,19 @@ Extra Help?
 --------------------------------------------------------------------------------
 Put ``_help`` after any command to receive extra information about that command.
 
-.. code-block:: php
-   :linenos:
+ban
+---
+Bans a user from the server
 
-       $GLOBALS['TYPO3_CONF_VARS']['FE']['addRootLineFields'] .= ',tx_realurl_pathsegment';
+.. code-block::
+  :linenos:
 
-       // Adjust to your needs
-       $domain = 'www.example.com';
-       $rootPageUid = 123;
-       $rssFeedPageType = 9818; // pageType of your RSS feed page
+    Aliases:
+      None
 
-Moderation
-----------
+    Usage:
+      !a ban MENTION REASON
+
   ``ban``
   ``kick``
   ``warn``
