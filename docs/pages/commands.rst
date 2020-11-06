@@ -7,8 +7,15 @@ Put ``_help`` after any command to receive extra information about that command.
 
 Moderation
 ----------
-  .. code-block::
-  Use it like this
+.. code-block:: php
+   :linenos:
+
+       $GLOBALS['TYPO3_CONF_VARS']['FE']['addRootLineFields'] .= ',tx_realurl_pathsegment';
+
+       // Adjust to your needs
+       $domain = 'www.example.com';
+       $rootPageUid = 123;
+       $rssFeedPageType = 9818; // pageType of your RSS feed page
 
   ``ban``
   ``kick``
