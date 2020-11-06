@@ -5,20 +5,8 @@ Extra Help?
 --------------------------------------------------------------------------------
 Put ``_help`` after any command to receive extra information about that command.
 
-ban
----
-Bans a user from the server
-
-.. code-block:: php
-  :linenos:
-
-    Aliases:
-      None
-
-    Usage:
-      !a ban MENTION
-
-
+Moderation
+----------
   ``ban``
   ``kick``
   ``warn``
