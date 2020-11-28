@@ -3,7 +3,7 @@ DownTime?
 =========
 
 .. warning::
-	Please note that just becuase their is downtime does not mean it is a bad thing, most of the time it is for upgrade purposes and for protecting your data.
+	Please note that just because their is downtime does not mean it is a bad thing, most of the time it is for upgrade purposes and for protecting your data.
 
 Reasons For Downtime
 --------------------

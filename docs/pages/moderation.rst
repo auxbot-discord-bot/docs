@@ -1,9 +1,6 @@
-********
-Commands
-********
-
+**********
 Moderation
-==========
+**********
 
 !a ban
 ^^^^^^
@@ -28,18 +25,3 @@ Kicks a member from the server.
 	
 	Usage:
 		!a kick <MEMBER> [REASON]
-
-Logging
-=======
-
-!a logs_channel
-^^^^^^^^^^^^^^^
-Returns the server logging channel.
-
-.. code-block:: none
-
-	Aliases:
-		lc
-	
-	Usage:
-		!a log_channel
