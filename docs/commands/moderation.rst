@@ -2,6 +2,9 @@
 Moderation
 **********
 
+.. note::
+	Key: <Means required argument> • [Means optional argument.] • (Means options available for the arg.)
+
 !a change_nickname
 ^^^^^^^^^^^^^^^^^^
 Changes a members nickname.

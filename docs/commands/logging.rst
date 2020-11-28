@@ -2,6 +2,9 @@
 Logging
 *******
 
+.. note::
+	Key: <Means required argument> • [Means optional argument.] • (Means options available for the arg.)
+
 !a logs_set
 ^^^^^^^^^^^^^^
 Sets the logging channel for your server.

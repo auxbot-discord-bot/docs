@@ -2,6 +2,9 @@
 Owner
 *****
 
+.. note::
+	Key: <Means required argument> • [Means optional argument.] • (Means options available for the arg.)
+
 !a manual_database_entry
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Enters default values to a database collection.
