@@ -2,12 +2,17 @@ Commands
 ========
 
 Extra Help?
---------------------------------------------------------------------------------
+-----------
 Put ``_help`` after any command to receive extra information about that command.
 
 Moderation
-----------
-  ``ban``
+**********
+
+.. code-block:: none
+
+   Some test code blocks.
+
+  ``test``
   ``kick``
   ``warn``
   ``mute``
@@ -26,7 +31,7 @@ Moderation
   ``current_warns_before_ban``
 
 Utilities
----------
+*********
   ``poll``
   ``ping``
   ``setup``
@@ -43,7 +48,7 @@ Utilities
   ``delete_channel``
 
 Fun
----
+***
   ``say``
   ``rol``
   ``coin``
@@ -56,7 +61,7 @@ Fun
   ``shut_the_fuck_up``
 
 Chat
-----
+****
   ``help``
   ``code``
   ``help_1``
@@ -74,7 +79,7 @@ Chat
   ``search``
 
 Log
----
+***
   ``log_toggle``
   ``log_remove``
   ``log_channel``
@@ -83,7 +88,7 @@ Log
   ``welcome_channel``
 
 Music
------
+*****
   ``connect``
   ``play``
   ``pause``
@@ -98,7 +103,7 @@ Music
   ``swap_dj``
 
 Nsfw
-----
+****
   ``p_porn``
   ``p_thigh``
   ``p_pussy``
@@ -116,7 +121,7 @@ Nsfw
   ``h_anal``
 
 Tag
----
+***
   ``tag_dont_ask_to_ask``
   ``tag_developer_mode``
   ``tag_discord_code``
@@ -126,7 +131,7 @@ Tag
   ``tag_discord_embed``
 
 Docs
-----
+****
   ``docs_invite``
   ``docs_changelogs``
   ``docs_commands``
