@@ -15,25 +15,25 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 	:caption: Information:
 	:titlesonly:
 
-	pages/invite
-	pages/support
-	pages/downtime
-	pages/changelogs
+	information/invite
+	information/support
+	information/downtime
+	information/changelogs
 
 .. toctree::
 	:maxdepth: 2
 	:caption: Commands:
 	:titlesonly:
 
-	pages/moderation
-	pages/logging
+	commands/moderation
+	commands/logging
 
 .. toctree::
 	:maxdepth: 2
 	:caption: Known Errors:
 	:titlesonly:
 
-	pages/errors
+	errors/music-error
 
 
 Indices and tables
