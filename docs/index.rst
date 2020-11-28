@@ -28,6 +28,13 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 	pages/moderation
 	pages/logging
 
+.. toctree::
+	:maxdepth: 2
+	:caption: Known Errors:
+	:titlesonly:
+
+	pages/errors
+
 
 Indices and tables
 ==================
