@@ -1,8 +1,12 @@
+********
+Commands
+********
+
 Moderation
 ==========
 
 !a ban
-******
+^^^^^^
 Bans a member from the server.
 
 .. code-block:: none
@@ -14,7 +18,7 @@ Bans a member from the server.
 		!a ban <MEMBER> [REASON]
 
 !a kick
-*******
+^^^^^^^
 Kicks a member from the server.
 
 .. code-block:: none
@@ -24,3 +28,18 @@ Kicks a member from the server.
 	
 	Usage:
 		!a kick <MEMBER> [REASON]
+
+Logging
+=======
+
+!a logs_channel
+^^^^^^
+Returns the server logging channel.
+
+.. code-block:: none
+
+	Aliases:
+		lc
+	
+	Usage:
+		!a log_channel
