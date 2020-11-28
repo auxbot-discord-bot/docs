@@ -12,13 +12,20 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Information:
 
    pages/invite
    pages/support
+   pages/commands
    pages/downtime
    pages/changelogs
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Commands:
+   :titlesonly:
+
+   pages/commands
 
 
 Indices and tables
