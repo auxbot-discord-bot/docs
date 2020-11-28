@@ -4,7 +4,7 @@ Welcome to AuxBot-Python's documentation!
 
 .. image:: images/AuxBot-Logo-Round.png
 	:width: 400
-	:alt: AuxBot Logo
+	:alt: AuxBot logo.
 
 AuxBot is multi use discord bot which has many different functions such as logging, moderation, music,
 memes, fun, and so many more commands. AuxBot has an advanced logging system which integrates with
