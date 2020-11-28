@@ -15,7 +15,6 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
    :caption: Contents:
 
    pages/invite
-   pages/commands
    pages/support
    pages/downtime
    pages/changelogs
