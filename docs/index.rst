@@ -25,6 +25,7 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 	:caption: Commands:
 	:titlesonly:
 
+	commands/chat
 	commands/moderation
 	commands/owner
 	commands/logging
