@@ -26,6 +26,7 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 	:titlesonly:
 
 	commands/moderation
+	commands/owner
 	commands/logging
 
 .. toctree::
