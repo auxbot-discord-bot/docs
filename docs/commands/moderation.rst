@@ -3,7 +3,7 @@ Moderation
 **********
 
 .. note::
-	Key: <Means required argument> • [Means optional argument.] • (Means options available for the arg.)
+	Key: <Required argument> • [Optional argument.] • (Options available for the arg.)
 
 !a change_nickname
 ^^^^^^^^^^^^^^^^^^
