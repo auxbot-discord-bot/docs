@@ -33,7 +33,7 @@ Logging
 =======
 
 !a logs_channel
-^^^^^^
+^^^^^^^^^^^^^^^
 Returns the server logging channel.
 
 .. code-block:: none
