@@ -13,6 +13,7 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 .. toctree::
 	:maxdepth: 2
 	:caption: Information:
+	:titlesonly:
 
 	pages/invite
 	pages/support

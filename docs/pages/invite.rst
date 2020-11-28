@@ -1,6 +1,6 @@
-=============
+*************
 Invite AuxBot
-=============
+*************
 
 This will cover how to add the existing AuxBot to your own discord server without having to host your own.
 
