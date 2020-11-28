@@ -10,7 +10,7 @@ Moderation
 
 .. code-block:: none
 
-   Some test code blocks.
+	Some test code blocks.
 
   ``test``
   ``kick``
