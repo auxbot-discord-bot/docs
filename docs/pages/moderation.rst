@@ -2,6 +2,25 @@
 Moderation
 **********
 
+!a change_nickname
+^^^^^^^^^^^^^^^^^^
+Changes a members nickname.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+		- cn
+	
+	Usage:
+		!a change_nickname <MEMBER> <NICKNAME>
+
+	User Permissions:
+		- manage nicknames
+
+	Channel Permissions:
+		none
+
 !a ban
 ^^^^^^
 Bans a member from the server.
@@ -14,6 +33,12 @@ Bans a member from the server.
 	
 	Usage:
 		!a ban <MEMBER> [REASON]
+
+	User Permissions:
+		- ban members
+
+	Channel Permissions:
+		none
 
 !a kick
 ^^^^^^^
@@ -28,35 +53,15 @@ Kicks a member from the server.
 	Usage:
 		!a kick <MEMBER> [REASON]
 
-!a warn
-^^^^^^^
-Warns a member in the server.
+	User Permissions:
+		- kick members
 
-.. code-block:: none
-	:linenos:
-
-	Aliases:
+	Channel Permissions:
 		none
-
-	Usage:
-		!a warn <MEMBER> [REASON]
-
-!a mute
-^^^^^^^
-Mutes a member in the server.
-
-.. code-block:: none
-	:linenos:
-
-	Aliases:
-		none
-	
-	Usage:
-		!a mute <MEMBER> [REASON]
 
 !a purge
 ^^^^^^^^
-Deletes the specified amount of messages from the channel the command was executed in.
+Deletes specified amount of messages.
 
 .. code-block:: none
 	:linenos:
@@ -65,11 +70,36 @@ Deletes the specified amount of messages from the channel the command was execut
 		none
 	
 	Usage:
-		!a purge <NUMBER (Max of 70)>
+		!a purge <NUMBER (Max of 70.)>
+
+	User Permissions:
+		- manage messages
+
+	Channel Permissions:
+		none
+
+!a soft_ban
+^^^^^^^^^^^
+Soft bans a member from the server.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+		- sb
+	
+	Usage:
+		!a soft_ban <MEMBER> [REASON]
+
+	User Permissions:
+		- ban members
+
+	Channel Permissions:
+		none
 
 !a unban
 ^^^^^^^^
-Warns a member in the server.
+Unbans a user from the server.
 
 .. code-block:: none
 	:linenos:
@@ -78,4 +108,10 @@ Warns a member in the server.
 		none
 	
 	Usage:
-		!a warn <MEMBER> [REASON]
+		!a unban <MEMBER ID> [REASON]
+
+	User Permissions:
+		- ban members
+
+	Channel Permissions:
+		none
