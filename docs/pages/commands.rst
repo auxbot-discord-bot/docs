@@ -1,149 +1,26 @@
-Commands
-========
-
-Extra Help?
------------
-Put ``_help`` after any command to receive extra information about that command.
-
 Moderation
-**********
+==========
+
+!a ban
+******
+Bans a member from the server.
 
 .. code-block:: none
 
-	Some test code blocks.
+	Aliases:
+		none
+	
+	Usage:
+		!a ban <MEMBER> [REASON]
 
-  ``test``
-  ``kick``
-  ``warn``
-  ``mute``
-  ``purge``
-  ``unban``
-  ``unmute``
-  ``soft_ban``
-  ``user_warns``
-  ``clear_warns``
-  ``nsfw_toggle``
-  ``level_toggle``
-  ``change_nickname``
-  ``warns_before_ban``
-  ``current_nsfw_toggle``
-  ``current_level_toggle``
-  ``current_warns_before_ban``
+!a kick
+*******
+Kicks a member from the server.
 
-Utilities
-*********
-  ``poll``
-  ``ping``
-  ``setup``
-  ``add_role``
-  ``slow_mode``
-  ``user_stats``
-  ``remove_role``
-  ``server_stats``
-  ``auxbot_stats``
-  ``change_prefix``
-  ``create_channel``
-  ``create_category``
-  ``delete_category``
-  ``delete_channel``
+.. code-block:: none
 
-Fun
-***
-  ``say``
-  ``rol``
-  ``coin``
-  ``joke``
-  ``poke``
-  ``meme``
-  ``8ball``
-  ``urban``
-  ``love_calculator``
-  ``shut_the_fuck_up``
-
-Chat
-****
-  ``help``
-  ``code``
-  ``help_1``
-  ``help_2``
-  ``help_3``
-  ``help_4``
-  ``help_5``
-  ``help_6``
-  ``help_7``
-  ``help_8``
-  ``invite``
-  ``prefix``
-  ``report``
-  ``level``
-  ``search``
-
-Log
-***
-  ``log_toggle``
-  ``log_remove``
-  ``log_channel``
-  ``welcome_toggle``
-  ``welcome_remove``
-  ``welcome_channel``
-
-Music
-*****
-  ``connect``
-  ``play``
-  ``pause``
-  ``resume``
-  ``skip``
-  ``stop``
-  ``volume``
-  ``shuffle``
-  ``equalizer``
-  ``queue``
-  ``now_playing``
-  ``swap_dj``
-
-Nsfw
-****
-  ``p_porn``
-  ``p_thigh``
-  ``p_pussy``
-  ``p_boobs``
-  ``p_ass``
-  ``p_anal``
-  ``p_4k``
-  ``h_hentai``
-  ``h_thigh``
-  ``h_pussy``
-  ``h_les``
-  ``h_cum``
-  ``h_boobs``
-  ``h_bj``
-  ``h_anal``
-
-Tag
-***
-  ``tag_dont_ask_to_ask``
-  ``tag_developer_mode``
-  ``tag_discord_code``
-  ``tag_markdown``
-  ``tag_server_id``
-  ``tag_channel_id``
-  ``tag_discord_embed``
-
-Docs
-****
-  ``docs_invite``
-  ``docs_changelogs``
-  ``docs_commands``
-  ``docs_extra_help``
-  ``docs_moderation``
-  ``docs_utilities``
-  ``docs_downtime``
-  ``docs_fun``
-  ``docs_chat``
-  ``docs_log``
-  ``docs_music``
-  ``docs_nsfw``
-  ``docs_tag``
-  ``docs_docs``
-  ``docs_support``
+	Aliases:
+		none
+	
+	Usage:
+		!a kick <MEMBER> [REASON]
