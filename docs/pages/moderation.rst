@@ -10,16 +10,16 @@ Changes a members nickname.
 	:linenos:
 
 	Aliases:
-		- cn
+	- cn
 	
 	Usage:
-		!a change_nickname <MEMBER> <NICKNAME>
+	!a change_nickname <MEMBER> <NICKNAME>
 
 	User Permissions:
-		- manage nicknames
+	- manage nicknames
 
 	Channel Permissions:
-		none
+	none
 
 !a ban
 ^^^^^^
@@ -29,16 +29,16 @@ Bans a member from the server.
 	:linenos:
 
 	Aliases:
-		none
+	none
 	
 	Usage:
-		!a ban <MEMBER> [REASON]
+	!a ban <MEMBER> [REASON]
 
 	User Permissions:
-		- ban members
+	- ban members
 
 	Channel Permissions:
-		none
+	none
 
 !a kick
 ^^^^^^^
@@ -48,16 +48,16 @@ Kicks a member from the server.
 	:linenos:
 
 	Aliases:
-		none
+	none
 	
 	Usage:
-		!a kick <MEMBER> [REASON]
+	!a kick <MEMBER> [REASON]
 
 	User Permissions:
-		- kick members
+	- kick members
 
 	Channel Permissions:
-		none
+	none
 
 !a purge
 ^^^^^^^^
@@ -67,16 +67,16 @@ Deletes specified amount of messages.
 	:linenos:
 
 	Aliases:
-		none
+	none
 	
 	Usage:
-		!a purge <NUMBER (Max of 70.)>
+	!a purge <NUMBER (Max of 70.)>
 
 	User Permissions:
-		- manage messages
+	- manage messages
 
 	Channel Permissions:
-		none
+	none
 
 !a soft_ban
 ^^^^^^^^^^^
@@ -86,16 +86,16 @@ Soft bans a member from the server.
 	:linenos:
 
 	Aliases:
-		- sb
+	- sb
 	
 	Usage:
-		!a soft_ban <MEMBER> [REASON]
+	!a soft_ban <MEMBER> [REASON]
 
 	User Permissions:
-		- ban members
+	- ban members
 
 	Channel Permissions:
-		none
+	none
 
 !a unban
 ^^^^^^^^
@@ -105,13 +105,51 @@ Unbans a user from the server.
 	:linenos:
 
 	Aliases:
-		none
+	none
 	
 	Usage:
-		!a unban <MEMBER ID> [REASON]
+	!a unban <MEMBER ID> [REASON]
 
 	User Permissions:
-		- ban members
+	- ban members
 
 	Channel Permissions:
-		none
+	none
+
+!a warn
+^^^^^^^
+Warns a member from the server.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+	
+	Usage:
+	!a warn <MEMBER> [REASON]
+
+	User Permissions:
+	- manage messages
+
+	Channel Permissions:
+	none
+
+!a clear_warns
+^^^^^^^^^^^^^^
+Clears a members warns in the server.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- cw
+	
+	Usage:
+	!a clear_warns <MEMBER>
+
+	User Permissions:
+	- manage messages
+
+	Channel Permissions:
+	none
