@@ -17,4 +17,4 @@ Please also do not hesitate to ask our staff any questions they are committed to
 
 Support Server Link `Click Here To Join`_.
 
-.. _Click Here To Join: https://discord.gg/BmPNn6TAuxBot Support
+.. _Click Here To Join: https://discord.gg/BmPNn6T

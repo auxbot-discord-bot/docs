@@ -17,8 +17,15 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 
 	information/invite
 	information/support
-	information/downtime
-	information/changelogs
+	information/website
+
+.. toctree::
+	:maxdepth: 2
+	:caption: Updates:
+	:titlesonly:
+
+	updates/downtime
+	updates/changelogs
 
 .. toctree::
 	:maxdepth: 2
