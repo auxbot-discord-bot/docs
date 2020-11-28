@@ -11,7 +11,7 @@ Changes a members nickname.
 
 	Aliases:
 	- cn
-	
+
 	Usage:
 	!a change_nickname <MEMBER> <NICKNAME>
 
@@ -30,7 +30,7 @@ Bans a member from the server.
 
 	Aliases:
 	none
-	
+
 	Usage:
 	!a ban <MEMBER> [REASON]
 
@@ -49,7 +49,7 @@ Kicks a member from the server.
 
 	Aliases:
 	none
-	
+
 	Usage:
 	!a kick <MEMBER> [REASON]
 
@@ -68,7 +68,7 @@ Deletes specified amount of messages.
 
 	Aliases:
 	none
-	
+
 	Usage:
 	!a purge <NUMBER (Max of 70.)>
 
@@ -87,7 +87,7 @@ Soft bans a member from the server.
 
 	Aliases:
 	- sb
-	
+
 	Usage:
 	!a soft_ban <MEMBER> [REASON]
 
@@ -106,7 +106,7 @@ Unbans a user from the server.
 
 	Aliases:
 	none
-	
+
 	Usage:
 	!a unban <MEMBER ID> [REASON]
 
@@ -125,7 +125,7 @@ Warns a member from the server.
 
 	Aliases:
 	none
-	
+
 	Usage:
 	!a warn <MEMBER> [REASON]
 
@@ -144,12 +144,183 @@ Clears a members warns in the server.
 
 	Aliases:
 	- cw
-	
+
 	Usage:
 	!a clear_warns <MEMBER>
 
 	User Permissions:
 	- manage messages
+
+	Channel Permissions:
+	none
+
+!a user_warns
+^^^^^^^^^^^^^
+Returns the warns for the mentioned member.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	uw
+
+	Usage:
+	!a user_warns <MEMBER>
+
+	User Permissions:
+	- manage messages
+
+	Channel Permissions:
+	none
+
+!a mute
+^^^^^^^
+Mutes the mentioned member.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a mute <MEMBER> [REASON]
+
+	User Permissions:
+	- manage messages
+
+	Channel Permissions:
+	none
+
+!a unmute
+^^^^^^^^^
+Unmutes the mentioned member.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a unmute <MEMBER>
+
+	User Permissions:
+	- manage messages
+
+	Channel Permissions:
+	none
+
+!a warns_before_ban
+^^^^^^^^^^^^^^^^^^^
+Sets the amount of warns before ban.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- wbb
+
+	Usage:
+	!a warns_before_ban <NUMBER>
+
+	User Permissions:
+	- administrator
+
+	Channel Permissions:
+	none
+
+!a current_warns_before_ban
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Sets the amount of warns before ban.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- wbb
+
+	Usage:
+	!a warns_before_ban <NUMBER>
+
+	User Permissions:
+	- administrator
+
+	Channel Permissions:
+		none
+
+!a nsfw_toggle
+^^^^^^^^^^^^^^^^^^^
+Toggles the nsfw commands for the server.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- nt
+
+	Usage:
+	!a nsfw_toggle
+
+	User Permissions:
+	- administrator
+
+	Channel Permissions:
+	none
+
+!a current_nsfw_toggle
+^^^^^^^^^^^^^^^^^^^^^^
+Returns the status of the nsfw commands.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- cnt
+
+	Usage:
+	!a current_nsfw_toggle
+
+	User Permissions:
+	none
+
+	Channel Permissions:
+	none
+
+!a level_toggle
+^^^^^^^^^^^^^^^
+Toggles the level system for the server.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- lvlt
+
+	Usage:
+	!a level_toggle
+
+	User Permissions:
+	administrator
+
+	Channel Permissions:
+	none
+
+!a current_level_toggle
+^^^^^^^^^^^^^^^^^^^^^^^
+Returns the status of the level system.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- clvlt
+
+	Usage:
+	!a current_level_toggle
+
+	User Permissions:
+	none
 
 	Channel Permissions:
 	none
