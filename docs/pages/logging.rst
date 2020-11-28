@@ -7,6 +7,7 @@ Logging
 Returns the logging channel for the server.
 
 .. code-block:: none
+	:linenos:
 
 	Aliases:
 		- lc

@@ -1,4 +1,17 @@
 {
 	"python.pythonPath": "C:\\Users\\ethan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
-	"restructuredtext.confPath": "${workspaceFolder}\\docs"
+	"restructuredtext.confPath": "${workspaceFolder}\\docs",
+	"cSpell.words": [
+		"aux",
+		"aux bot's",
+		"auxtal",
+		"auxtal's",
+		"bot's",
+		"genindex",
+		"linenos",
+		"maxdepth",
+		"titlesonly",
+		"toctree",
+		"unban"
+	]
 }

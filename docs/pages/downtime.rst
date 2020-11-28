@@ -8,7 +8,7 @@ DownTime?
 Reasons For Downtime
 ^^^^^^^^^^^^^^^^^^^^
 
-Downtime occurs with AuxBot when something serious is happening such as configuring databases or configuring AuxBots Vps (Virtual Private Server). Downtime can also happen when a huge unexpected error happens and the bot has to be shutdown due to security concerns. This rarely happens though so no need to worry about it.
+Downtime occurs with AuxBot when something serious is happening such as configuring databases or configuring AuxBot's Vps (Virtual Private Server). Downtime can also happen when a huge unexpected error happens and the bot has to be shutdown due to security concerns. This rarely happens though so no need to worry about it.
 
 When Does This Happen?
 ^^^^^^^^^^^^^^^^^^^^^^
