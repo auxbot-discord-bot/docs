@@ -44,6 +44,13 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 
 	errors/music-error
 
+.. toctree::
+	:maxdepth: 2
+	:caption: Faq:
+	:titlesonly:
+
+	faq/data
+	faq/host
 
 Indices and tables
 ==================
