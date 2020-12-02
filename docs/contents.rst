@@ -33,9 +33,16 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 	:titlesonly:
 
 	commands/chat
+	commands/fun
+	commands/jishaku
 	commands/moderation
 	commands/owner
-	commands/logging
+	commands/tags
+	commands/utilities
+	commands/music
+	commands/nsfw
+	commands/logs
+	commands/welcome
 
 .. toctree::
 	:maxdepth: 2

@@ -80,3 +80,136 @@ Mentions a mentioned or random member.
 
 	Channel Requirements:
 	none
+
+!a coin
+^^^^^^^
+Plays heads or tails with you.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a coin <HEADS / TAILS>
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a roll
+^^^^^^^
+Rolls a number you provided.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a roll <NUMBER>
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a shut_the_fuck_up
+^^^^^^^^^^^^^^^^^^^
+Tells the chat to shut the fuck up.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- stfu
+
+	Usage:
+	!a shut_the_fuck_up
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a love_calculator
+^^^^^^^^^^^^^^^^^^
+Calculates the love between two people.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- lovc
+
+	Usage:
+	!a love_calculator <PERSON1> <PERSON2>
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a urban
+^^^^^^^^
+Searches the urban dictionary.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a urban <WORD>
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a joke
+^^^^^^^
+Returns a random joke.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a joke
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a wanted
+^^^^^^^^^
+Returns a members avatar in a wanted poster.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a wanted [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
