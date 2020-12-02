@@ -3,7 +3,7 @@ Moderation
 **********
 
 .. note::
-	Key: <Required argument> • [Optional argument.] • (Options available for the arg.)
+	Key: <Required arg> • [Optional arg.] • (Options for the arg.) • <This / Or this>
 
 !a change_nickname
 ^^^^^^^^^^^^^^^^^^
