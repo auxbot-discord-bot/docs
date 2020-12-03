@@ -16,7 +16,7 @@ Runs python scripts.
 	- jsk
 
 	Usage:
-	!a jsk <COMMAND>
+	!a jishaku <COMMAND>
 
 	User Permissions:
 	owner of auxbot
