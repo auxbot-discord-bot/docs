@@ -2,8 +2,8 @@
 
 <br />
 <p align="center">
-  <a href="https://auxtal.xyz/auxbot">
-    <img src="https://i.imgur.com/ymAZeud.png" alt="Logo" width="100" height="100">
+  <a href="https://www.auxbot.xyz">
+    <img src="https://i.imgur.com/ABXJwrF.png" alt="Logo" width="100" height="100">
   </a>
   <p align="center">
     Documentation For AuxBot Discord Bot
@@ -19,7 +19,6 @@
     <a href="https://discord.gg/BmPNn6T">Support Server</a>
   </p>
 </p>
-
 <p align="center">
     <a href="https://github.com/Auxtal/AuxBot-Python-Docs">
         <img src="https://img.shields.io/github/last-commit/Auxtal/AuxBot-Python-Docs?color=purple&label=Last%20Commit&logo=GitHub&logoColor=white"
