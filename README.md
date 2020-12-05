@@ -1,4 +1,4 @@
-# AuxBot-Python
+# AuxBot-Python-Docs
 
 <br />
 <p align="center">
