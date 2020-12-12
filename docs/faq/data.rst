@@ -1,6 +1,9 @@
-***********************************
-What Information Does AuxBot Store?
-***********************************
+**************
+Privacy Policy
+**************
+
+What information does AuxBot store?
+-----------------------------------
 
 .. note::
 	AuxBot does not store any private information such as emails and passwords, phone numbers or any 2fa backup codes. Be aware that when the bot is kicked from your server all of the servers information in the database will get deleted and any custom settings.
