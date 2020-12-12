@@ -178,7 +178,7 @@ Changes the prefix of the bot for your server.
 
 !a create_category
 ^^^^^^^^^^^^^^^^^^
-Creates a new category
+Creates a new category.
 
 .. code-block:: none
 	:linenos:
@@ -187,10 +187,143 @@ Creates a new category
 	- cca
 
 	Usage:
-	!a slow_mode <TIME>
+	!a create_category <ROLE> <NAME>
 
 	User Permissions:
 	- manage channels
+
+	Channel Requirements:
+	none
+
+!a create_channel
+^^^^^^^^^^^^^^^^^
+Creates a new channel.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- cch
+
+	Usage:
+	!a create_channel <ROLE> <NAME>
+
+	User Permissions:
+	- manage channels
+
+	Channel Requirements:
+	none
+
+!a delete_category
+^^^^^^^^^^^^^^^^^^
+Deletes a new category.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- dca
+
+	Usage:
+	!a delete_category <CATEGORY ID>
+
+	User Permissions:
+	- manage channels
+
+	Channel Requirements:
+	none
+
+!a delete_channel
+^^^^^^^^^^^^^^^^^
+Deletes a new channel.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- dca
+
+	Usage:
+	!a channel_category <CHANNEL ID>
+
+	User Permissions:
+	- manage channels
+
+	Channel Requirements:
+	none
+
+!a avatar
+^^^^^^^^^
+Returns the mentioned members avatar.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a avatar [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a add_bot
+^^^^^^^^^^
+Gives a bot request to Auxtal's Discord.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- ab
+
+	Usage:
+	!a add_bot <BOT ID> <PREFIX> <REASON>
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a docs
+^^^^^^^
+Returns documentation for the query.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a docs <CATEGORY (!a docs_categories)>
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a char_info
+^^^^^^^^^^^^
+Returns the emoji information.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- ci
+
+	Usage:
+	!a char_info <EMOJI>
+
+	User Permissions:
+	none
 
 	Channel Requirements:
 	none

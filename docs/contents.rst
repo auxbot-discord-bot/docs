@@ -41,7 +41,7 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 	commands/utilities
 	commands/music
 	commands/nsfw
-	commands/logs
+	commands/logging
 	commands/welcome
 
 .. toctree::
