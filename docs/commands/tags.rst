@@ -24,6 +24,25 @@ Recalls a created tag.
 	Channel Requirements:
 	none
 
+!a server_tags
+^^^^^^^^^^^^^^
+Returns all of the server tags.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- sts
+
+	Usage:
+	!a server_tags
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
 !a tag_create
 ^^^^^^^^^^^^^
 Creates a server that you can recall.
@@ -74,6 +93,25 @@ Deletes a tag from the server.
 
 	Usage:
 	!a tag_delete <"TAG NAME">
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a tag_info
+^^^^^^^^^^^
+Returns information about a tag.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- ti
+
+	Usage:
+	!a tag_information <"TAG NAME">
 
 	User Permissions:
 	none

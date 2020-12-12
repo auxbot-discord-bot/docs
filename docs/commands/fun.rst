@@ -213,3 +213,155 @@ Returns a members avatar in a wanted poster.
 
 	Channel Requirements:
 	none
+
+!a hug
+^^^^^^
+Returns a hug gif with the members name.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a hug [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a cuddle
+^^^^^^^^^
+Returns a cuddle gif with the members name.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a cuddle [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a kiss
+^^^^^^^
+Returns a kiss gif with the members name.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a kiss [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a pat
+^^^^^^
+Returns a pat gif with the members name.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a pat [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a point
+^^^^^^^^
+Returns a point gif with the members name.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a point [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a tickle
+^^^^^^^^^
+Returns a tickle gif with the members name.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a tickle [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a slap
+^^^^^^^
+Returns a slap gif with the members name.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a slap [MEMBER]
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a goose
+^^^^^^^^
+Returns a picture of a goose.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a goose
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none

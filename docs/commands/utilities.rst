@@ -24,25 +24,6 @@ Returns the features of AuxBot.
 	Channel Requirements:
 	none
 
-!a poll
-^^^^^^^
-Makes a poll for voting.
-
-.. code-block:: none
-	:linenos:
-
-	Aliases:
-	none
-
-	Usage:
-	!a poll <"QUESTION"> <"OPTION1"> <"OPTION2">
-
-	User Permissions:
-	none
-
-	Channel Requirements:
-	none
-
 !a ping
 ^^^^^^^
 Returns the ping of AuxBot.
@@ -134,6 +115,82 @@ Adds a role to the mentioned member.
 
 	User Permissions:
 	none
+
+	Channel Requirements:
+	none
+
+!a remove_role
+^^^^^^^^^^^^^^
+Removes a role from the mentioned member.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- rr
+
+	Usage:
+	!a remove_role <MEMBER> <ROLE>
+
+	User Permissions:
+	- manage roles
+
+	Channel Requirements:
+	none
+
+!a slow_mode
+^^^^^^^^^^^^
+Changes the slow mode setting for a channel.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- sm
+
+	Usage:
+	!a slow_mode <TIME>
+
+	User Permissions:
+	- manage channels
+
+	Channel Requirements:
+	none
+
+!a change_prefix
+^^^^^^^^^^^^^^^^
+Changes the prefix of the bot for your server.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- cp
+
+	Usage:
+	!a slow_mode <TIME>
+
+	User Permissions:
+	- administrator
+
+	Channel Requirements:
+	none
+
+!a create_category
+^^^^^^^^^^^^^^^^^^
+Creates a new category
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- cca
+
+	Usage:
+	!a slow_mode <TIME>
+
+	User Permissions:
+	- manage channels
 
 	Channel Requirements:
 	none

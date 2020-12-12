@@ -365,3 +365,41 @@ Returns all of the logging listeners.
 
 	Channel Requirements:
 	none
+
+!a website
+^^^^^^^^^^
+Returns a link to my website.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a website
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a emojis
+^^^^^^^^^
+Returns all of the servers emojis.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a listeners
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
