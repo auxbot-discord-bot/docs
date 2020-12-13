@@ -327,3 +327,22 @@ Returns the emoji information.
 
 	Channel Requirements:
 	none
+
+!a command_stats
+^^^^^^^^^^^^^^^^
+Returns command statistics for the server.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- cs
+
+	Usage:
+	!a command_stats
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
