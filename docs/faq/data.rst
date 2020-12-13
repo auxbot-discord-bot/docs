@@ -26,5 +26,8 @@ It also stores other important information like the settings that you edit such 
 
 • logging channel
 • nsfw commands toggle
+• executed commands
 
 and other things like that. The bot will also store tags if any are created in the server, if your in Auxtal's Discord it will store bot requests into a database.
+
+The reason why the bot stores all of the commands that have been executed is for the `!a command_stats` command this allows you to check the percent of the commands used.
