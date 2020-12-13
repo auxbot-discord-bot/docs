@@ -187,7 +187,7 @@ Mutes the mentioned member.
 	none
 
 	Usage:
-	!a mute <MEMBER> [REASON]
+	!a mute <MEMBER> [TIME] [REASON]
 
 	User Permissions:
 	- manage messages

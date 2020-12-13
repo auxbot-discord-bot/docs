@@ -368,7 +368,7 @@ Returns all of the logging listeners.
 
 !a website
 ^^^^^^^^^^
-Returns a link to my website.
+Returns a link to AuxBot's website.
 
 .. code-block:: none
 	:linenos:
