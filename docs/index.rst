@@ -37,11 +37,12 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 	commands/jishaku
 	commands/moderation
 	commands/owner
-	commands/tags
 	commands/utilities
 	commands/music
 	commands/nsfw
+	commands/disboard
 	commands/logging
+	commands/tags
 	commands/welcome
 
 .. toctree::
