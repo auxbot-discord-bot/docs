@@ -195,6 +195,63 @@ Shows help for owner commands.
 	Channel Requirements:
 	none
 
+!a help_10
+^^^^^^^^^^
+Shows help for welcome commands.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a help_10
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a help_11
+^^^^^^^^^^
+Shows help for disboard commands.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a help_11
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a help_12
+^^^^^^^^^^
+Shows help for jishaku commands.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a help_11
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
 !a code
 ^^^^^^^
 Returns a link to a hastebin.
