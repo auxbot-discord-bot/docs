@@ -403,3 +403,41 @@ Returns all of the servers emojis.
 
 	Channel Requirements:
 	none
+
+!a spotify
+^^^^^^^^^^
+Returns members spotify stats.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a spotify
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
+
+!a info
+^^^^^^^
+Returns information about AuxBot.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	none
+
+	Usage:
+	!a info
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none
