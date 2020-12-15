@@ -498,3 +498,22 @@ Returns information about AuxBot.
 
 	Channel Requirements:
 	none
+
+!a slowmode_times
+^^^^^^^^^^^^^^^^^
+Returns all of the slowmode options.
+
+.. code-block:: none
+	:linenos:
+
+	Aliases:
+	- smt
+
+	Usage:
+	!a slowmode_times
+
+	User Permissions:
+	none
+
+	Channel Requirements:
+	none

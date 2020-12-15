@@ -62,25 +62,6 @@ Makes AuxBot say what you said.
 	Channel Requirements:
 	none
 
-!a poke
-^^^^^^^
-Mentions a mentioned or random member.
-
-.. code-block:: none
-	:linenos:
-
-	Aliases:
-	none
-
-	Usage:
-	!a poke <MEMBER / RANDOM>
-
-	User Permissions:
-	none
-
-	Channel Requirements:
-	none
-
 !a coin
 ^^^^^^^
 Plays heads or tails with you.
@@ -290,9 +271,9 @@ Returns a pat gif with the members name.
 	Channel Requirements:
 	none
 
-!a point
+!a poke
 ^^^^^^^^
-Returns a point gif with the members name.
+Returns a poke gif with the members name.
 
 .. code-block:: none
 	:linenos:
@@ -301,7 +282,7 @@ Returns a point gif with the members name.
 	none
 
 	Usage:
-	!a point [MEMBER]
+	!a poke [MEMBER]
 
 	User Permissions:
 	none
