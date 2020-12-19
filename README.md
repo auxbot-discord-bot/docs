@@ -11,7 +11,7 @@
     <a href="https://auxbot-python.readthedocs.io/"><strong>AuxBot Python Documentation »</strong></a>
   <p align="center">
     <a href="https://auxbot-python.readthedocs.io/">
-        <img src="https://img.shields.io/readthedocs/auxbot-python?color=red&logo=Read%20The%20Docs&logoColor=white"
+        <img src="https://img.shields.io/readthedocs/auxbot-python?color=lime&logo=Read%20The%20Docs&logoColor=white"
             alt="AuxBot Documentation"></a>
     <br />
     <a href="https://discord.com/oauth2/authorize?client_id=701301497501188169&scope=bot&permissions=1610083414">AuxBot Invite</a>
