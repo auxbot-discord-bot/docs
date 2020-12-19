@@ -13,7 +13,7 @@
     <br>
     <a href="https://auxbot-python.readthedocs.io/"><strong>AuxBot Python Documentation »</strong></a>
     <p align="center">
-    <a href="https://www.auxbot.xyz">
+    <a href="https://auxbot-python.readthedocs.io">
         <img src="https://readthedocs.org/projects/auxbot-python/badge/?version=latest" alt="AuxBot-Docs">
     </a>
     <br>
