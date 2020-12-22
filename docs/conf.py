@@ -3,7 +3,6 @@
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
-import astropy_sphinx_theme
 
 # -- Path setup --------------------------------------------------------------
 
@@ -47,9 +46,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 
-html_theme_path = astropy_sphinx_theme.get_html_theme_path()
-
-html_theme = 'bootstrap-astropy'
+#html_theme = ''
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
