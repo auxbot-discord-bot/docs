@@ -33,8 +33,6 @@ sys.path.append(os.path.abspath('extensions'))
 extensions = [
     'builder',
     'sphinx.ext.autodoc',
-    'sphinx.ext.extlinks',
-    'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
     'sphinxcontrib_trio',
     'details',
@@ -45,16 +43,8 @@ extensions = [
 
 autodoc_member_order = 'bysource'
 
-extlinks = {
-    'issue': ('https://github.com/Rapptz/discord.py/issues/%s', 'GH-'),
-}
 
-# Links used for cross-referencing stuff in other documentation
-intersphinx_mapping = {
-  'py': ('https://docs.python.org/3', None),
-  'aio': ('https://docs.aiohttp.org/en/stable/', None),
-  'req': ('http://docs.python-requests.org/en/latest/', 'requests.inv')
-}
+# Links used for cross-referencing stuff in other documentatio
 
 rst_prolog = """
 .. |coro| replace:: This function is a |coroutine_link|_.
@@ -91,8 +81,6 @@ copyright = u'2020-2020, Auxtal'
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
 language = None
-
-locale_dirs = ['locale/']
 gettext_compact = False
 
 # There are two options for replacing |today|: either, you set today to some
