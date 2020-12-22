@@ -1,67 +1,77 @@
-=========================================
-Welcome to AuxBot-Python's documentation!
-=========================================
+.. discord.py documentation master file, created by
+   sphinx-quickstart on Fri Aug 21 05:43:30 2015.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-.. image:: images/AuxBot-Logo-Round.png
-	:width: 400
-	:alt: AuxBot logo.
+Welcome to discord.py
+===========================
 
-AuxBot is multi use discord bot which has many different functions such as logging, moderation, music,
-memes, fun, and so many more commands. AuxBot has an advanced logging system which integrates with
-it's advanced moderation commands as well. Check it out by inviting the bot to your server!
+.. image:: /images/snake.svg
+.. image:: /images/snake_dark.svg
 
-.. toctree::
-	:maxdepth: 2
-	:caption: Information:
-	:titlesonly:
+discord.py is a modern, easy to use, feature-rich, and async ready API wrapper
+for Discord.
 
-	information/invite
-	information/support
-	information/website
+**Features:**
 
-.. toctree::
-	:maxdepth: 2
-	:caption: Updates:
-	:titlesonly:
+- Modern Pythonic API using ``async``\/``await`` syntax
+- Sane rate limit handling that prevents 429s
+- Implements the entire Discord API
+- Command extension to aid with bot creation
+- Easy to use with an object oriented design
+- Optimised for both speed and memory
 
-	updates/downtime
-	updates/changelogs
+Getting started
+-----------------
 
-.. toctree::
-	:maxdepth: 2
-	:caption: Commands:
-	:titlesonly:
+Is this your first time using the library? This is the place to get started!
 
-	commands/chat
-	commands/fun
-	commands/jishaku
-	commands/moderation
-	commands/owner
-	commands/utilities
-	commands/music
-	commands/nsfw
-	commands/disboard
-	commands/logging
-	commands/tags
-	commands/welcome
+- **First steps:** :doc:`intro` | :doc:`quickstart` | :doc:`logging`
+- **Working with Discord:** :doc:`discord` | :doc:`intents`
+- **Examples:** Many examples are available in the :resource:`repository <examples>`.
 
-.. toctree::
-	:maxdepth: 2
-	:caption: Known Errors:
-	:titlesonly:
+Getting help
+--------------
 
-	errors/no-errors
+If you're having trouble with something, these resources might help.
+
+- Try the :doc:`faq` first, it's got answers to all common questions.
+- Ask us and hang out with us in our :resource:`Discord <discord>` server.
+- If you're looking for something specific, try the :ref:`index <genindex>` or :ref:`searching <search>`.
+- Report bugs in the :resource:`issue tracker <issues>`.
+- Ask in our :resource:`GitHub discussions page <discussions>`.
+
+Extensions
+------------
+
+These extensions help you during development when it comes to common tasks.
 
 .. toctree::
-	:maxdepth: 2
-	:caption: Faq:
-	:titlesonly:
+  :maxdepth: 1
 
-	faq/data
-	faq/host
+  ext/commands/index.rst
+  ext/tasks/index.rst
 
-Indices and tables
-==================
+Manuals
+---------
 
-* :ref:`genindex`
-* :ref:`search`
+These pages go into great detail about everything the API can do.
+
+.. toctree::
+  :maxdepth: 1
+
+  api
+  discord.ext.commands API Reference <ext/commands/api.rst>
+  discord.ext.tasks API Reference <ext/tasks/index.rst>
+
+Meta
+------
+
+If you're looking for something related to the project itself, it's here.
+
+.. toctree::
+  :maxdepth: 1
+
+  whats_new
+  version_guarantees
+  migrating
