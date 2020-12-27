@@ -2,7 +2,7 @@
 Music Query Error
 *****************
 
-.. image:: images/Music-Query.png
+.. image:: .images/Music-Query.png
 	:alt: Music-Query-Error.
 
 .. note::
