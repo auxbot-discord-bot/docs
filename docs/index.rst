@@ -50,7 +50,8 @@ it's advanced moderation commands as well. Check it out by inviting the bot to y
 	:caption: Known Errors:
 	:titlesonly:
 
-	errors/no-errors
+	errors/hidden-help
+	errors/music-error
 
 .. toctree::
 	:maxdepth: 2
