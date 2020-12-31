@@ -4,9 +4,9 @@ description: AuxBot's Jishaku Commands.
 
 # Jishaku
 
-> Key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a jishaku &lt;PROGRAM&gt;
+## !a jishaku &lt;PROGRAM&gt;
 
 Executes python scripts.
 
@@ -31,6 +31,4 @@ Executes python scripts.
 * none
 {% endtab %}
 {% endtabs %}
-
-### 
 

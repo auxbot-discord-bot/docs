@@ -1,22 +1,22 @@
 ---
-description: AuxBot's Utility Commands.
+description: AuxBot's Fun Commands.
 ---
 
-# Utilities
+# Fun
 
-> Key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a setup
+## !a \_8ball &lt;QUESTION&gt;
 
-Returns the features of AuxBot.
+Returns a random answer to your question.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a setup
+* !a \_8ball &lt;QUESTION&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* 8ball
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -32,13 +32,13 @@ Returns the features of AuxBot.
 {% endtab %}
 {% endtabs %}
 
-### !a ping
+## !a meme
 
-Returns the ping of AuxBot.
+Returns a random meme.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a ping
+* !a meme
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -58,299 +58,13 @@ Returns the ping of AuxBot.
 {% endtab %}
 {% endtabs %}
 
-### !a auxbot\_info
+## !a say &lt;SENTENCE&gt;
 
-Returns the info of AuxBot.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a auxbot\_info
-{% endtab %}
-
-{% tab title="Aliases" %}
-* ai
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a user\_info \[MEMBER\]
-
-Returns that stats of a member.
+Makes AuxBot say what you said.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a user\_info
-{% endtab %}
-
-{% tab title="Aliases" %}
-* ui
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a server\_info
-
-Returns the info of the server.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a server\_info
-{% endtab %}
-
-{% tab title="Aliases" %}
-* si
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a add\_role &lt;MEMBER&gt; &lt;ROLE&gt;
-
-Adds a role to a member.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a add\_role &lt;MEMBER&gt; &lt;ROLE&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* ar
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage roles
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a remove\_role &lt;MEMBER&gt; &lt;ROLE&gt;
-
-Removes a role from a member.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a remove\_role &lt;MEMBER&gt; &lt;ROLE&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* rr
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage roles
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a slowmode &lt;TIME \(!a slowmode\_times\)&gt;
-
-Changes the slowmode setting for a channel.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a slowmode &lt;TIME \(!a slowmode\_times\)&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage channels
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a change\_prefix &lt;PREFIX&gt;
-
-Changes the prefix for the bot in the server.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a change\_prefix &lt;PREFIX&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* cp
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
-{% endtab %}
-{% endtabs %}
-
-### !a create\_category &lt;ROLE&gt; &lt;NAME&gt;
-
-Creates a new category.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a create\_category &lt;ROLE&gt; &lt;NAME&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* cca
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage channels
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a create\_channel &lt;ROLE&gt; &lt;NAME&gt;
-
-Creates a new channel.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a create\_channel &lt;ROLE&gt; &lt;NAME&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* cch
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage channels
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a delete\_category &lt;CATEGORY ID&gt;
-
-Deletes a category.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a delete\_category &lt;CATEGORY ID&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* dca
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage channels
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a delete\_channel &lt;CHANNEL ID&gt;
-
-Deletes a channel.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a delete\_channel
-{% endtab %}
-
-{% tab title="Aliases" %}
-* dch
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage channels
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-### !a avatar \[MEMBER\]
-
-Returns a members avatar.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a avatar \[MEMBER\]
+* !a say &lt;SENTENCE&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -370,17 +84,95 @@ Returns a members avatar.
 {% endtab %}
 {% endtabs %}
 
-### !a add\_bot &lt;BOT ID&gt; &lt;PREFIX&gt; &lt;REASON&gt;
+## !a coin &lt;HEADS / TAILS&gt;
 
-Gives a bot request to Auxtal's Discord.
+Plays heads or tails with you.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a add\_bot &lt;BOT ID&gt; &lt;PREFIX&gt; &lt;REASON&gt;
+* !a coin &lt;HEADS / TAILS&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* ab
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a roll &lt;NUMBER&gt;
+
+Picks a number between the number inputted.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a roll &lt;NUMBER&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a shut\_the\_fuck\_up
+
+Tells the chat to shut the fuck up.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a shut\_the\_fuck\_up
+{% endtab %}
+
+{% tab title="Aliases" %}
+* stfu
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a love\_calculator &lt;PERSON1&gt; &lt;PERSON2&gt;
+
+Calculates love between two names.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a love\_calculator &lt;PERSON1&gt; &lt;PERSON2&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* lovc
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -396,13 +188,13 @@ Gives a bot request to Auxtal's Discord.
 {% endtab %}
 {% endtabs %}
 
-### !a docs &lt;QUERY&gt;
+## !a urban &lt;WORD&gt;
 
-Returns docs for the query.
+Searches the urban dictionary.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a docs &lt;QUERY&gt;
+* !a urban &lt;WORD&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -418,21 +210,21 @@ Returns docs for the query.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* none
+* Can be used once every two seconds per user.
 {% endtab %}
 {% endtabs %}
 
-### !a char\_info &lt;EMOJI&gt;
+## !a joke
 
-Returns the emoji information.
+Returns a random joke.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a char\_info &lt;EMOJI&gt;
+* !a joke
 {% endtab %}
 
 {% tab title="Aliases" %}
-* ci
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -444,21 +236,21 @@ Returns the emoji information.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* none
+* Can be used once every two seconds per user.
 {% endtab %}
 {% endtabs %}
 
-### !a command\_stats
+## !a wanted \[MEMBER\]
 
-Returns command statistics for the server.
+Returns the members avatar in a wanted poster.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a command\_stats
+* !a wanted \[MEMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
-* cs
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -470,7 +262,241 @@ Returns command statistics for the server.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every two seconds per server.
+* Can be used once every five seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a hug \[MEMBER\]
+
+Returns a hug gif with the members name.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a hug \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a cuddle \[MEMBER\]
+
+Returns a cuddle gif with the members name.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a cuddle \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a kiss \[MEMBER\]
+
+Returns a kiss gif with the members name.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a kiss \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a pat \[MEMBER\]
+
+Returns a pat gif with the members name.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a pat \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a poke \[MEMBER\]
+
+Returns a poke gif with the members name.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a poke \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a tickle \[MEMBER\]
+
+Returns a tickle gif with the members name.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a tickle \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a slap \[MEMBER\]
+
+Returns a slap gif with the members name.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a slap \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a goose
+
+Returns a picture of a goose.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a goose
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a jail \[MEMBER\]
+
+Returns the members avatar behind bars.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a jail \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every five seconds per user.
 {% endtab %}
 {% endtabs %}
 

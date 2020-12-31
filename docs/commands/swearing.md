@@ -4,9 +4,9 @@ description: AuxBot's Swearing Commands.
 
 # Swearing
 
-> key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a swearing\_toggle
+## !a swearing\_toggle
 
 Toggles the swearing system.
 

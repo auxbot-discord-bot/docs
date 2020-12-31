@@ -10,21 +10,19 @@
 
 ## 🤖 Bot Commands <a id="commands"></a>
 
----
-
-* [Chat](chat.md)
-* [Fun](fun.md)
-* [Jishaku](jishaku.md)
-* [Moderation](moderation.md)
-* [Owner Of AuxBot](owner.md)
-* [Utilities](utilities.md)
-* [Music](music.md)
-* [Nsfw](nsfw.md)
-* [Disboard](disboard.md)
-* [Logging](logging.md)
-* [Swearing](swearing.md)
-* [Tags](tags.md)
-* [Welcome](welcome.md)
+* [Chat](commands/chat.md)
+* [Fun](commands/fun.md)
+* [Jishaku](commands/jishaku.md)
+* [Moderation](commands/moderation.md)
+* [Owner Of AuxBot](commands/owner.md)
+* [Utilities](commands/utilities.md)
+* [Music](commands/music.md)
+* [Nsfw](commands/nsfw.md)
+* [Disboard](commands/disboard.md)
+* [Logging](commands/logging.md)
+* [Swearing](commands/swearing.md)
+* [Tags](commands/tags.md)
+* [Welcome](commands/welcome.md)
 
 ## 🧰 Updates
 
@@ -33,14 +31,10 @@
 
 ## ❗ Known Errors
 
----
-
-* [Duplicate Tags Error](duplicate-tags-error.md)
+* [Duplicate Tags Error](known-errors/duplicate-tags-error.md)
 
 ## ❔ Faq
 
----
-
-* [Privacy Policy](privacy-policy.md)
-* [Terms Of Use](terms-of-use.md)
+* [Privacy Policy](faq/privacy-policy.md)
+* [Terms Of Use](faq/terms-of-use.md)
 

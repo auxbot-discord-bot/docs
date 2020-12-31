@@ -1,18 +1,18 @@
 ---
-description: AuxBot's Nsfw Commands.
+description: AuxBot's Utility Commands.
 ---
 
-# Nsfw
+# Utilities
 
-> Key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a p\_porn
+## !a setup
 
-Returns a porn gif.
+Returns the features of AuxBot.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a p\_porn
+* !a setup
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -24,21 +24,21 @@ Returns a porn gif.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a p\_thigh
+## !a ping
 
-Returns a porn thigh.
+Returns the ping of AuxBot.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a p\_thigh
+* !a ping
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -50,25 +50,25 @@ Returns a porn thigh.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* Can be used once every two seconds per user.
 {% endtab %}
 {% endtabs %}
 
-### !a p\_pussy
+## !a auxbot\_info
 
-Returns a porn pussy.
+Returns the info of AuxBot.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a p\_pussy
+* !a auxbot\_info
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* ai
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -76,25 +76,25 @@ Returns a porn pussy.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a p\_boobs
+## !a user\_info \[MEMBER\]
 
-Returns a porn boobs.
+Returns that stats of a member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a p\_boobs
+* !a user\_info
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* ui
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -102,25 +102,25 @@ Returns a porn boobs.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a p\_ass
+## !a server\_info
 
-Returns a porn ass.
+Returns the info of the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a p\_ass
+* !a server\_info
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* si
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -128,73 +128,73 @@ Returns a porn ass.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a p\_anal
+## !a add\_role &lt;MEMBER&gt; &lt;ROLE&gt;
 
-Returns a porn anal.
+Adds a role to a member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a p\_anal
+* !a add\_role &lt;MEMBER&gt; &lt;ROLE&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* ar
 {% endtab %}
 
 {% tab title="Permissions" %}
-* none
+* manage roles
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a p\_fourk
+## !a remove\_role &lt;MEMBER&gt; &lt;ROLE&gt;
 
-Returns a porn 4k.
+Removes a role from a member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a p\_fourk
+* !a remove\_role &lt;MEMBER&gt; &lt;ROLE&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* 4k
+* rr
 {% endtab %}
 
 {% tab title="Permissions" %}
-* none
+* manage roles
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a p\_pov
+## !a slowmode &lt;TIME \(!a slowmode\_times\)&gt;
 
-Returns a porn pov.
+Changes the slowmode setting for a channel.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a p\_pov
+* !a slowmode &lt;TIME \(!a slowmode\_times\)&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -202,155 +202,155 @@ Returns a porn pov.
 {% endtab %}
 
 {% tab title="Permissions" %}
-* none
+* manage channels
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a h\_hentai
+## !a change\_prefix &lt;PREFIX&gt;
 
-Returns a hentai gif.
+Changes the prefix for the bot in the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_hentai
+* !a change\_prefix &lt;PREFIX&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* cp
 {% endtab %}
 
 {% tab title="Permissions" %}
-* none
+* manage server
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* Can be used once every two seconds per user.
 {% endtab %}
 {% endtabs %}
 
-### !a h\_thigh
+## !a create\_category &lt;ROLE&gt; &lt;NAME&gt;
 
-Returns a hentai thigh.
+Creates a new category.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_thigh
+* !a create\_category &lt;ROLE&gt; &lt;NAME&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* cca
 {% endtab %}
 
 {% tab title="Permissions" %}
-* none
+* manage channels
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a h\_pussy
+## !a create\_channel &lt;ROLE&gt; &lt;NAME&gt;
 
-Returns a hentai pussy.
+Creates a new channel.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_pussy
+* !a create\_channel &lt;ROLE&gt; &lt;NAME&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* cch
 {% endtab %}
 
 {% tab title="Permissions" %}
-* none
+* manage channels
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a h\_les
+## !a delete\_category &lt;CATEGORY ID&gt;
 
-Returns a hentai les.
+Deletes a category.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_les
+* !a delete\_category &lt;CATEGORY ID&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* dca
 {% endtab %}
 
 {% tab title="Permissions" %}
-* none
+* manage channels
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a h\_cum
+## !a delete\_channel &lt;CHANNEL ID&gt;
 
-Returns a hentai cum.
+Deletes a channel.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_cum
+* !a delete\_channel
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* dch
 {% endtab %}
 
 {% tab title="Permissions" %}
-* none
+* manage channels
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a h\_boobs
+## !a avatar \[MEMBER\]
 
-Returns a hentai boobs.
+Returns a members avatar.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_boobs
+* !a avatar \[MEMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -362,25 +362,25 @@ Returns a hentai boobs.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a h\_bj
+## !a add\_bot &lt;BOT ID&gt; &lt;PREFIX&gt; &lt;REASON&gt;
 
-Returns a hentai bj.
+Gives a bot request to Auxtal's Discord.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_bj
+* !a add\_bot &lt;BOT ID&gt; &lt;PREFIX&gt; &lt;REASON&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* ab
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -388,21 +388,21 @@ Returns a hentai bj.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* Can be used once every two seconds per user.
 {% endtab %}
 {% endtabs %}
 
-### !a h\_anal
+## !a docs &lt;QUERY&gt;
 
-Returns a hentai anal.
+Returns docs for the query.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_anal
+* !a docs &lt;QUERY&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -414,25 +414,25 @@ Returns a hentai anal.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a h\_femdom
+## !a char\_info &lt;EMOJI&gt;
 
-Returns a hentai femdom.
+Returns the emoji information.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_femdom
+* !a char\_info &lt;EMOJI&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* ci
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -440,25 +440,25 @@ Returns a hentai femdom.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a h\_paizuri
+## !a command\_stats
 
-Returns a hentai paizuri.
+Returns command statistics for the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a h\_paizuri
+* !a command\_stats
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* cs
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -466,63 +466,11 @@ Returns a hentai paizuri.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* nsfw channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every one second per user.
-{% endtab %}
-{% endtabs %}
-
-### !a h\_tentacle
-
-Returns a hentai tentacle.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a h\_tentacle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* nsfw channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every one second per user.
-{% endtab %}
-{% endtabs %}
-
-### !a h\_hass
-
-Returns a hentai hass.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a h\_hass
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* nsfw channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every one second per user.
+* Can be used once every two seconds per server.
 {% endtab %}
 {% endtabs %}
 

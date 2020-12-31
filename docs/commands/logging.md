@@ -4,9 +4,9 @@ description: AuxBot's Logging Commands.
 
 # Logging
 
-> Key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a logs\_set &lt;CHANNEL ID&gt;
+## !a logs\_set &lt;CHANNEL ID&gt;
 
 Sets the logging channel for the server.
 
@@ -32,7 +32,7 @@ Sets the logging channel for the server.
 {% endtab %}
 {% endtabs %}
 
-### !a logs\_toggle \[LISTENER \(!a listeners\)\]
+## !a logs\_toggle \[LISTENER \(!a listeners\)\]
 
 Allows you to toggle the whole log system or just certain parts.
 
@@ -58,7 +58,7 @@ Allows you to toggle the whole log system or just certain parts.
 {% endtab %}
 {% endtabs %}
 
-### !a logs\_channel
+## !a logs\_channel
 
 Returns the channel name and id for the logging channel.
 
@@ -84,7 +84,7 @@ Returns the channel name and id for the logging channel.
 {% endtab %}
 {% endtabs %}
 
-### !a logs\_remove
+## !a logs\_remove
 
 Removes the current logging channel for the server.
 

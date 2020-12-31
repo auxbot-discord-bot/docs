@@ -4,9 +4,9 @@ description: AuxBot's Tag Commands.
 
 # Tags
 
-> key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a tag &lt;TAG NAME&gt;
+## !a tag &lt;TAG NAME&gt;
 
 Returns the created tag.
 
@@ -32,7 +32,7 @@ Returns the created tag.
 {% endtab %}
 {% endtabs %}
 
-### !a server\_tags
+## !a server\_tags
 
 Returns all of the servers tags.
 
@@ -58,7 +58,7 @@ Returns all of the servers tags.
 {% endtab %}
 {% endtabs %}
 
-### !a tag\_create &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
+## !a tag\_create &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
 
 Creates a server tag that you can recall.
 
@@ -84,7 +84,7 @@ Creates a server tag that you can recall.
 {% endtab %}
 {% endtabs %}
 
-### !a tag\_edit &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
+## !a tag\_edit &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
 
 Edits a pre existing tag.
 
@@ -110,7 +110,7 @@ Edits a pre existing tag.
 {% endtab %}
 {% endtabs %}
 
-### !a tag\_delete &lt;TAG NAME&gt;
+## !a tag\_delete &lt;TAG NAME&gt;
 
 Deletes a tag from the server.
 
@@ -136,7 +136,7 @@ Deletes a tag from the server.
 {% endtab %}
 {% endtabs %}
 
-### !a tag\_info &lt;TAG NAME&gt;
+## !a tag\_info &lt;TAG NAME&gt;
 
 Returns information about a tag.
 

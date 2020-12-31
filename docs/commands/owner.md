@@ -4,9 +4,9 @@ description: AuxBot's Owner Commands.
 
 # Owner Of AuxBot
 
-> Key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a manual\_database\_entry &lt;GUILD NAME&gt;
+## !a manual\_database\_entry &lt;GUILD NAME&gt;
 
 Enters default values to a database table.
 
@@ -32,7 +32,7 @@ Enters default values to a database table.
 {% endtab %}
 {% endtabs %}
 
-### !a guild\_leave &lt;GUILD NAME&gt;
+## !a guild\_leave &lt;GUILD NAME&gt;
 
 Makes AuxBot leave a server.
 
@@ -58,7 +58,7 @@ Makes AuxBot leave a server.
 {% endtab %}
 {% endtabs %}
 
-### !a shutdown
+## !a shutdown
 
 Shutdowns AuxBot
 
@@ -84,7 +84,7 @@ Shutdowns AuxBot
 {% endtab %}
 {% endtabs %}
 
-### !a guilds
+## !a guilds
 
 Returns a list of guilds that AuxBot is in.
 
@@ -110,7 +110,7 @@ Returns a list of guilds that AuxBot is in.
 {% endtab %}
 {% endtabs %}
 
-### !a load &lt;FOLDER&gt; &lt;EXTENSION&gt;
+## !a load &lt;FOLDER&gt; &lt;EXTENSION&gt;
 
 Loads an extension.
 
@@ -136,7 +136,7 @@ Loads an extension.
 {% endtab %}
 {% endtabs %}
 
-### !a unload &lt;FOLDER&gt; &lt;EXTENSION&gt;
+## !a unload &lt;FOLDER&gt; &lt;EXTENSION&gt;
 
 Unloads an extension.
 
@@ -162,7 +162,7 @@ Unloads an extension.
 {% endtab %}
 {% endtabs %}
 
-### !a reload &lt;FOLDER&gt; &lt;EXTENSION&gt;
+## !a reload &lt;FOLDER&gt; &lt;EXTENSION&gt;
 
 Reloads an extension.
 
@@ -188,7 +188,7 @@ Reloads an extension.
 {% endtab %}
 {% endtabs %}
 
-### !a direct\_message &lt;MEMBER ID&gt; &lt;MESSAGE&gt;
+## !a direct\_message &lt;MEMBER ID&gt; &lt;MESSAGE&gt;
 
 Sends the mentioned member a message.
 
@@ -214,7 +214,7 @@ Sends the mentioned member a message.
 {% endtab %}
 {% endtabs %}
 
-### !a approve &lt;BOT ID&gt;
+## !a approve &lt;BOT ID&gt;
 
 Approves a bot request.
 
@@ -240,7 +240,7 @@ Approves a bot request.
 {% endtab %}
 {% endtabs %}
 
-### !a deny &lt;BOT ID&gt; \[REASON\]
+## !a deny &lt;BOT ID&gt; \[REASON\]
 
 Denies a bot request.
 
@@ -266,7 +266,7 @@ Denies a bot request.
 {% endtab %}
 {% endtabs %}
 
-### !a test
+## !a test
 
 Runs a python script.
 

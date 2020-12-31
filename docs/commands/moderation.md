@@ -4,9 +4,9 @@ description: AuxBot's Moderation Commands.
 
 # Moderation
 
-> Key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a change\_nickname &lt;MEMBER&gt; &lt;NICKNAME&gt;
+## !a change\_nickname &lt;MEMBER&gt; &lt;NICKNAME&gt;
 
 Changes a members nickname.
 
@@ -32,7 +32,7 @@ Changes a members nickname.
 {% endtab %}
 {% endtabs %}
 
-### !a ban &lt;MEMBER&gt; \[REASON\]
+## !a ban &lt;MEMBER&gt; \[REASON\]
 
 Bans a member from the server.
 
@@ -58,7 +58,7 @@ Bans a member from the server.
 {% endtab %}
 {% endtabs %}
 
-### !a kick &lt;MEMBER&gt; \[REASON\]
+## !a kick &lt;MEMBER&gt; \[REASON\]
 
 Kicks a member from the server.
 
@@ -84,7 +84,7 @@ Kicks a member from the server.
 {% endtab %}
 {% endtabs %}
 
-### !a purge &lt;NUMBER \(Max of 70.\)&gt;
+## !a purge &lt;NUMBER \(Max of 70.\)&gt;
 
 Deletes the specified amount of messages.
 
@@ -110,7 +110,7 @@ Deletes the specified amount of messages.
 {% endtab %}
 {% endtabs %}
 
-### !a soft\_ban &lt;MEMBER&gt; \[REASON\]
+## !a soft\_ban &lt;MEMBER&gt; \[REASON\]
 
 Soft bans a member from the server
 
@@ -136,9 +136,9 @@ Soft bans a member from the server
 {% endtab %}
 {% endtabs %}
 
-### !a unban &lt;MEMBER ID&gt; \[REASON\]
+## !a unban &lt;MEMBER ID&gt; \[REASON\]
 
-Unbans a user from the  server.
+Unbans a user from the server.
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -162,7 +162,7 @@ Unbans a user from the  server.
 {% endtab %}
 {% endtabs %}
 
-### !a warn &lt;MEMBER&gt; \[REASON\]
+## !a warn &lt;MEMBER&gt; \[REASON\]
 
 Warns a member in the server.
 
@@ -188,7 +188,7 @@ Warns a member in the server.
 {% endtab %}
 {% endtabs %}
 
-### !a clear\_warns &lt;MEMBER&gt;
+## !a clear\_warns &lt;MEMBER&gt;
 
 Clears a members warns in a server.
 
@@ -214,7 +214,7 @@ Clears a members warns in a server.
 {% endtab %}
 {% endtabs %}
 
-### !a user\_warns &lt;MEMBER&gt;
+## !a user\_warns &lt;MEMBER&gt;
 
 Clears a members warns in a server.
 
@@ -240,7 +240,7 @@ Clears a members warns in a server.
 {% endtab %}
 {% endtabs %}
 
-### !a mute &lt;MEMBER&gt; \[TIME\] \[REASON\]
+## !a mute &lt;MEMBER&gt; \[TIME\] \[REASON\]
 
 Mutes the mentioned member.
 
@@ -266,7 +266,7 @@ Mutes the mentioned member.
 {% endtab %}
 {% endtabs %}
 
-### !a unmute &lt;MEMBER&gt;
+## !a unmute &lt;MEMBER&gt;
 
 Unmutes the mentioned member.
 
@@ -292,7 +292,7 @@ Unmutes the mentioned member.
 {% endtab %}
 {% endtabs %}
 
-### !a warns\_before\_ban &lt;NUMBER \(Max of 50.\)&gt;
+## !a warns\_before\_ban &lt;NUMBER \(Max of 50.\)&gt;
 
 Sets the amount of warns before ban.
 
@@ -318,7 +318,7 @@ Sets the amount of warns before ban.
 {% endtab %}
 {% endtabs %}
 
-### !a current\_warns\_before\_ban
+## !a current\_warns\_before\_ban
 
 Returns the amount of warns before ban.
 
@@ -344,7 +344,7 @@ Returns the amount of warns before ban.
 {% endtab %}
 {% endtabs %}
 
-### !a nsfw\_toggle
+## !a nsfw\_toggle
 
 Toggles the nsfw commands for the server.
 
@@ -370,7 +370,7 @@ Toggles the nsfw commands for the server.
 {% endtab %}
 {% endtabs %}
 
-### !a current\_nsfw\_toggle
+## !a current\_nsfw\_toggle
 
 Returns the status of nsfw commands.
 
@@ -396,7 +396,7 @@ Returns the status of nsfw commands.
 {% endtab %}
 {% endtabs %}
 
-### !a level\_toggle
+## !a level\_toggle
 
 Toggles the level system for the server.
 
@@ -422,7 +422,7 @@ Toggles the level system for the server.
 {% endtab %}
 {% endtabs %}
 
-### !a current\_level\_toggle
+## !a current\_level\_toggle
 
 Returns the status of the level system.
 

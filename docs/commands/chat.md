@@ -1,22 +1,22 @@
 ---
-description: AuxBot's Music Commands.
+description: AuxBot's Chat Commands.
 ---
 
-# Music
+# Chat
 
-> Key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a connect \[CHANNEL ID\]
+## !a help \[COMMAND\]
 
-Makes AuxBot connect to a voice channel.
+Shows help and shows help for commands.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a connect \[CHANNEL ID\]
+* !a help \[COMMAND\]
 {% endtab %}
 
 {% tab title="Aliases" %}
-* c
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -24,25 +24,25 @@ Makes AuxBot connect to a voice channel.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* voice channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every 2 seconds per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a play &lt;QUERY / YOUTUBE URL&gt;
+## !a code
 
-Plays a song from a url or query.
+Returns a link to a hastebin.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a play &lt;QUERY / YOUTUBE URL&gt;
+* !a code
 {% endtab %}
 
 {% tab title="Aliases" %}
-* p
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -50,207 +50,25 @@ Plays a song from a url or query.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* voice channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a pause
+## !a invite
 
-Pauses the music player.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a pause
-{% endtab %}
-
-{% tab title="Aliases" %}
-* pa
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server / dj
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* voice channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every two seconds per user
-{% endtab %}
-{% endtabs %}
-
-### !a resume
-
-Resume a currently paused player.
+Returns AuxBot invite links.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a resume
+* !a invite
 {% endtab %}
 
 {% tab title="Aliases" %}
-* r
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server / dj
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* voice channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
-{% endtab %}
-{% endtabs %}
-
-### !a skip
-
-Skips the currently playing song.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a skip
-{% endtab %}
-
-{% tab title="Aliases" %}
-* s
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server / dj
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* voice channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
-{% endtab %}
-{% endtabs %}
-
-### !a stop
-
-Stops the player.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a stop
-{% endtab %}
-
-{% tab title="Aliases" %}
-* st
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server / dj
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* voice channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
-{% endtab %}
-{% endtabs %}
-
-### !a volume &lt;NUMBER \(Between 1 - 100.\)&gt;
-
-Changes the players volume.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a volume &lt;NUMBER \(Between 1 - 100.\)&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* v
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server / dj
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* voice channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
-{% endtab %}
-{% endtabs %}
-
-### !a shuffle
-
-Shuffles the players queue.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a shuffle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* sh
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server / dj
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* voice channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
-{% endtab %}
-{% endtabs %}
-
-### !a equalizer &lt;EQUALIZER \(flat, boost, metal, piano\)&gt;
-
-Changes the player equalizer.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a equalizer &lt;EQUALIZER \(flat, boost, metal, piano\)&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* eq
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server / dj
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* voice channel
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
-{% endtab %}
-{% endtabs %}
-
-### !a queue
-
-Displays the players queued songs.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a queue
-{% endtab %}
-
-{% tab title="Aliases" %}
-* q
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -258,25 +76,25 @@ Displays the players queued songs.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* voice channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* Can be used once every two seconds per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-### !a now\_playing
+## !a prefix
 
-Updates the plyer controller.
+Returns your server prefix.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a now\_playing
+* !a prefix
 {% endtab %}
 
 {% tab title="Aliases" %}
-* np
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -284,7 +102,59 @@ Updates the plyer controller.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* voice channel
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a report
+
+Returns ways to report errors.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a report
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a level \[MEMBER\]
+
+Returns a level if the system is enabled.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a level \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
@@ -292,29 +162,211 @@ Updates the plyer controller.
 {% endtab %}
 {% endtabs %}
 
-### !a swap\_dj &lt;MEMBER&gt;
+## !a search &lt;QUERY&gt;
 
-Swap the current DJ to another member.
+Searches google for your query.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a swap\_dj &lt;MEMBER&gt;
+* !a search &lt;QUERY&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* r
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server / dj
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* voice channel
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
 * Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a documentation
+
+Returns link to AuxBot docs.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a documentation
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a docs\_categories
+
+Returns all of the docs categories.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a docs\_categories
+{% endtab %}
+
+{% tab title="Aliases" %}
+* dc
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a listeners
+
+Returns all of the logging listeners.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a listeners
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a website
+
+Returns a link to AuxBot's website.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a website
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a emojis
+
+Returns all of the servers emojis
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a emojis
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a spotify
+
+Returns members spotify stats.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a spotify
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a slowmode\_times
+
+Returns all of the slowmode options.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a slowmode\_times
+{% endtab %}
+
+{% tab title="Aliases" %}
+* smt
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
 {% endtab %}
 {% endtabs %}
 

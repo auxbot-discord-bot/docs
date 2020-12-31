@@ -1,22 +1,22 @@
 ---
-description: AuxBot's Welcome Commands.
+description: AuxBot's Disboard Commands.
 ---
 
-# Welcome
+# Disboard
 
-> key:  • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
+> Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
-### !a welcome\_set &lt;CHANNEL ID&gt;
+## !a disboard\_set &lt;CHANNEL ID&gt;
 
-Sets the welcome channel for the server.
+Sets the disboard channel for the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a welcome\_set &lt;CHANNEL ID&gt;
+* !a disboard\_set &lt;CHANNEL ID&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* ws
+* ds
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -32,17 +32,17 @@ Sets the welcome channel for the server.
 {% endtab %}
 {% endtabs %}
 
-### !a welcome\_toggle
+## !a disboard\_toggle
 
-Allows you to toggle the whole welcome system.
+Toggles the disboard system on and off.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a welcome\_toggle
+* !a disboard\_toggle
 {% endtab %}
 
 {% tab title="Aliases" %}
-* wt
+* dt
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -58,17 +58,17 @@ Allows you to toggle the whole welcome system.
 {% endtab %}
 {% endtabs %}
 
-### !a welcome\_channel
+## !a disboard\_channel
 
-Returns the channel name and id for the welcome channel.
+Returns the channel name and id for the disboard channel.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a welcome\_channel
+* !a disboard\_channel
 {% endtab %}
 
 {% tab title="Aliases" %}
-* wc
+* disch
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -84,17 +84,17 @@ Returns the channel name and id for the welcome channel.
 {% endtab %}
 {% endtabs %}
 
-### !a welcome\_remove
+## !a disboard\_remove
 
-Removes the current welcome channel for the server.
+Removes the current disboard channel for the guild.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a welcome\_remove
+* !a disboard\_remove
 {% endtab %}
 
 {% tab title="Aliases" %}
-* wr
+* dr
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -110,17 +110,17 @@ Removes the current welcome channel for the server.
 {% endtab %}
 {% endtabs %}
 
-### !a welcome\_test
+## !a disboard\_message &lt;MESSAGE&gt;
 
-Tests the welcome channel.
+Sets the disboard timer message.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a welcome\_test
+* !a disboard\_message &lt;MESSAGE&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* wte
+* dme
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -133,6 +133,32 @@ Tests the welcome channel.
 
 {% tab title="Cooldown" %}
 * Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a disboard\_test
+
+Tests the disboard channel.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a disboard\_test
+{% endtab %}
+
+{% tab title="Aliases" %}
+* dte
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every five seconds per user.
 {% endtab %}
 {% endtabs %}
 
