@@ -306,7 +306,7 @@ Sets the amount of warns before ban.
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server
+* manage roles
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
