@@ -254,7 +254,7 @@ Mutes the mentioned member.
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage messages
+* manage roles
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
@@ -280,7 +280,7 @@ Unmutes the mentioned member.
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage messages
+* manage roles
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
