@@ -7,7 +7,7 @@ description: AuxBot's ChangeLogs.
 ## 0.0.1 - 0.0.2
 
 ```yaml
-0.0.0 - 0.0.2:
+0.0.1 - 0.0.2:
 
 • Major modifications to moderation commands.
 • Fixed some bugs in the code
