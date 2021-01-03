@@ -188,17 +188,17 @@ Warns a member\(s\) in the server.
 {% endtab %}
 {% endtabs %}
 
-## !a clear\_warns &lt;MEMBER&gt; \[CASE NUMBER\]
+## !a clear\_cases &lt;MEMBER&gt; \[CASE NUMBER\]
 
-Clears a members warn\(s\) in a server.
+Clears a members case\(s\) in a server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a clear\_warns &lt;MEMBER&gt; \[CASE NUMBER\]
+* !a clear\_cases &lt;MEMBER&gt; \[CASE NUMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
-* cw
+* cc
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -214,17 +214,17 @@ Clears a members warn\(s\) in a server.
 {% endtab %}
 {% endtabs %}
 
-## !a user\_warns \[MEMBER\]
+## !a user\_cases \[MEMBER\]
 
-Returns the warns for a member.
+Returns the cases for a member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a user\_warns \[MEMBER\]
+* !a user\_cases \[MEMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
-* uw
+* uc
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -242,7 +242,7 @@ Returns the warns for a member.
 
 ## !a mute &lt;MEMBER&gt; \[TIME\] \[REASON\]
 
-Mutes the mentioned member.
+Mutes a member in the server.
 
 {% tabs %}
 {% tab title="Usage" %}
