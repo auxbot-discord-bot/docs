@@ -32,13 +32,13 @@ Changes a members nickname.
 {% endtab %}
 {% endtabs %}
 
-## !a ban &lt;MEMBER&gt; \[REASON\]
+## !a ban &lt;MEMBER\(s\)&gt; \[REASON\]
 
-Bans a member from the server.
+Bans a member\(s\) from the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a ban &lt;MEMBER&gt; \[REASON\]
+* !a ban &lt;MEMBER\(s\)&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -58,13 +58,13 @@ Bans a member from the server.
 {% endtab %}
 {% endtabs %}
 
-## !a kick &lt;MEMBER&gt; \[REASON\]
+## !a kick &lt;MEMBER\(s\)&gt; \[REASON\]
 
-Kicks a member from the server.
+Kicks a member\(s\) from the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a kick &lt;MEMBER&gt; \[REASON\]
+* !a kick &lt;MEMBER\(s\)&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -110,13 +110,13 @@ Deletes the specified amount of messages.
 {% endtab %}
 {% endtabs %}
 
-## !a soft\_ban &lt;MEMBER&gt; \[REASON\]
+## !a soft\_ban &lt;MEMBER\(s\)&gt; \[REASON\]
 
-Soft bans a member from the server
+Soft bans a member\(s\) from the server
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a soft\_ban &lt;MEMBER&gt; \[REASON\]
+* !a soft\_ban &lt;MEMBER\(s\)&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -162,13 +162,13 @@ Unbans a user from the server.
 {% endtab %}
 {% endtabs %}
 
-## !a warn &lt;MEMBER&gt; \[REASON\]
+## !a warn &lt;MEMBER\(s\)&gt; \[REASON\]
 
-Warns a member in the server.
+Warns a member\(s\) in the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a warn &lt;MEMBER&gt; \[REASON\]
+* !a warn &lt;MEMBER\(s\)&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -188,13 +188,13 @@ Warns a member in the server.
 {% endtab %}
 {% endtabs %}
 
-## !a clear\_warns &lt;MEMBER&gt;
+## !a clear\_warns &lt;MEMBER&gt; \[CASE NUMBER\]
 
-Clears a members warns in a server.
+Clears a members warn\(s\) in a server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a clear\_warns &lt;MEMBER&gt;
+* !a clear\_warns &lt;MEMBER&gt; \[CASE NUMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -214,13 +214,13 @@ Clears a members warns in a server.
 {% endtab %}
 {% endtabs %}
 
-## !a user\_warns &lt;MEMBER&gt;
+## !a user\_warns \[MEMBER\]
 
-Clears a members warns in a server.
+Returns the warns for a member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a user\_warns &lt;MEMBER&gt;
+* !a user\_warns \[MEMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -228,7 +228,7 @@ Clears a members warns in a server.
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage messages
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
