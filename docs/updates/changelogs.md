@@ -4,6 +4,16 @@ description: AuxBot's ChangeLogs.
 
 # ChangeLogs
 
+## 0.0.2 - 0.0.3
+
+```yaml
+0.0.2 - 0.0.3:
+
+• Fixed muting system when bot gets restarted
+• Fixed logging Access Denied error
+• Cleaned up code
+```
+
 ## 0.0.1 - 0.0.2
 
 ```yaml
