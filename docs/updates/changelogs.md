@@ -4,6 +4,17 @@ description: AuxBot's ChangeLogs.
 
 # ChangeLogs
 
+## 0.0.3 - 0.0.4
+
+```yaml
+0.0.3 - 0.0.4:
+
+• Updated lavalink music player to latest version
+• Fixed disboard timer to equate for bot shutdown time
+• Fixed spelling mistakes in logging system
+• Cleaned up code
+```
+
 ## 0.0.2 - 0.0.3
 
 ```yaml
