@@ -4,6 +4,17 @@ description: AuxBot's ChangeLogs.
 
 # ChangeLogs
 
+## 0.0.4 - 0.0.5
+
+```yaml
+0.0.4 - 0.0.5:
+
+• Fixed temp muting loop
+• Fixed disboard timer again
+• Fixed error with urban command
+• Cleaned up code
+```
+
 ## 0.0.3 - 0.0.4
 
 ```yaml
