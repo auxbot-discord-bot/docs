@@ -214,17 +214,17 @@ Clears a members case\(s\) in a server.
 {% endtab %}
 {% endtabs %}
 
-## !a user\_cases \[MEMBER\]
+## !a cases \[MEMBER\]
 
 Returns the cases for a member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a user\_cases \[MEMBER\]
+* !a cases \[MEMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
-* uc
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}

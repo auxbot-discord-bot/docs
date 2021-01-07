@@ -2,7 +2,7 @@
 description: AuxBot's Disboard Commands.
 ---
 
-# Disboard
+# Disboard \[Not Working\]
 
 > Key: • \[Optional arg.\] • \(Options for the arg.\) • &lt;This / Or this&gt;
 
