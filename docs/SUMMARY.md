@@ -31,6 +31,7 @@
 
 ## ❗ Known Errors
 
+* [URL Encoding Error](known-errors/url-encoding-error.md)
 * [Duplicate Tags Error](known-errors/duplicate-tags-error.md)
 
 ## ❔ Faq
