@@ -344,29 +344,3 @@ Returns members spotify stats.
 {% endtab %}
 {% endtabs %}
 
-## !a slowmode\_times
-
-Returns all of the slowmode options.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a slowmode\_times
-{% endtab %}
-
-{% tab title="Aliases" %}
-* smt
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-

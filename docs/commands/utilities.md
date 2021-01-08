@@ -188,13 +188,13 @@ Removes a role from a member.
 {% endtab %}
 {% endtabs %}
 
-## !a slowmode &lt;TIME \(!a slowmode\_times\)&gt;
+## !a slowmode \[TIME\]
 
 Changes the slowmode setting for a channel.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a slowmode &lt;TIME \(!a slowmode\_times\)&gt;
+* !a slowmode \[TIME\]
 {% endtab %}
 
 {% tab title="Aliases" %}
