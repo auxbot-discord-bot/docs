@@ -24,7 +24,7 @@ Upon adding AuxBot to your server you agree to allowing the bot to store the fol
 
 ### Who can see my information?
 
-the only people that can see your information if the owner of AuxBot \[Auxtal\#0001\(327745755789918208\)\] on discord and other important people that help run AuxBot. Your information from the database is not publicly for people that do not develop AuxBot.
+the only people that can see your information is the owner of AuxBot \[Auxtal\#0001\(327745755789918208\)\] on discord and other important people that help run AuxBot. Your information from the database is not publicly for people that do not develop AuxBot.
 
 ### When AuxBot Leaves A Server What Does It Delete?
 
