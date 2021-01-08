@@ -39,7 +39,3 @@
 * [Privacy Policy](faq/privacy-policy.md)
 * [Terms Of Use](faq/terms-of-use.md)
 
----
-
-* [test page](test-page.md)
-
