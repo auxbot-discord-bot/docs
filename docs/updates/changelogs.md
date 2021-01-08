@@ -4,6 +4,17 @@ description: AuxBot's ChangeLogs.
 
 # ChangeLogs
 
+## 0.0.5 - 0.0.6
+
+```yaml
+0.0.5 - 0.0.6:
+
+• Updated slowmode command
+• Removed slowmode_times command
+• Added snipe command
+• Cleaned up code
+```
+
 ## 0.0.4 - 0.0.5
 
 ```yaml
