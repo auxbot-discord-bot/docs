@@ -448,7 +448,7 @@ Returns the emoji information.
 {% endtab %}
 {% endtabs %}
 
-## !a command\_stats
+## !!a command\_stats
 
 Returns command statistics for the server.
 
@@ -463,6 +463,32 @@ Returns command statistics for the server.
 
 {% tab title="Permissions" %}
 * none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per server.
+{% endtab %}
+{% endtabs %}
+
+## !a snipe
+
+Returns the last deleted message in the server.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a snipe
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
