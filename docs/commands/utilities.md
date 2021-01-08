@@ -448,7 +448,7 @@ Returns the emoji information.
 {% endtab %}
 {% endtabs %}
 
-## !!a command\_stats
+## !a command\_stats
 
 Returns command statistics for the server.
 
