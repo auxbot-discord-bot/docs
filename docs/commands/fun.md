@@ -500,3 +500,29 @@ Returns the members avatar behind bars.
 {% endtab %}
 {% endtabs %}
 
+## !a pp \[MEMBER\]
+
+Returns a random pp size for the member.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a pp \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
