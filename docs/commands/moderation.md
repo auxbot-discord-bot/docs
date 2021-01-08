@@ -396,3 +396,55 @@ Returns the status of the level system.
 {% endtab %}
 {% endtabs %}
 
+## !a snipe\_toggle
+
+Toggles the snipe system for the server.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a snipe\_toggle
+{% endtab %}
+
+{% tab title="Aliases" %}
+* snit
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a current\_snipe\_toggle
+
+Returns the status of the snipe system.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a current\_snipe\_toggle
+{% endtab %}
+
+{% tab title="Aliases" %}
+* csnit
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
