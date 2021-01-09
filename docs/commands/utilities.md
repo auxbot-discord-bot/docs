@@ -500,3 +500,31 @@ Returns the last deleted message in the server.
 {% endtab %}
 {% endtabs %}
 
+## !a colour &lt;COLOUR&gt;
+
+Returns the colour in an image.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a colour &lt;COLOUR&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* color
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every five seconds per server.
+{% endtab %}
+{% endtabs %}
+
+## 
+

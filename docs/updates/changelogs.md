@@ -4,6 +4,17 @@ description: AuxBot's ChangeLogs.
 
 # ChangeLogs
 
+## 0.0.6 - 0.0.7
+
+```yaml
+0.0.6 - 0.0.7:
+
+• Added colour command
+• Added a sniping toggle command
+• Added pp command
+• Cleaned up code
+```
+
 ## 0.0.5 - 0.0.6
 
 ```yaml
