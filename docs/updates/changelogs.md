@@ -4,6 +4,19 @@ description: AuxBot's ChangeLogs.
 
 # ChangeLogs
 
+## 0.0.7 - 0.0.8
+
+```yaml
+0.0.7 - 0.0.8:
+
+• Added pornhub command
+• Added captcha command
+• Added supreme command
+• Added trash command
+• Added ship command
+• Cleaned up code
+```
+
 ## 0.0.6 - 0.0.7
 
 ```yaml
