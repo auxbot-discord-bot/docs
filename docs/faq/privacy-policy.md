@@ -20,7 +20,7 @@ Upon adding AuxBot to your server you agree to allowing the bot to store the fol
 * Executed Commands
 * Server Member ID's And Names
 * Command Arguments
-* Deleted messages
+* Deleted messages \(Optional\)
 
 ### Who can see my information?
 
