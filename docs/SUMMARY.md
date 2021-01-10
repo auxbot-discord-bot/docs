@@ -17,6 +17,7 @@
 * [Owner Of AuxBot](commands/owner.md)
 * [Utilities](commands/utilities.md)
 * [Music](commands/music.md)
+* [Nsfw](commands/nsfw.md)
 * [Disboard](commands/disboard.md)
 * [Logging](commands/logging.md)
 * [Swearing](commands/swearing.md)
