@@ -292,7 +292,7 @@ Updates the plyer controller.
 {% endtab %}
 {% endtabs %}
 
-## !a swap\_dj &lt;MEMBER&gt;
+## !a swap\_dj \[MEMBER\]
 
 Swap the current DJ to another member.
 
