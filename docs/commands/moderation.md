@@ -344,6 +344,58 @@ Returns the amount of warns before ban.
 {% endtab %}
 {% endtabs %}
 
+## !a nsfw\_toggle
+
+Toggles nsfw commands for the server.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a nsfw\_toggle
+{% endtab %}
+
+{% tab title="Aliases" %}
+* nt
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a current\_nsfw\_toggle
+
+Returns the status of the nsfw commands.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a current\_nsfw\_toggle
+{% endtab %}
+
+{% tab title="Aliases" %}
+* cnt
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Can be used once every two seconds per user.
+{% endtab %}
+{% endtabs %}
+
 ## !a level\_toggle
 
 Toggles the level system for the server.
