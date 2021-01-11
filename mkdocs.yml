@@ -15,14 +15,10 @@ theme:
     - navigation.sections
 
   palette:
-    primary: grey
-    accent: red
+    scheme: slate
 
 markdown_extensions:
   - toc:
       permalink: true
-
-extra:
-  generator: false
 
 copyright: Copyright © AuxBot 2021 All Rights Reserved
