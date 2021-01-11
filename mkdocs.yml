@@ -1,4 +1,6 @@
-site_name: AuxBot
+site_name: AuxBot Documentation
 
 theme:
+  favicon: assets/AuxBot.png
+  logo: assets/AuxBot.png
   name: 'material'
