@@ -15,7 +15,7 @@ theme:
     - navigation.sections
 
   palette:
-    primary: black
+    primary: grey
     accent: red
 
 markdown_extensions:
