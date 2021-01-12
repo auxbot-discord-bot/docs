@@ -15,7 +15,7 @@ theme:
     - navigation.sections
 
   palette:
-    scheme: slate
+    scheme: default
 
 markdown_extensions:
   - toc:
