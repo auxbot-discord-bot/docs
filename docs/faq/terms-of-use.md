@@ -13,4 +13,3 @@ The short answer is no you can not. The reason for this is all of AuxBot's code 
 The short answer is yes you can. AuxBot.xyz is an open source project that is on GitHub. Anything under the provisions of the GitHub MIT License is allowed.
 
 > Please take note that Auxtal is able to modify the Terms Of Use anytime.
-

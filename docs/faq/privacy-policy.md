@@ -32,7 +32,4 @@ When kicking or banning AuxBot from a server all of the servers information and 
 
 > Please take note that Auxtal is able to modify the Privacy Policy anytime.
 
-{% hint style="info" %}
-If you would like your data removed from the database kick AuxBot from the server.
-{% endhint %}
-
+> If you would like your data removed from the database kick AuxBot from the server.

@@ -92,6 +92,3 @@ description: AuxBot's ChangeLogs.
 
 • Updated bot to it's first version.
 ```
-
-
-

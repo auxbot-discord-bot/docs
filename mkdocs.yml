@@ -6,7 +6,7 @@ edit_uri: ""
 
 theme:
   favicon: assets/AuxBot.png
-  logo: assets/AuxBot.png
+  logo: assets/AuxBot-Bars.png
   name: 'material'
 
   features:

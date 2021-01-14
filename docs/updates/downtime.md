@@ -19,4 +19,3 @@ Downtime:
 
 • Discords Servers Down
 ```
-
