@@ -23,9 +23,4 @@ markdown_extensions:
   - toc:
       permalink: true
 
-extra:
-  social:
-    - icon: assets/discord.ico
-      link: https://www.auxbot.xyz/support
-
 copyright: Copyright © AuxBot 2021 All Rights Reserved
