@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [AuxBot Docs](README.md)
 
