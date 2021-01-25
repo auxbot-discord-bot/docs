@@ -1,5 +1,7 @@
 ---
-description: AuxBot Discord Bot Documentation
+description: >-
+  AuxBot is a multi use discord bot which has many different things such as
+  logging, moderation, music, memes, fun, and so many more commands.
 ---
 
 # AuxBot Docs
