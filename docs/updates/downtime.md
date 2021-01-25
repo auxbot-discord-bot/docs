@@ -1,22 +1,54 @@
 ---
-description: AuxBot's DownTime Updates.
+description: AuxBot's DownTime
 ---
 
 # DownTime
 
-## 1/8/2021
+## **Downtime Completed** \| **Saturday 16, January 2021**
 
 ```text
-Downtime:
+• Hey guys AuxBot is now up and running and is fully fuctional. Thankyou for your deep patiance over the past two days.
 
-• server hardware upgrades
+AuxBot Status: https://status.auxbot.xyz/
 ```
 
-## 12/14/2020
+## **AuxBot Downtime Schedule** \| **Saturday 16, January 2021**
 
 ```text
-Downtime:
+• Bot should be up and running very soon.
 
-• Discords Servers Down
+AuxBot Status: https://status.auxbot.xyz/
+```
+
+## **AuxBot Downtime** \| **Thursday 14, January 2021**
+
+```text
+• Extending downtime until further notice. Sorry for the inconvenience.
+
+AuxBot Status: https://status.auxbot.xyz/
+```
+
+## **AuxBot Downtime** \| **Thursday 14, January 2021**
+
+```text
+• Working on server security eta 20 minutes
+
+AuxBot Status: https://status.auxbot.xyz/ 
+```
+
+## **Downtime Completed** \| **Friday 8, January 2021**
+
+```text
+• AuxBot's server has now completed its hardware upgrades
+
+AuxBot Status: https://status.auxbot.xyz/
+```
+
+## **AuxBot Downtime** \| **Friday 8, January 2021**
+
+```text
+• We are currently performing server hardware upgrades eta 15 minutes
+
+AuxBot Status: https://status.auxbot.xyz/
 ```
 

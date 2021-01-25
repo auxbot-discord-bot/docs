@@ -1,8 +1,8 @@
 ---
-description: AuxBot's Config Commands.
+description: AuxBot Bot Requests Commands
 ---
 
-# Config
+# Bot Requests
 
 #### Command Argument Key
 
@@ -17,22 +17,62 @@ description: AuxBot's Config Commands.
 #### Command Argument Specifications And Examples:
 
 ```text
-NUMBER = normal number: 10
+BOT = a discord bot mention, username and discriminator or id:
+    @AuxBot / AuxBot#8520 / 701301497501188169
+
+BOT ID = discord bot id: 701301497501188169
+
+PREFIX = normal text: !
+REASON = normal text: here is my reason
 ```
 
-## !a warnsbeforeban &lt;NUMBER \(Max of 50.\)&gt;
+## !a addbot &lt;BOT ID&gt; &lt;PREFIX&gt;
 
-Sets the amount of warns before ban.
+Gives a bot request in Auxtal's Discord.
+
+{% hint style="danger" %}
+This command can only be used in Auxtal's Discord server.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a warnsbeforeban &lt;NUMBER \(Max of 50.\)&gt;
+* !a addbot &lt;BOT ID&gt; &lt;PREFIX&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* wbb
-* warns\_before\_ban
-* warns-before-ban 
+* ab
+* add\_bot
+* add-bot
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a addbot accept &lt;BOT ID&gt;
+
+Accepts a bot request.
+
+{% hint style="danger" %}
+This command can only be used in Auxtal's Discord server.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a addbot accept &lt;BOT ID&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -48,19 +88,21 @@ Sets the amount of warns before ban.
 {% endtab %}
 {% endtabs %}
 
-## !a nsfwtoggle
+## !a addbot reject &lt;BOT ID&gt; \[REASON\]
 
-Toggles nsfw commands for the server.
+Rejects a bot request.
+
+{% hint style="danger" %}
+This command can only be used in Auxtal's Discord server.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a nsfwtoggle
+* !a addbot reject &lt;BOT ID&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
-* nt
-* nsfw\_toggle
-* nsfw-toggle
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -76,19 +118,21 @@ Toggles nsfw commands for the server.
 {% endtab %}
 {% endtabs %}
 
-## !a swearingtoggle
+## !a addbot prefix &lt;BOT&gt; &lt;PREFIX&gt;
 
-Toggles the swearing detection system.
+Changes the prefix for a bot.
+
+{% hint style="danger" %}
+This command can only be used in Auxtal's Discord server.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a swearingtoggle
+* !a addbot prefix &lt;BOT ID&gt; &lt;PREFIX&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* swt
-* swearing\_toggle
-* swearing-toggle
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -104,47 +148,21 @@ Toggles the swearing detection system.
 {% endtab %}
 {% endtabs %}
 
-## !a snipetoggle
+## !a addbot delete &lt;BOT ID&gt;
 
-Toggles the snipe system for the server.
+Deletes a bot request from the database.
+
+{% hint style="danger" %}
+This command can only be used in Auxtal's Discord server.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a snipetoggle
+* !a addbot delete &lt;BOT ID&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* snit
-* snipe\_toggle
-* snipe-toggle
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
 * none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a leveltoggle
-
-Toggles the level system for the server.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a leveltoggle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* lvlt
-* level\_toggle
-* level-toggle
 {% endtab %}
 
 {% tab title="Permissions" %}

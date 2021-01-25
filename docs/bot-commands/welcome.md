@@ -1,8 +1,8 @@
 ---
-description: AuxBot's Config Commands.
+description: AuxBot's Welcome Commands
 ---
 
-# Config
+# Welcome
 
 #### Command Argument Key
 
@@ -17,22 +17,107 @@ description: AuxBot's Config Commands.
 #### Command Argument Specifications And Examples:
 
 ```text
-NUMBER = normal number: 10
+CHANNEL = discord channel mention name or id:
+    #general / general / 665811923970818050
 ```
 
-## !a warnsbeforeban &lt;NUMBER \(Max of 50.\)&gt;
+## !a welcome
 
-Sets the amount of warns before ban.
+Returns all of the welcome commands.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a warnsbeforeban &lt;NUMBER \(Max of 50.\)&gt;
+* !a welcome
 {% endtab %}
 
 {% tab title="Aliases" %}
-* wbb
-* warns\_before\_ban
-* warns-before-ban 
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a welcome set &lt;CHANNEL&gt;
+
+Sets the welcome channel for the server.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a welcome set &lt;CHANNEL&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a welcome test
+
+Tests the welcome channel.
+
+{% hint style="warning" %}
+This command can only work when the welcome system is setup.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a welcome test
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a welcome toggle
+
+Allows you to toggle the whole welcome system.
+
+{% hint style="warning" %}
+This command can only work when the welcome system is setup.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a welcome toggle
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -48,23 +133,25 @@ Sets the amount of warns before ban.
 {% endtab %}
 {% endtabs %}
 
-## !a nsfwtoggle
+## !a welcome channel
 
-Toggles nsfw commands for the server.
+Returns the channel name and id for the welcome channel.
+
+{% hint style="warning" %}
+This command can only work when the welcome system is setup.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a nsfwtoggle
+* !a welcome channel
 {% endtab %}
 
 {% tab title="Aliases" %}
-* nt
-* nsfw\_toggle
-* nsfw-toggle
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
@@ -76,75 +163,21 @@ Toggles nsfw commands for the server.
 {% endtab %}
 {% endtabs %}
 
-## !a swearingtoggle
+## !a welcome remove
 
-Toggles the swearing detection system.
+Removes the current welcome channel for the server.
+
+{% hint style="warning" %}
+This command can only work when the welcome system is setup.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a swearingtoggle
+* !a welcome remove
 {% endtab %}
 
 {% tab title="Aliases" %}
-* swt
-* swearing\_toggle
-* swearing-toggle
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
 * none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a snipetoggle
-
-Toggles the snipe system for the server.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a snipetoggle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* snit
-* snipe\_toggle
-* snipe-toggle
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a leveltoggle
-
-Toggles the level system for the server.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a leveltoggle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* lvlt
-* level\_toggle
-* level-toggle
 {% endtab %}
 
 {% tab title="Permissions" %}

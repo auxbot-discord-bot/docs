@@ -4,28 +4,49 @@ description: AuxBot's Utilities Commands.
 
 # Utilities
 
-> Command Key: \[Means Optional\] &lt;Means Required&gt; \(Valid Options\) This / Or This
+#### Command Argument Key
+
+> \[Means Optional\] 
+>
+> &lt;Means Required&gt; 
+>
+> \(Means Valid Options\) 
+>
+> This / Or This
 
 #### Command Argument Specifications And Examples:
 
 ```text
-MEMBER = a discord member | E.G: @Auxtal
-BOT = a discord bot | E.G: @AuxBot
-ROLE = a discord role | E.G: @Moderators
+MEMBER = discord member mention, username and discriminator or id:
+    @Auxtal / Auxtal#0001 / 327745755789918208
 
-CATEGORY ID = a discord category ID | E.G: 665812610985230364
-CHANNEL ID = discord channel ID | E.G: 665811923970818050
+BOT = a discord bot mention, username and discriminator or id:
+    @AuxBot / AuxBot#8520 / 701301497501188169
 
-TIME = custom time | E.G: 10m < ten minutes
-COLOUR = colour code | E.G: #<HEX>, 0x<HEX>, 0x#<HEX>
-COMMAND = auxbot command name or aliase | E.G add_role, ar
+ROLE = a discord role mention, name or id: 
+    @Moderators / Moderators / 672258502307086337
 
-NAME = normal text | E.G: general chat
-PREFIX = normal text | E.G: !a
-REASON = normal text | E.G: here is my reason
-QUERY = normal text | E.G: my serch text
-EMOJI = normal emoji | E.G: 👋
-SENTENCE = normal text | E.G: this is my sentence
+CATEGORY = a discord category name or id:
+    General Chats / 665812610985230364
+
+CHANNEL = discord channel mention name or id:
+    #general / general / 665811923970818050
+
+TIME = custom time: 
+    10m
+    
+COLOUR = colour code:
+    #<HEX> / 0x<HEX> / 0x#<HEX>
+
+COMMAND = auxbot command name or aliase:
+    addrole / ar
+
+NAME = normal text: general chat
+PREFIX = normal text: !a
+REASON = normal text: here is my reason
+QUERY = normal text: my serch text
+EMOJI = normal emoji: 👋
+SENTENCE = normal text: this is my sentence
 ```
 
 ## !a setup
@@ -80,17 +101,19 @@ Returns the ping of AuxBot.
 {% endtab %}
 {% endtabs %}
 
-## !a auxbot\_info
+## !a botinfo
 
 Returns the info of AuxBot.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a auxbot\_info
+* !a botinfo
 {% endtab %}
 
 {% tab title="Aliases" %}
-* ai
+* bi
+* bot\_info
+* bot-info
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -106,7 +129,7 @@ Returns the info of AuxBot.
 {% endtab %}
 {% endtabs %}
 
-## !a user\_info \[MEMBER\]
+## !a userinfo \[MEMBER\]
 
 Returns the info of a member.
 
@@ -117,6 +140,8 @@ Returns the info of a member.
 
 {% tab title="Aliases" %}
 * ui
+* user\_info
+* user-info
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -132,17 +157,19 @@ Returns the info of a member.
 {% endtab %}
 {% endtabs %}
 
-## !a server\_info
+## !a serverinfo
 
 Returns the info of a server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a server\_info
+* !a serverinfo
 {% endtab %}
 
 {% tab title="Aliases" %}
 * si
+* server\_info
+* server-info
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -158,17 +185,19 @@ Returns the info of a server.
 {% endtab %}
 {% endtabs %}
 
-## !a add\_role &lt;MEMBER&gt; &lt;ROLE&gt;
+## !a addrole &lt;MEMBER&gt; &lt;ROLE&gt;
 
 Adds a role to a member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a add\_role &lt;MEMBER&gt; &lt;ROLE&gt;
+* !a addrole &lt;MEMBER&gt; &lt;ROLE&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * ar
+* add\_role
+* add-role
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -184,17 +213,19 @@ Adds a role to a member.
 {% endtab %}
 {% endtabs %}
 
-## !a remove\_role &lt;MEMBER&gt; &lt;ROLE&gt;
+## !a removerole &lt;MEMBER&gt; &lt;ROLE&gt;
 
 Removes a role from a member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a remove\_role &lt;MEMBER&gt; &lt;ROLE&gt;
+* !a removerole &lt;MEMBER&gt; &lt;ROLE&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * rr
+* remove\_role
+* remove-role
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -238,21 +269,21 @@ Changes the slowmode setting for a channel.
 {% endtab %}
 {% endtabs %}
 
-## !a change\_prefix &lt;PREFIX&gt;
+## !a changeprefix &lt;PREFIX&gt;
 
 Changes the prefix for the bot in the server.
 
-> If you want the default prefix do \| &lt;!a change\_prefix "!a "&gt;.
-
-> The " " is to recognize the space. This is a discord limitation.
+> If you want the default prefix do \| &lt;!a changeprefix default&gt;.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a change\_prefix &lt;PREFIX&gt;
+* !a changeprefix &lt;PREFIX&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * cp
+* change\_prefix
+* change-prefix
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -268,17 +299,19 @@ Changes the prefix for the bot in the server.
 {% endtab %}
 {% endtabs %}
 
-## !a create\_category &lt;ROLE&gt; &lt;NAME&gt;
+## !a createcategory &lt;ROLE&gt; &lt;NAME&gt;
 
 Creates a new discord category.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a create\_category &lt;ROLE&gt; &lt;NAME&gt;
+* !a createcategory &lt;ROLE&gt; &lt;NAME&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * cca
+* create\_category
+* create-category
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -294,17 +327,19 @@ Creates a new discord category.
 {% endtab %}
 {% endtabs %}
 
-## !a create\_channel &lt;ROLE&gt; &lt;NAME&gt;
+## !a createchannel &lt;ROLE&gt; &lt;NAME&gt;
 
 Creates a new discord channel.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a create\_channel &lt;ROLE&gt; &lt;NAME&gt;
+* !a createchannel &lt;ROLE&gt; &lt;NAME&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * cch
+* create\_channel
+* create-channel
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -320,21 +355,19 @@ Creates a new discord channel.
 {% endtab %}
 {% endtabs %}
 
-## !a delete\_category &lt;CATEGORY ID&gt;
+## !a deletecategory &lt;CATEGORY&gt;
 
 Deletes a discord category.
 
-> What is a category id?
-
-> Turn on discord developer mode and right click on the category and press Copy ID
-
 {% tabs %}
 {% tab title="Usage" %}
-* !a delete\_category &lt;CATEGORY ID&gt;
+* !a deletecategory &lt;CATEGORY&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * dca
+* delete\_category
+* delete-category
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -350,21 +383,19 @@ Deletes a discord category.
 {% endtab %}
 {% endtabs %}
 
-## !a delete\_channel &lt;CHANNEL ID&gt;
+## !a deletechannel &lt;CHANNEL&gt;
 
 Deletes a discord category.
 
-> What is a channel id?
-
-> Turn on discord developer mode and right click on the channel and press Copy ID
-
 {% tabs %}
 {% tab title="Usage" %}
-* !a delete\_channel &lt;CHANNEL ID&gt;
+* !a deletechannel &lt;CHANNEL&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * dch
+* delete\_channel
+* delete-channel
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -406,41 +437,11 @@ Returns a members avatar.
 {% endtab %}
 {% endtabs %}
 
-## !a add\_bot &lt;BOT&gt; &lt;PREFIX&gt; &lt;REASON&gt;
-
-Gives a bot request in Auxtal's Discord.
-
-{% hint style="warning" %}
-This command can only be used in Auxtal's Discord.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a add\_bot &lt;BOT&gt; &lt;PREFIX&gt; &lt;REASON&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* ab
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
 ## !a docs &lt;QUERY&gt;
 
 Returns docs for the query.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 This command is temporarily disabled for upgrades.
 {% endhint %}
 
@@ -466,17 +467,19 @@ This command is temporarily disabled for upgrades.
 {% endtab %}
 {% endtabs %}
 
-## !a char\_info &lt;EMOJI\(s\)&gt;
+## !a charinfo &lt;EMOJI\(s\)&gt;
 
 Returns the emoji\(s\) information.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a char\_info &lt;EMOJI\(s\)&gt;
+* !a charinfo &lt;EMOJI\(s\)&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * ci
+* char\_info
+* char-info
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -492,17 +495,19 @@ Returns the emoji\(s\) information.
 {% endtab %}
 {% endtabs %}
 
-## !a command\_stats
+## !a commandstats
 
 Returns command statistics for the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a command\_stats
+* !a commandstats
 {% endtab %}
 
 {% tab title="Aliases" %}
 * cs
+* command\_stats
+* command-stats
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -522,7 +527,9 @@ Returns command statistics for the server.
 
 Returns the last deleted message in the server.
 
-> The snipe system has to be turned on for this to work. \| !a snipe\_toggle
+{% hint style="warning" %}
+This command can only work when the snipe system is setup.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -598,17 +605,19 @@ Returns the amount of time the bot has been on for.
 {% endtab %}
 {% endtabs %}
 
-## !a member\_count
+## !a membercount
 
 Returns the member count for the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a member\_count
+* !a membercount
 {% endtab %}
 
 {% tab title="Aliases" %}
 * mc
+* member\_count
+* member-count
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -758,7 +767,9 @@ Returns ways to report errors with the bot.
 
 Returns a members level.
 
-> The level system has to be enabled for this to work. \| !a level\_toggle
+{% hint style="warning" %}
+This command can only work when the level system is setup.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -834,21 +845,23 @@ Returns a link to AuxBot docs.
 {% endtab %}
 {% endtabs %}
 
-## !a docs\_categories
+## !a docscategories
 
 Returns all of the docs categories.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 This command is temporarily disabled for upgrades.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a docs\_categories
+* !a docscategories
 {% endtab %}
 
 {% tab title="Aliases" %}
 * dc
+* docs\_categories
+* docs-categories
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -864,13 +877,13 @@ This command is temporarily disabled for upgrades.
 {% endtab %}
 {% endtabs %}
 
-## !a listeners
+## !a events
 
-Returns all of the logging listeners.
+Returns all of the logging events.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a listeners
+* !a events
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -946,6 +959,10 @@ Returns all of the servers emojis.
 
 Returns a members spotify stats.
 
+{% hint style="warning" %}
+You need to have your spotify account connected to your discord account and allow spotify to act as a status in the discord setting for this command to work.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Usage" %}
 * !a spotify \[MEMBER\]
@@ -968,17 +985,19 @@ Returns a members spotify stats.
 {% endtab %}
 {% endtabs %}
 
-## !a current\_warns\_before\_ban
+## !a currentwarnsbeforeban
 
 Returns the amount of warns before ban.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a current\_warns\_before\_ban
+* !a currentwarnsbeforeban
 {% endtab %}
 
 {% tab title="Aliases" %}
 * cwbb
+* current\_warns\_before\_ban
+* current-warns-before-ban
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -994,17 +1013,19 @@ Returns the amount of warns before ban.
 {% endtab %}
 {% endtabs %}
 
-## !a current\_nsfw\_toggle
+## !a currentnsfwtoggle
 
 Returns the status of nsfw commands.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a current\_nsfw\_toggle
+* !a currentnsfwtoggle
 {% endtab %}
 
 {% tab title="Aliases" %}
 * cnt
+* current\_nsfw\_toggle
+* current-nsfw-toggle
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -1020,17 +1041,19 @@ Returns the status of nsfw commands.
 {% endtab %}
 {% endtabs %}
 
-## !a current\_level\_toggle
+## !a currentleveltoggle
 
 Returns the status of level system.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a current\_level\_toggle
+* !a currentleveltoggle
 {% endtab %}
 
 {% tab title="Aliases" %}
 * clvlt
+* current\_level\_toggle
+* current-level-toggle
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -1046,17 +1069,19 @@ Returns the status of level system.
 {% endtab %}
 {% endtabs %}
 
-## !a current\_snipe\_toggle
+## !a currentsnipetoggle
 
 Returns the status of snipe system.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a current\_snipe\_toggle
+* !a currentsnipetoggle
 {% endtab %}
 
 {% tab title="Aliases" %}
 * csnit
+* current\_snipe\_toggle
+* current-snipe-toggle
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -1072,17 +1097,23 @@ Returns the status of snipe system.
 {% endtab %}
 {% endtabs %}
 
-## !a text\_to\_speech &lt;SENTENCE&gt;
+## !a texttospeech &lt;SENTENCE&gt;
 
 Returns the sentence as an mp3 file.
 
+{% hint style="info" %}
+If you have the swearing system engaged text to speech will also be checked for swearing.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Usage" %}
-* !a text\_to\_speech &lt;SENTENCE&gt;
+* !a texttospeech &lt;SENTENCE&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
 * tts
+* text\_to\_speech
+* text-to-speech
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -1098,23 +1129,21 @@ Returns the sentence as an mp3 file.
 {% endtab %}
 {% endtabs %}
 
-## !a disboard\_channel
+## !a vote
 
-Returns the channel name and id for the disboard channel.
-
-> The disboard system has to be enabled for this to work. \| !a disboard\_set &lt;CHANNEL ID&gt;
+Takes you AuxBot's top.gg vote page.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a disboard\_channel
+* !a vote
 {% endtab %}
 
 {% tab title="Aliases" %}
-* swt
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
@@ -1122,37 +1151,7 @@ Returns the channel name and id for the disboard channel.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a disboard\_test
-
-Tests the disboard channel.
-
-> The disboard system has to be enabled for this to work. \| !a disboard\_set &lt;CHANNEL ID&gt;
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a disboard\_test
-{% endtab %}
-
-{% tab title="Aliases" %}
-* dte
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
 * none
 {% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per user.
-{% endtab %}
 {% endtabs %}
-
-## 
 

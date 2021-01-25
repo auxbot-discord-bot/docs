@@ -1,8 +1,8 @@
 ---
-description: AuxBot's Config Commands.
+description: AuxBot's Tags Commands
 ---
 
-# Config
+# Tags
 
 #### Command Argument Key
 
@@ -17,26 +17,27 @@ description: AuxBot's Config Commands.
 #### Command Argument Specifications And Examples:
 
 ```text
-NUMBER = normal number: 10
+TAG NAME = normal text: hello
+TAG CONTENT = normal text: hey their!
 ```
 
-## !a warnsbeforeban &lt;NUMBER \(Max of 50.\)&gt;
+## !a servertags
 
-Sets the amount of warns before ban.
+Returns all of the servers tags.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a warnsbeforeban &lt;NUMBER \(Max of 50.\)&gt;
+* !a servertags
 {% endtab %}
 
 {% tab title="Aliases" %}
-* wbb
-* warns\_before\_ban
-* warns-before-ban 
+* sts
+* server\_tags
+* server-tags
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
@@ -48,23 +49,21 @@ Sets the amount of warns before ban.
 {% endtab %}
 {% endtabs %}
 
-## !a nsfwtoggle
+## !a tag &lt;TAG NAME&gt;
 
-Toggles nsfw commands for the server.
+Returns the created tag.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a nsfwtoggle
+* !a tag &lt;TAG NAME&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* nt
-* nsfw\_toggle
-* nsfw-toggle
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
@@ -76,23 +75,25 @@ Toggles nsfw commands for the server.
 {% endtab %}
 {% endtabs %}
 
-## !a swearingtoggle
+## !a tag create &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
 
-Toggles the swearing detection system.
+Creates a server that you can recall.
+
+{% hint style="danger" %}
+You are able to make duplicate tags. This is a bug that will soon be fixed.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a swearingtoggle
+* !a tag create &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* swt
-* swearing\_toggle
-* swearing-toggle
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
@@ -104,23 +105,21 @@ Toggles the swearing detection system.
 {% endtab %}
 {% endtabs %}
 
-## !a snipetoggle
+## !a tag edit &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
 
-Toggles the snipe system for the server.
+Edits a pre existing tag.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a snipetoggle
+* !a tag edit &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* snit
-* snipe\_toggle
-* snipe-toggle
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server
+* owner of the tag
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
@@ -132,23 +131,47 @@ Toggles the snipe system for the server.
 {% endtab %}
 {% endtabs %}
 
-## !a leveltoggle
+## !a tag delete &lt;TAG NAME&gt;
 
-Toggles the level system for the server.
+Deletes a tag from the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a leveltoggle
+* !a tag delete &lt;TAG NAME&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* lvlt
-* level\_toggle
-* level-toggle
+* none
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage server
+* owner of the tag / manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a tag info &lt;TAG NAME&gt;
+
+Returns information about a tag.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a tag info &lt;TAG NAME&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}

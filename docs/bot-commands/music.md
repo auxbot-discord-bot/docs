@@ -1,79 +1,53 @@
 ---
-description: AuxBot's Moderation Commands.
+description: AuxBot's Music Commands
 ---
 
-# Moderation
+# Music
 
 #### Command Argument Key
 
-> \[Means Optional\] 
+> \[Means Optional\]
 >
-> &lt;Means Required&gt; 
+> &lt;Means Required&gt;
 >
-> \(Means Valid Options\) 
+> \(Means Valid Options\)
 >
 > This / Or This
 
 #### Command Argument Specifications And Examples:
 
 ```text
+CHANNEL = discord channel mention name or id:
+    #general / general / 665811923970818050
+    
 MEMBER = discord member mention, username and discriminator or id:
     @Auxtal / Auxtal#0001 / 327745755789918208
-
-TIME = custom time: 10m
-CASENUMBER = normal number: 5
-NICKNAME = normal text: Owner | Auxtal
-REASON = normal text: here is my reason
-NUMBER = normal number: 10
+    
+QUERY = normal text: my serch text
+YOUTUBE URL = normal text: https://www.youtube.com/watch?v=bM7SZ5SBzyY
+VOLUME = normal number: 50
+EQUALIZER = normal text: boost
 ```
 
-## !a changenickname &lt;MEMBER&gt; &lt;NICKNAME&gt;
+## !a connect \[CHANNEL\]
 
-Changes a members nickname.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a changenickname &lt;MEMBER&gt; &lt;NICKNAME&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* cn
-* change\_nickname
-* change-nickname
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage nicknames
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-## !a ban &lt;MEMBER\(s\)&gt; \[REASON\]
-
-Bans a member\(s\) from the server.
+Makes AuxBot connect to a voice channel.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a ban &lt;MEMBER\(s\)&gt; \[REASON\]
+* !a connect \[CHANNEL\]
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* c
 {% endtab %}
 
 {% tab title="Permissions" %}
-* ban members
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* none
+* voice channel
 {% endtab %}
 
 {% tab title="Cooldown" %}
@@ -81,25 +55,208 @@ Bans a member\(s\) from the server.
 {% endtab %}
 {% endtabs %}
 
-## !a kick &lt;MEMBER\(s\)&gt; \[REASON\]
+## !a play &lt;QUERY / YOUTUBE URL&gt;
 
-Kicks a member\(s\) from the server.
+Plays a song from a url or query.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a kick &lt;MEMBER\(s\)&gt; \[REASON\]
+* !a play &lt;QUERY / YOUTUBE URL&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* p
 {% endtab %}
 
 {% tab title="Permissions" %}
-* kick members
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
+* voice channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
 * none
+{% endtab %}
+{% endtabs %}
+
+## !a pause
+
+Pause the currently playing song.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a pause
+{% endtab %}
+
+{% tab title="Aliases" %}
+* pa
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server / dj
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* voice channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a resume
+
+Resume a currently paused player.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a resume
+{% endtab %}
+
+{% tab title="Aliases" %}
+* r
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server / dj
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* voice channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a skip
+
+Skips the currently playing song.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a skip
+{% endtab %}
+
+{% tab title="Aliases" %}
+* s
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server / dj
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* voice channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a stop
+
+Stops the player.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a stop
+{% endtab %}
+
+{% tab title="Aliases" %}
+* st
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server / dj
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* voice channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a volume &lt;NUMBER \(Between 1 - 100.\)&gt;
+
+Makes AuxBot connect to a voice channel.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a volume &lt;NUMBER \(Between 1 - 100.\)&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* v
+* vol
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server / dj
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* voice channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a shuffle
+
+Shuffles the players queue.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a shuffle
+{% endtab %}
+
+{% tab title="Aliases" %}
+* sh
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage / dj
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* voice channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a equalizer &lt;EQUALIZER \(flat, boost, metal, piano\)&gt;
+
+Changes the players equalizer.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a equalizer &lt;EQUALIZER \(flat, boost, metal, piano\)&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* eq
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server / dj
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* voice channel
 {% endtab %}
 
 {% tab title="Cooldown" %}
@@ -107,25 +264,25 @@ Kicks a member\(s\) from the server.
 {% endtab %}
 {% endtabs %}
 
-## !a clear &lt;NUMBER \(Max of 70.\)&gt;
+## !a queue
 
-Deletes the specified amount of messages.
+Returns the players queued songs.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a clear &lt;NUMBER \(Max of 70.\)&gt;
+* !a queue
 {% endtab %}
 
 {% tab title="Aliases" %}
-* purge
+* q
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage messages
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* none
+* voice channel
 {% endtab %}
 
 {% tab title="Cooldown" %}
@@ -133,79 +290,31 @@ Deletes the specified amount of messages.
 {% endtab %}
 {% endtabs %}
 
-## !a softban &lt;MEMBER\(s\)&gt; \[REASON\]
+## !a nowplaying
 
-Soft bans a member\(s\) from the server
+Updates the player controller.
 
-{% tabs %}
-{% tab title="Usage" %}
-* !a softban &lt;MEMBER\(s\)&gt; \[REASON\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* sb
-* soft\_ban
-* soft-ban
-{% endtab %}
-
-{% tab title="Permissions" %}
-* ban members
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-*  1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a unban &lt;MEMBER ID&gt; \[REASON\]
-
-Unbans a user from the server.
+{% hint style="info" %}
+If there are 5 or more messages after the controller the bot will delete it and resend it. If there is less then 5 message after the controller it will edit the controller to the latest stats.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a unban &lt;MEMBER ID&gt; \[REASON\]
+* !a nowplaying
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* np
+* now\_playing
+* now-playing
 {% endtab %}
 
 {% tab title="Permissions" %}
-* ban members
+* none
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-## !a warn &lt;MEMBER\(s\)&gt; \[REASON\]
-
-Warns a member\(s\) in the server.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a warn &lt;MEMBER\(s\)&gt; \[REASON\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage messages
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
+* voice channel
 {% endtab %}
 
 {% tab title="Cooldown" %}
@@ -213,111 +322,31 @@ Warns a member\(s\) in the server.
 {% endtab %}
 {% endtabs %}
 
-## !a clearcases &lt;MEMBER&gt; \[CASE NUMBER\]
+## !a swapdj \[MEMBER\]
 
-Clears a members case\(s\) in a server.
+Swap the current DJ to another member.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a clearcases &lt;MEMBER&gt; \[CASE NUMBER\]
+* !a swapdj \[MEMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
-* cc
-* clear\_cases
-* clear-cases
+* sw
+* swap\_dj
+* swap-dj
 {% endtab %}
 
 {% tab title="Permissions" %}
-* manage messages
+* manage server / dj
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* none
+* voice channel
 {% endtab %}
 
 {% tab title="Cooldown" %}
 * 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a cases \[MEMBER\]
-
-Returns the cases for a member.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a cases \[MEMBER\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a mute &lt;MEMBER&gt; \[TIME\] \[REASON\]
-
-Mutes a member in the server.
-
-> If you do not put a time you cannot put a reason. Otherwise the bot will think your reason is a time.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a mute &lt;MEMBER&gt; \[TIME\] \[REASON\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage roles
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a unmute &lt;MEMBER&gt;
-
-Unmutes the mentioned member.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a unmute &lt;MEMBER&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage roles
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-*  1 every 2 seconds per user.
 {% endtab %}
 {% endtabs %}
 
