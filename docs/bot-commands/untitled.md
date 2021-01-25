@@ -4,7 +4,15 @@ description: AuxBot's Moderation Commands.
 
 # Moderation
 
-> Command Key: \[Means Optional\] &lt;Means Required&gt; \(Valid options\) This / Or This
+#### Command Argument Key
+
+> \[Means Optional\] 
+>
+> &lt;Means Required&gt; 
+>
+> \(Valid options\) 
+>
+> This / Or This
 
 #### Command Argument Specifications And Examples:
 
@@ -19,7 +27,7 @@ REASON = normal text | E.G: here is my reason
 NUMBER = normal number | E.G 10
 ```
 
-## !a change\_nickname &lt;MEMBER&gt; &lt;NICKNAME&gt;
+## !a changenickname &lt;MEMBER&gt; &lt;NICKNAME&gt;
 
 Changes a members nickname.
 
