@@ -6,48 +6,120 @@ description: AuxBot's Utilities Commands.
 
 #### Command Argument Key
 
-> \[Means Optional\] 
->
-> &lt;Means Required&gt; 
->
-> \(Means Valid Options\) 
->
-> This / Or This
+{% hint style="success" %}
+\[Means Optional\]  \(Means Valid Options\) This / Or This
+{% endhint %}
 
 #### Command Argument Specifications And Examples:
 
-```text
-MEMBER = discord member mention, username and discriminator or id:
-    @Auxtal / Auxtal#0001 / 327745755789918208
-
-BOT = a discord bot mention, username and discriminator or id:
-    @AuxBot / AuxBot#8520 / 701301497501188169
-
-ROLE = a discord role mention, name or id: 
-    @Moderators / Moderators / 672258502307086337
-
-CATEGORY = a discord category name or id:
-    General Chats / 665812610985230364
-
-CHANNEL = discord channel mention name or id:
-    #general / general / 665811923970818050
-
-TIME = custom time: 
-    10m
-    
-COLOUR = colour code:
-    #<HEX> / 0x<HEX> / 0x#<HEX>
-
-COMMAND = auxbot command name or aliase:
-    addrole / ar
-
-NAME = normal text: general chat
-PREFIX = normal text: !a
-REASON = normal text: here is my reason
-QUERY = normal text: my serch text
-EMOJI = normal emoji: 👋
-SENTENCE = normal text: this is my sentence
-```
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Argument</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">MEMBER</td>
+      <td style="text-align:left">
+        <p>A discord member mention, username and discriminator or id:</p>
+        <p>@Auxtal / Auxtal#001 / 327745755789918201</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">BOT</td>
+      <td style="text-align:left">
+        <p>A discord bot mention, username and discriminator or id:</p>
+        <p>@AuxBot / AuxBot#8520 / 701301497501188169</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ROLE</td>
+      <td style="text-align:left">
+        <p>A discord role mention, name or id:</p>
+        <p>@Moderators / Moderators / 672258502307086337</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CATEGORY</td>
+      <td style="text-align:left">
+        <p>A discord category name or id:</p>
+        <p>General Chats / 665811923970818050</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CHANNEL</td>
+      <td style="text-align:left">
+        <p>A discord channel mention name or id:</p>
+        <p>#general / general / 665811293970818050</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TIME</td>
+      <td style="text-align:left">
+        <p>Custom time:</p>
+        <p>10m</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">COLOUR</td>
+      <td style="text-align:left">
+        <p>Colour code:</p>
+        <p>#&lt;HEX&gt; / 0x&lt;HEX&gt; / 0x#&lt;HEX&gt;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">COMMAND</td>
+      <td style="text-align:left">
+        <p>AuxBot command name or alias:</p>
+        <p>addrole / ar</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">NAME</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>general chat</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PREFIX</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>!a</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">REASON</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>here is my reason</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">QUERY</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>here is my query</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">EMOJI</td>
+      <td style="text-align:left">
+        <p>Emoji:</p>
+        <p>&#x1F44B;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SENTENCE</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>this is my sentence</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## !a setup
 

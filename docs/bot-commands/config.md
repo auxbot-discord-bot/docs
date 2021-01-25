@@ -6,19 +6,29 @@ description: AuxBot's Config Commands.
 
 #### Command Argument Key
 
-> \[Means Optional\]
->
-> &lt;Means Required&gt;
->
-> \(Means Valid Options\)
->
-> This / Or This
+{% hint style="success" %}
+\[Means Optional\]  \(Means Valid Options\) This / Or This
+{% endhint %}
 
 #### Command Argument Specifications And Examples:
 
-```text
-NUMBER = normal number: 10
-```
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Argument</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">NUMBER</td>
+      <td style="text-align:left">
+        <p>Number:</p>
+        <p>10</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## !a warnsbeforeban &lt;NUMBER \(Max of 50.\)&gt;
 

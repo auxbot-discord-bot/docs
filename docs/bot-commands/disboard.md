@@ -6,22 +6,36 @@ description: AuxBot's Disboard Commands
 
 #### Command Argument Key
 
-> \[Means Optional\]
->
-> &lt;Means Required&gt;
->
-> \(Means Valid Options\)
->
-> This / Or This
+{% hint style="success" %}
+\[Means Optional\]  \(Means Valid Options\) This / Or This
+{% endhint %}
 
 #### Command Argument Specifications And Examples:
 
-```text
-CHANNEL = discord channel mention name or id:
-    #general / general / 665811923970818050
-    
-MESSAGE = normal text: Time to bump the server
-```
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Argument</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">CHANNEL</td>
+      <td style="text-align:left">
+        <p>A discord channel mention name or id:</p>
+        <p>#general / general / 665811293970818050</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MESSAGE</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>Time to bump the server</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## !a disboard
 

@@ -6,28 +6,64 @@ description: AuxBot's Music Commands
 
 #### Command Argument Key
 
-> \[Means Optional\]
->
-> &lt;Means Required&gt;
->
-> \(Means Valid Options\)
->
-> This / Or This
+{% hint style="success" %}
+\[Means Optional\]  \(Means Valid Options\) This / Or This
+{% endhint %}
 
-#### Command Argument Specifications And Examples:
+#### Command Argument Specifications And Ex
 
-```text
-CHANNEL = discord channel mention name or id:
-    #general / general / 665811923970818050
-    
-MEMBER = discord member mention, username and discriminator or id:
-    @Auxtal / Auxtal#0001 / 327745755789918208
-    
-QUERY = normal text: my serch text
-YOUTUBE URL = normal text: https://www.youtube.com/watch?v=bM7SZ5SBzyY
-VOLUME = normal number: 50
-EQUALIZER = normal text: boost
-```
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Argument</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">CHANNEL</td>
+      <td style="text-align:left">
+        <p>A discord channel mention name or id:</p>
+        <p>#general / general / 665811293970818050</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">MEMBER</td>
+      <td style="text-align:left">
+        <p>A discord member mention, username and discriminator or id:</p>
+        <p>@Auxtal / Auxtal#001 / 327745755789918201</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">QUERY</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>my search text</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">YOUTUBE URL</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>https://www.youtube.com/watch?v=bM7SZ5SBzyY</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">VOLUME</td>
+      <td style="text-align:left">
+        <p>Number:</p>
+        <p>50</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">EQUALIZER</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>boost</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## !a connect \[CHANNEL\]
 

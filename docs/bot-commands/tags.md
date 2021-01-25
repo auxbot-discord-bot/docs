@@ -6,20 +6,36 @@ description: AuxBot's Tags Commands
 
 #### Command Argument Key
 
-> \[Means Optional\]
->
-> &lt;Means Required&gt;
->
-> \(Means Valid Options\)
->
-> This / Or This
+{% hint style="success" %}
+\[Means Optional\]  \(Means Valid Options\) This / Or This
+{% endhint %}
 
 #### Command Argument Specifications And Examples:
 
-```text
-TAG NAME = normal text: hello
-TAG CONTENT = normal text: hey their!
-```
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Argument</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">TAG NAME</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>hello</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TAG CONTENT</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>hey their!</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## !a servertags
 

@@ -6,29 +6,85 @@ description: AuxBot's Fun Commands
 
 #### Command Argument Key
 
-> \[Means Optional\]
->
-> &lt;Means Required&gt;
->
-> \(Means Valid Options\)
->
-> This / Or This
+{% hint style="success" %}
+\[Means Optional\]  \(Means Valid Options\) This / Or This
+{% endhint %}
 
 #### Command Argument Specifications And Examples:
 
-```text
-MEMBER = discord member mention, username and discriminator or id:
-    @Auxtal / Auxtal#0001 / 327745755789918208
-
-QUESTION = normal text: is AuxBot awesome!
-SENTENCE = normal text: this is my amazing sentence.
-HEADS = normal text: heads
-TAILS = normal text: tails
-NUMBER = normal number: 50
-WORD = normal text: word
-PERSON1 = normal text: jeff
-PERSON2 = normal text: emma
-```
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Argument</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">MEMBER</td>
+      <td style="text-align:left">
+        <p>A discord member mention, username and discriminator or id:</p>
+        <p>@Auxtal / Auxtal#001 / 327745755789918201</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">QUESTION</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>is AuxBot awesome?</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SENTENCE</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>this is my sentence</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">HEADS</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>heads</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TAILS</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>heads</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">NUMBER</td>
+      <td style="text-align:left">
+        <p>Number:</p>
+        <p>50</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">WORD</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>word</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PERSON1</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>Jeff</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PERSON2</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>Emma</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## !a 8ball &lt;QUESTION&gt;
 

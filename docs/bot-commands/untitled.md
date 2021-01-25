@@ -6,26 +6,64 @@ description: AuxBot's Moderation Commands.
 
 #### Command Argument Key
 
-> \[Means Optional\] 
->
-> &lt;Means Required&gt; 
->
-> \(Means Valid Options\) 
->
-> This / Or This
+{% hint style="success" %}
+\[Means Optional\]  \(Means Valid Options\) This / Or This
+{% endhint %}
 
 #### Command Argument Specifications And Examples:
 
-```text
-MEMBER = discord member mention, username and discriminator or id:
-    @Auxtal / Auxtal#0001 / 327745755789918208
-
-TIME = custom time: 10m
-CASENUMBER = normal number: 5
-NICKNAME = normal text: Owner | Auxtal
-REASON = normal text: here is my reason
-NUMBER = normal number: 10
-```
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Argument</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">MEMBER</td>
+      <td style="text-align:left">
+        <p>A discord member mention, username and discriminator or id:</p>
+        <p>@Auxtal / Auxtal#001 / 327745755789918201</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TIME</td>
+      <td style="text-align:left">
+        <p>Custom time:</p>
+        <p>10m</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">CASENUMBER</td>
+      <td style="text-align:left">
+        <p>Number:</p>
+        <p>5</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">NICKNAME</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>Owner | Auxtal</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">REASON</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>Here is my reason</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">NUMBER</td>
+      <td style="text-align:left">
+        <p>Number:</p>
+        <p>10</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## !a changenickname &lt;MEMBER&gt; &lt;NICKNAME&gt;
 

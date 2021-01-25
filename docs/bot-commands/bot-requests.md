@@ -6,25 +6,50 @@ description: AuxBot Bot Requests Commands
 
 #### Command Argument Key
 
-> \[Means Optional\]
->
-> &lt;Means Required&gt;
->
-> \(Means Valid Options\)
->
-> This / Or This
+{% hint style="success" %}
+\[Means Optional\]  \(Means Valid Options\) This / Or This
+{% endhint %}
 
 #### Command Argument Specifications And Examples:
 
-```text
-BOT = a discord bot mention, username and discriminator or id:
-    @AuxBot / AuxBot#8520 / 701301497501188169
-
-BOT ID = discord bot id: 701301497501188169
-
-PREFIX = normal text: !
-REASON = normal text: here is my reason
-```
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Argument</th>
+      <th style="text-align:left">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">BOT</td>
+      <td style="text-align:left">
+        <p>A discord bot mention, username and discriminator or id:</p>
+        <p>@AuxBot / AuxBot#8520 / 701301497501188169</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">BOT ID</td>
+      <td style="text-align:left">
+        <p>A discord bot id:</p>
+        <p>701301497501188169</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PREFIX</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>!</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">REASON</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>here is my reason</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## !a addbot &lt;BOT ID&gt; &lt;PREFIX&gt;
 
