@@ -324,32 +324,6 @@ Returns a random joke.
 {% endtab %}
 {% endtabs %}
 
-## !a wanted \[MEMBER\]
-
-Returns the members avatar in a wanted poster.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a wanted \[MEMBER\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
 ## !a hug \[MEMBER\]
 
 Returns a hug gif with the members name.
@@ -555,36 +529,6 @@ Returns a picture of a goose.
 
 {% tab title="Cooldown" %}
 * 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a jail \[MEMBER\]
-
-Returns the members avatar behind bars.
-
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a jail \[MEMBER\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per user.
 {% endtab %}
 {% endtabs %}
 

@@ -18,6 +18,7 @@
 * [Utilities](bot-commands/utils.md)
 * [Config](bot-commands/config.md)
 * [Music](bot-commands/music.md)
+* [Imgen](bot-commands/imgen.md)
 * [Nsfw](bot-commands/nsfw.md)
 * [Logs](bot-commands/logs.md)
 * [Tags](bot-commands/tags.md)
