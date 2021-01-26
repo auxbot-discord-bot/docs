@@ -254,7 +254,7 @@ Calculates love between two names.
 {% endtab %}
 
 {% tab title="Aliases" %}
-* lovc
+* lovcalc
 * love\_calculator
 * love-calculator
 {% endtab %}
