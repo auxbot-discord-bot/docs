@@ -134,3 +134,29 @@ Returns the members name on the bottom of a shoe.
 {% endtab %}
 {% endtabs %}
 
+## !a dank \[MEMBER\]
+
+Returns a gif of the members avatar with MLG pictures.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a dank \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
