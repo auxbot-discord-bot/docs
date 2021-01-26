@@ -744,31 +744,3 @@ Ships one member with another member.
 {% endtab %}
 {% endtabs %}
 
-## !a akinator
-
-Makes AuxBot play the akinator game with you.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a akinator
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-## 
-
