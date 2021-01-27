@@ -89,6 +89,36 @@ Sets the disboard channel for the server.
 {% endtab %}
 {% endtabs %}
 
+## !a disboard test
+
+Tests the disboard channel.
+
+{% hint style="warning" %}
+This command can only work when the disboard system is setup.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a disboard test
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per server.
+{% endtab %}
+{% endtabs %}
+
 ## !a disboard message &lt;MESSAGE&gt;
 
 Sets the disboard timer message.
@@ -100,6 +130,36 @@ This command can only work when the disboard system is setup.
 {% tabs %}
 {% tab title="Usage" %}
 * !a disboard message &lt;MESSAGE&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a disboard toggle
+
+Toggles the disboard system on and off.
+
+{% hint style="warning" %}
+This command can only work when the disboard system is setup.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a disboard toggle
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -138,66 +198,6 @@ This command can only work when the disboard system is setup.
 
 {% tab title="Permissions" %}
 * none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a disboard test
-
-Tests the disboard channel.
-
-{% hint style="warning" %}
-This command can only work when the disboard system is setup.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a disboard test
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per server.
-{% endtab %}
-{% endtabs %}
-
-## !a disboard toggle
-
-Toggles the disboard system on and off.
-
-{% hint style="warning" %}
-This command can only work when the disboard system is setup.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a disboard toggle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
 {% endtab %}
 
 {% tab title="Channel Requirements" %}

@@ -27,8 +27,152 @@ description: AuxBot's Imgen Commands
         <p>@Auxtal / Auxtal#001 / 327745755789918201</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">WORD</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>word</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SENTENCE</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>this is my sentence</p>
+      </td>
+    </tr>
   </tbody>
 </table>
+
+## !a pornhub &lt;WORD&gt; \[WORD\]
+
+Returns words in a pornhub logo.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a pornhub &lt;WORD&gt; \[WORD\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* ph
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a captcha &lt;SENTENCE&gt;
+
+Returns a sentence in a captcha challenge.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a captcha &lt;SENTENCE&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a supreme &lt;SENTENCE&gt;
+
+Returns a sentence in a supreme logo.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a supreme &lt;SENTENCE&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a trash &lt;MEMBER&gt;
+
+Returns a picture of a avatar in a trash bin.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a trash &lt;MEMBER&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a ship &lt;MEMBER&gt;
+
+Ships one member with another member.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a ship &lt;MEMBER&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
 
 ## !a jail \[MEMBER\]
 
@@ -141,6 +285,474 @@ Returns a gif of the members avatar with MLG pictures.
 {% tabs %}
 {% tab title="Usage" %}
 * !a dank \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a corporate \[MEMBER\]
+
+Returns the members avatar in a corporate meme.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a corporate \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a dab \[MEMBER\]
+
+Returns the members avatar doing a dab.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a dab \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a door \[MEMBER\]
+
+Returns the members avatar looking out a door.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a door \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a egg \[MEMBER\]
+
+Returns the members avatar as an egg out of a duck.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a egg \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a failure \[MEMBER\]
+
+Returns the members avatar in a classroom with everyone staring.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a failure \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a fakenews \[MEMBER\]
+
+Returns the members avatar in a tv.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a fakenews \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a fedora \[MEMBER\]
+
+Returns the members avatar in a fedora.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a fedora \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a gay \[MEMBER\]
+
+Returns the members avatar with rainbow colours on it.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a gay \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a goggles \[MEMBER\]
+
+Returns the members avatar in a science lab.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a goggles \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a hitler \[MEMBER\]
+
+Returns the members avatar in a worst than hitler meme.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a hitler \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a invert \[MEMBER\]
+
+Returns the members avatar inverted.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a invert \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a ipad \[MEMBER\]
+
+Returns the members avatar in an ipad.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a ipad \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a kimborder \[MEMBER\]
+
+Returns the members avatar on the floor.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a kimborder \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a laid \[MEMBER\]
+
+Returns the members avatar on a piece of paper.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a laid \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a magik \[MEMBER\]
+
+Returns the members avatar with magic.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a magik \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a radialblur \[MEMBER\]
+
+Returns members avatar with a radial blur.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a radialblur \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a youtube &lt;MEMBER&gt; &lt;SENTENCE&gt;
+
+Returns the members avatar and text in a youtube comment.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a youtube &lt;MEMBER&gt; &lt;SENTENCE&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a whothisis &lt;MEMBER&gt; &lt;SENTENCE&gt;
+
+Returns the members avatar in a whothis meme.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a whothisis &lt;MEMBER&gt; &lt;SENTENCE&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}

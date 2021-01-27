@@ -97,36 +97,6 @@ Sets the welcome channel for the server.
 {% endtab %}
 {% endtabs %}
 
-## !a welcome banner &lt;PNG / JPG IMAGE URL / RESET&gt;
-
-Sets the welcome banner for the server.
-
-{% hint style="warning" %}
-This command can only work when the welcome system is setup.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a welcome banner &lt;PNG / JPG IMAGE URL / RESET&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
 ## !a welcome test
 
 Tests the welcome channel.
@@ -154,6 +124,36 @@ This command can only work when the welcome system is setup.
 
 {% tab title="Cooldown" %}
 * 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a welcome banner &lt;PNG / JPG IMAGE URL / RESET&gt;
+
+Sets the welcome banner for the server.
+
+{% hint style="warning" %}
+This command can only work when the welcome system is setup.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a welcome banner &lt;PNG / JPG IMAGE URL / RESET&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
 {% endtab %}
 {% endtabs %}
 
