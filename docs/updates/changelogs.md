@@ -4,6 +4,22 @@ description: AuxBot ChangeLogs.
 
 # ChangeLogs
 
+## 0.0.9 - 0.1.0 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.0.9 - 0.1.0:
+
+• Fixed jail command
+• Updated wanted command
+• Added brazzers command
+• Added shit command
+• Added dank command
+• Added welcome banner command
+• Updated welcome system with custom banners! More customization coming soon.
+• Fixed alot of bugs
+• Cleaned up code
+```
+
 ## 0.0.8 - 0.0.9 <a id="0-0-7-0-0-8"></a>
 
 ```yaml

@@ -27,6 +27,21 @@ description: AuxBot's Welcome Commands
         <p>#general / general / 665811293970818050</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">PNG / JPG IMAGE URL</td>
+      <td style="text-align:left">
+        <p>A image url:</p>
+        <p><a href="https://i.imgur.com/nKjYhYw.jpg">https://i.imgur.com/nKjYhYw.jpg</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">RESET</td>
+      <td style="text-align:left">
+        <p>Normal text:</p>
+        <p>reset</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -75,6 +90,36 @@ Sets the welcome channel for the server.
 
 {% tab title="Channel Requirements" %}
 * text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a welcome banner &lt;PNG / JPG IMAGE URL / RESET&gt;
+
+Sets the welcome banner for the server.
+
+{% hint style="warning" %}
+This command can only work when the welcome system is setup.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a welcome banner &lt;PNG / JPG IMAGE URL / RESET&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
 {% endtab %}
 
 {% tab title="Cooldown" %}
@@ -175,10 +220,6 @@ This command can only work when the welcome system is setup.
 ## !a welcome remove
 
 Removes the current welcome channel for the server.
-
-{% hint style="warning" %}
-This command can only work when the welcome system is setup.
-{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
