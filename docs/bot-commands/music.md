@@ -69,10 +69,6 @@ description: AuxBot's Music Commands
 
 Makes AuxBot connect to a voice channel.
 
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
-
 {% tabs %}
 {% tab title="Usage" %}
 * !a connect \[CHANNEL\]
@@ -98,10 +94,6 @@ This command is temporarily disabled for upgrades.
 ## !a play &lt;QUERY / YOUTUBE URL&gt;
 
 Plays a song from a url or query.
-
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -129,10 +121,6 @@ This command is temporarily disabled for upgrades.
 
 Pause the currently playing song.
 
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
-
 {% tabs %}
 {% tab title="Usage" %}
 * !a pause
@@ -158,10 +146,6 @@ This command is temporarily disabled for upgrades.
 ## !a resume
 
 Resume a currently paused player.
-
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -189,10 +173,6 @@ This command is temporarily disabled for upgrades.
 
 Skips the currently playing song.
 
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
-
 {% tabs %}
 {% tab title="Usage" %}
 * !a skip
@@ -219,10 +199,6 @@ This command is temporarily disabled for upgrades.
 
 Stops the player.
 
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
-
 {% tabs %}
 {% tab title="Usage" %}
 * !a stop
@@ -248,10 +224,6 @@ This command is temporarily disabled for upgrades.
 ## !a volume &lt;NUMBER \(Between 1 - 100.\)&gt;
 
 Makes AuxBot connect to a voice channel.
-
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -280,10 +252,6 @@ This command is temporarily disabled for upgrades.
 
 Shuffles the players queue.
 
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
-
 {% tabs %}
 {% tab title="Usage" %}
 * !a shuffle
@@ -309,10 +277,6 @@ This command is temporarily disabled for upgrades.
 ## !a equalizer &lt;EQUALIZER \(flat, boost, metal, piano\)&gt;
 
 Changes the players equalizer.
-
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -340,10 +304,6 @@ This command is temporarily disabled for upgrades.
 
 Returns the players queued songs.
 
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
-
 {% tabs %}
 {% tab title="Usage" %}
 * !a queue
@@ -369,10 +329,6 @@ This command is temporarily disabled for upgrades.
 ## !a nowplaying
 
 Updates the player controller.
-
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
 
 {% hint style="info" %}
 If there are 5 or more messages after the controller the bot will delete it and resend it. If there is less then 5 message after the controller it will edit the controller to the latest stats.
@@ -405,10 +361,6 @@ If there are 5 or more messages after the controller the bot will delete it and 
 ## !a swapdj \[MEMBER\]
 
 Swap the current DJ to another member.
-
-{% hint style="warning" %}
-This command is temporarily disabled for upgrades.
-{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
