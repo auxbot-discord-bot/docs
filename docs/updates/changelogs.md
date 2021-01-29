@@ -4,6 +4,17 @@ description: AuxBot ChangeLogs.
 
 # ChangeLogs
 
+## 0.1.0 - 0.1.1 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.1.0 - 0.1.1:
+
+• Removed the that command does not exist message
+• Updated the way banner urls are stored
+• Fixed some bugs
+• Cleaned up code
+```
+
 ## 0.0.9 - 0.1.0 <a id="0-0-7-0-0-8"></a>
 
 ```yaml
