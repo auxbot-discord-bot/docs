@@ -11,6 +11,7 @@ description: AuxBot ChangeLogs.
 
 • Removed the that command does not exist message
 • Updated the way banner urls are stored
+• Added more imgen commands (List of commands is in the docs)
 • Fixed some bugs
 • Cleaned up code
 ```
