@@ -4,6 +4,19 @@ description: AuxBot ChangeLogs.
 
 # ChangeLogs
 
+## 0.1.1 - 0.1.2 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.1.1 - 0.1.2:
+
+• Added more clear subcommands (List is in the docs.)
+• Member mentions now show the members name in commands rather then their id
+• Fixed the broken level system
+• Updated level algorithim to make it harder to level up
+• Fixed more bugs
+• Clened up code
+```
+
 ## 0.1.0 - 0.1.1 <a id="0-0-7-0-0-8"></a>
 
 ```yaml

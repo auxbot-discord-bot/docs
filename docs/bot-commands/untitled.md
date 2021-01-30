@@ -28,6 +28,13 @@ description: AuxBot's Moderation Commands.
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">MEMBER ID</td>
+      <td style="text-align:left">
+        <p>A discord member id:</p>
+        <p>701301497501188169</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">TIME</td>
       <td style="text-align:left">
         <p>Custom time:</p>
@@ -53,6 +60,20 @@ description: AuxBot's Moderation Commands.
       <td style="text-align:left">
         <p>Text:</p>
         <p>Here is my reason</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">SENTENCE</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>this is my sentence</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">PREFIX</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>!a</p>
       </td>
     </tr>
     <tr>
@@ -145,13 +166,17 @@ Kicks a member\(s\) from the server.
 {% endtab %}
 {% endtabs %}
 
-## !a clear &lt;NUMBER \(Max of 70.\)&gt;
+## !a clear \[NUMBER \(Max of 70.\)\]
 
 Deletes the specified amount of messages.
 
+{% hint style="info" %}
+The default value of NUMBER is 10. You can override this by inputting your own number.
+{% endhint %}
+
 {% tabs %}
 {% tab title="Usage" %}
-* !a clear &lt;NUMBER \(Max of 70.\)&gt;
+* !a clear \[NUMBER \(Max of 70.\)\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -163,11 +188,193 @@ Deletes the specified amount of messages.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* none
+* text channel
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a clear embeds \[NUMBER \(Max of 900.\)\]
+
+Deletes specified amount of messages containing an embed.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a clear embeds \[NUMBER \(Max of 900.\)\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a clear files \[NUMBER \(Max of 900.\)\]
+
+Deletes specified amount of messages containing a file.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a clear files \[NUMBER \(Max of 900.\)\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a clear images \[NUMBER \(Max of 900.\)\]
+
+Deletes specified amount of messages containing a file or embed.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a clear images &lt;NUMBER \(Max of 900.\)&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a clear member &lt;MEMBER&gt; \[NUMBER \(Max of 900.\)\]
+
+Deletes specified amount of messages from a member.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a clear member &lt;MEMBER&gt; \[NUMBER \(Max of 900.\)\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a clear contains \[NUMBER \(Max of 900.\)\] &lt;SENTENCE&gt;
+
+Deletes specified amount of messages that contains the specified content.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a clear contains \[NUMBER \(Max of 900.\)\] &lt;SENTENCE&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a clear bot \[NUMBER \(Max of 900.\)\] \[PREFIX\]
+
+Deletes specified amount of messages from a bot.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a clear bot \[NUMBER \(Max of 900.\)\] \[PREFIX\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a clear reactions \[NUMBER \(Max of 900.\)\]
+
+Deletes reactions from messages that have them.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a clear reactions \[NUMBER \(Max of 900.\)\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* text channel
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
 {% endtab %}
 {% endtabs %}
 
@@ -309,7 +516,9 @@ Returns the cases for a member.
 
 Mutes a member in the server.
 
-> If you do not put a time you cannot put a reason. Otherwise the bot will think your reason is a time.
+{% hint style="info" %}
+If you do not put a time you cannot put a reason. Otherwise the bot will think your reason is a time.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}

@@ -44,13 +44,13 @@ description: AuxBot's Imgen Commands
   </tbody>
 </table>
 
-## !a pornhub &lt;WORD&gt; \[WORD\]
+## !a pornhub &lt;MEMBER/ WORD&gt; \[MEMBER / WORD\]
 
 Returns words in a pornhub logo.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a pornhub &lt;WORD&gt; \[WORD\]
+* !a pornhub &lt;MEMBER / WORD&gt; \[MEMBER / WORD\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -252,13 +252,13 @@ Returns the members avatar with a brazzers logo.
 {% endtab %}
 {% endtabs %}
 
-## !a shit \[MEMBER\]
+## !a shit \[MEMBER / SENTENCE\]
 
 Returns the members name on the bottom of a shoe.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a shit \[MEMBER\]
+* !a shit \[MEMBER / SENTENCE\]
 {% endtab %}
 
 {% tab title="Aliases" %}

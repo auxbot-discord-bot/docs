@@ -317,7 +317,9 @@ Removes a role from a member.
 
 Changes the slowmode setting for a channel.
 
-> If you do not put a time it disables slowmode.
+{% hint style="info" %}
+If you do not put a time it disables slowmode.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -345,7 +347,9 @@ Changes the slowmode setting for a channel.
 
 Changes the prefix for the bot in the server.
 
-> If you want the default prefix do \| &lt;!a changeprefix default&gt;.
+{% hint style="info" %}
+If you want the default prefix do \| &lt;!a changeprefix default&gt;.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -513,7 +517,7 @@ Returns a members avatar.
 
 Returns docs for the query.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 This command is temporarily disabled for upgrades.
 {% endhint %}
 
@@ -599,7 +603,7 @@ Returns command statistics for the server.
 
 Returns the last deleted message in the server.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the snipe system is setup.
 {% endhint %}
 
@@ -839,7 +843,7 @@ Returns ways to report errors with the bot.
 
 Returns a members level.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the level system is setup.
 {% endhint %}
 
@@ -921,7 +925,7 @@ Returns a link to AuxBot docs.
 
 Returns all of the docs categories.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 This command is temporarily disabled for upgrades.
 {% endhint %}
 
@@ -1031,7 +1035,7 @@ Returns all of the servers emojis.
 
 Returns a members spotify stats.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 You need to have your spotify account connected to your discord account and allow spotify to act as a status in the discord setting for this command to work.
 {% endhint %}
 

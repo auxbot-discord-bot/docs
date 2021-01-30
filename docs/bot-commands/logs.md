@@ -93,7 +93,7 @@ Sets the logging channel for the server.
 
 Allows you to toggle the whole log systems or just certain events.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the logs system is setup.
 {% endhint %}
 
@@ -127,7 +127,7 @@ If you do not put an event argument it will toggle the whole system.
 
 Returns the channel and and id for the logging channel.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the disboard system is setup.
 {% endhint %}
 

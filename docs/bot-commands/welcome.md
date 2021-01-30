@@ -101,7 +101,7 @@ Sets the welcome channel for the server.
 
 Tests the welcome channel.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the welcome system is setup.
 {% endhint %}
 
@@ -131,7 +131,7 @@ This command can only work when the welcome system is setup.
 
 Sets the welcome banner for the server.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the welcome system is setup.
 {% endhint %}
 
@@ -161,7 +161,7 @@ This command can only work when the welcome system is setup.
 
 Allows you to toggle the whole welcome system.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the welcome system is setup.
 {% endhint %}
 
@@ -191,7 +191,7 @@ This command can only work when the welcome system is setup.
 
 Returns the channel name and id for the welcome channel.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the welcome system is setup.
 {% endhint %}
 

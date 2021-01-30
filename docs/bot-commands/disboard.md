@@ -93,7 +93,7 @@ Sets the disboard channel for the server.
 
 Tests the disboard channel.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the disboard system is setup.
 {% endhint %}
 
@@ -123,7 +123,7 @@ This command can only work when the disboard system is setup.
 
 Sets the disboard timer message.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the disboard system is setup.
 {% endhint %}
 
@@ -153,7 +153,7 @@ This command can only work when the disboard system is setup.
 
 Toggles the disboard system on and off.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the disboard system is setup.
 {% endhint %}
 
@@ -183,7 +183,7 @@ This command can only work when the disboard system is setup.
 
 Returns the channel name and id for the disboard channel.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This command can only work when the disboard system is setup.
 {% endhint %}
 
