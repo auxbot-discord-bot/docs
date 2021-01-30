@@ -10,10 +10,6 @@ description: >-
 
 ![](.gitbook/assets/auxbot-logo-round.png)
 
-{% hint style="warning" %}
-AuxBot is still in development and testing.
-{% endhint %}
-
 ## How do I setup the bot?
 
 ### Swearing Detection:
