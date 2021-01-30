@@ -3,7 +3,7 @@
 <div>
     <p align="center">
         <a href="https://www.auxbot.xyz">
-        <img src="https://i.imgur.com/ABXJwrF.png" alt="AuxBot-Logo" width="100" height="100">
+        <img src="https://i.imgur.com/mI2rFoO.png" alt="AuxBot-Logo" width="100" height="100">
         </a>
     </p>
 </div>
@@ -11,7 +11,7 @@
     <p align="center">
     AuxBot Discord Bot Docs
     <br>
-    <a href="https://auxbot-python.readthedocs.io/"><strong>AuxBot Python Documentation »</strong></a>
+    <a href="https://www.auxbot.xyz/docs"><strong>AuxBot Python Documentation »</strong></a>
     <p align="center">
     <a href="https://www.auxbot.xyz/docs">
         <img src="https://img.shields.io/badge/gitbook-Passing-green" alt="AuxBot-Docs">
