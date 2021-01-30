@@ -6,10 +6,11 @@ description: AuxBot's Questions Page.
 
 ### Why is AuxBot not responding to me?
 
-1. First check to see it the bot is online. \(If it is offline then that is your issue.\)
-2. Do you have a custom prefix? If so reset it to the default by doing: \[!a changeprefix default\].
-3. The bot is online and I don't have a custom prefix? The bot is probably restarting try again in a few seconds or minutes.
-4. Still have issues after waiting? Make sure that AuxBot has the correct permissions to view and send messages. It is best to give AuxBot the administrator permission to ensure proper functionality.
+1. First make sure the command your doing actually exists AuxBot will not respond to commands that don't exist.
+2. Check to see it the bot is online. \(If it is offline then that is your issue.\)
+3. Do you have a custom prefix? If so reset it to the default by doing: \[!a changeprefix default\].
+4. The bot is online and I don't have a custom prefix? The bot is probably restarting try again in a few seconds or minutes.
+5. Still have issues after waiting? Make sure that AuxBot has the correct permissions to view and send messages. It is best to give AuxBot the administrator permission to ensure proper functionality.
 
 ### Why is AuxBot offline?
 
