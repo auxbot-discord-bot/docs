@@ -772,3 +772,237 @@ Returns the members avatar in a whothis meme.
 {% endtab %}
 {% endtabs %}
 
+## !a aborted \[MEMBER\]
+
+Returns the members avatar on a persons head.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a aborted \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a affect \[MEMBER\]
+
+Returns the members avatar on a monitor.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a affect \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a airpods \[MEMBER\]
+
+Returns the members avatar with airpods.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a airpods \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a america \[MEMBER\]
+
+Returns the members avatar on with the American flag on top.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a america \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a bed &lt;MEMBER&gt; &lt;MEMBER&gt;
+
+Returns both members avatars on a bed.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a bed &lt;MEMBER&gt; &lt;MEMBER&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a bongocat \[MEMBER\]
+
+Returns the members avatar with a bongocat.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a bongocat \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a caner \[MEMBER\]
+
+Returns the members avatar with the words caner above it.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a cancer \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a communism \[MEMBER\]
+
+Returns members avatar with a communism flag.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a communism \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a deepfry \[MEMBER\]
+
+Returns members avatar with a bunch of weird effects.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a deepfry \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
