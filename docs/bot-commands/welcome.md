@@ -42,6 +42,13 @@ description: AuxBot's Welcome Commands
         <p>reset</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">SENTENCE</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>this is my sentence</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -138,6 +145,36 @@ This command can only work when the welcome system is setup.
 {% tabs %}
 {% tab title="Usage" %}
 * !a welcome banner &lt;PNG / JPG IMAGE URL / RESET&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a welcome message &lt;SENTENCE / RESET&gt;
+
+Sets the welcome message for the server.
+
+{% hint style="info" %}
+This command can only work when the welcome system is setup.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a welcome message &lt;SENTENCE / RESET&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
