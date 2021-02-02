@@ -4,6 +4,21 @@ description: AuxBot ChangeLogs.
 
 # ChangeLogs
 
+## 0.1.2 - 0.1.3 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.1.2 - 0.1.3:
+
+• Added welcome message command
+• Added edit snipe system
+• Added more imgen commands (List is in the docs.)
+• Working on more economy commands
+• Working on automod system
+• Working on web dashboard
+• Fixed more bugs
+• Cleaned up code
+```
+
 ## 0.1.1 - 0.1.2 <a id="0-0-7-0-0-8"></a>
 
 ```yaml
