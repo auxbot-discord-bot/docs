@@ -70,7 +70,7 @@ Returns words in a pornhub logo.
 {% endtab %}
 {% endtabs %}
 
-## !a captcha &lt;SENTENCE&gt;
+## !a captcha &lt;MEMBER / SENTENCE&gt;
 
 Returns a sentence in a captcha challenge.
 
@@ -96,7 +96,7 @@ Returns a sentence in a captcha challenge.
 {% endtab %}
 {% endtabs %}
 
-## !a supreme &lt;SENTENCE&gt;
+## !a supreme &lt;MEMBER / SENTENCE&gt;
 
 Returns a sentence in a supreme logo.
 
@@ -122,13 +122,13 @@ Returns a sentence in a supreme logo.
 {% endtab %}
 {% endtabs %}
 
-## !a trash &lt;MEMBER&gt;
+## !a trash \[MEMBER\]
 
 Returns a picture of a avatar in a trash bin.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a trash &lt;MEMBER&gt;
+* !a trash \[MEMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -987,6 +987,344 @@ Returns members avatar with a bunch of weird effects.
 {% tabs %}
 {% tab title="Usage" %}
 * !a deepfry \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a delete \[MEMBER\]
+
+Returns the members avatar in a delete window.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a delete \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a disability \[MEMBER\]
+
+Returns the members avatar on a disability poster.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a disability \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a madethis &lt;MEMBER&gt; &lt;MEMBER&gt;
+
+Returns the members avatar in a madethis meme.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a madethis &lt;MEMBER&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a rip \[MEMBER\]
+
+Returns the members avatar on a RIP headstone.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a rip \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a roblox \[MEMBER\]
+
+Returns the members avatar on a roblox character.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a roblox \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a salty \[MEMBER\]
+
+Returns the members avatar with a salt shaker.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a salty \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a satan \[MEMBER\]
+
+Returns the members avatar on satans head.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a satan \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a screams &lt;MEMBER&gt; &lt;MEMBER&gt;
+
+Returns the members avatars in a screams meme.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a screams &lt;MEMBER&gt; &lt;MEMBER&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a sickban \[MEMBER\]
+
+Returns the members avatar in a mail segment.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a sickban \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a spank &lt;MEMBER&gt; &lt;MEMBER&gt;
+
+Returns one member spanking the other member.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a spank &lt;MEMBER&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a trigger \[MEMBER\]
+
+Returns the members avatar triggered.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a trigger \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a ugly \[MEMBER\]
+
+Returns the members avatar in a bed.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a ugly \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a whodidthis \[MEMBER\]
+
+Returns the members avatar in a whodidthis meme.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a whodidthis \[MEMBER\]
 {% endtab %}
 
 {% tab title="Aliases" %}
