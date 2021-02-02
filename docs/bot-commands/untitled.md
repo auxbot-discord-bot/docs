@@ -406,13 +406,13 @@ Soft bans a member\(s\) from the server
 {% endtab %}
 {% endtabs %}
 
-## !a unban &lt;MEMBER ID&gt; \[REASON\]
+## !a unban &lt;USER NAME AND HASHTAG / ID&gt; \[REASON\]
 
 Unbans a user from the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a unban &lt;MEMBER ID&gt; \[REASON\]
+* !a unban &lt;USER NAME AND HASHTAG / ID&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
