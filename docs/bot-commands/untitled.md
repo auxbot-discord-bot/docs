@@ -114,13 +114,13 @@ Changes a members nickname.
 {% endtab %}
 {% endtabs %}
 
-## !a ban &lt;MEMBER\(s\)&gt; \[REASON\]
+## !a ban &lt;MEMBER&gt; \[REASON\]
 
-Bans a member\(s\) from the server.
+Bans a member from the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a ban &lt;MEMBER\(s\)&gt; \[REASON\]
+* !a ban &lt;MEMBER&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
