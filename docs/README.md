@@ -22,7 +22,7 @@ This will check every message in your server for profanity and it it is found th
 
 
 
-### Server Welcome Messages:
+### Server Welcome Banners:
 
 This will set the channel for your new member welcome messages.
 
@@ -54,7 +54,7 @@ This will set the disboard message channel.
 
 ### 
 
-### Logging :
+### Logging:
 
 This will set the logging channel for your server. 
 
@@ -72,5 +72,25 @@ This will set the logging channel for your server.
 
 ```text
 !a events
+```
+
+
+
+### Levelling:
+
+This will enable the level system in your server.
+
+```text
+!a leveltoggle
+```
+
+### 
+
+### Nsfw Commands:
+
+This will toggle the nsfw commands in your server.
+
+```text
+!a nsfwtoggle
 ```
 
