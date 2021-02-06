@@ -10,6 +10,8 @@ description: >-
 
 {% hint style="danger" %}
 Due to AuxBot getting verified we ran into issues with privileged gateway intents. This means that at the moment AuxBot is very limited in its functions. For any questions join our support server. This issue should be resolved in the next 4 - 5 business days.
+
+any command that requires the member intent will be disabled temporarily. Sorry for the inconvenience.
 {% endhint %}
 
 ![](.gitbook/assets/auxbot-redesign-round-logo.png)
