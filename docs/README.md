@@ -8,6 +8,10 @@ description: >-
 
 [![Repo-Last-Commit](https://img.shields.io/github/last-commit/Auxtal/AuxBot-Python-Docs?color=purple&label=Last%20Commit&logo=GitHub&logoColor=white)](https://github.com/Auxtal/AuxBot-Python-Docs) [![Repo-License](https://img.shields.io/github/license/Auxtal/AuxBot-Python-Docs?color=orange&label=License&logo=GitHub)](https://github.com/Auxtal/AuxBot-Python-Docs) [![Repo-Code-Size](https://img.shields.io/github/repo-size/Auxtal/AuxBot-Python-Docs?color=blue&label=Repo%20Size&logo=GitHub&logoColor=white)](https://github.com/Auxtal/AuxBot-Python-Docs) [![AuxBot-Top.gg](https://top.gg/api/widget/owner/701301497501188169.svg)](https://top.gg/bot/701301497501188169)
 
+{% hint style="danger" %}
+Due to AuxBot getting verified we ran into issues with privileged gateway intents. This means that at the moment AuxBot is very limited in its functions. For any questions join our support server. This issue should be resolved in the next 4 - 5 business days.
+{% endhint %}
+
 ![](.gitbook/assets/auxbot-redesign-round-logo.png)
 
 ## How do I setup the bot?
