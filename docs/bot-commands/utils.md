@@ -118,6 +118,13 @@ description: AuxBot's Utilities Commands.
         <p>this is my sentence</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">INPUT</td>
+      <td style="text-align:left">
+        <p>Mixed:</p>
+        <p>1+1</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -1216,6 +1223,59 @@ Takes you AuxBot's top.gg vote page.
 
 {% tab title="Aliases" %}
 * none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a currenteditsnipetoggle
+
+Returns the status of the edit snipe system.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a currenteditsnipetoggle
+{% endtab %}
+
+{% tab title="Aliases" %}
+* current\_edit\_snipe\_toggle
+* current-edit-snipe-toggle
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a calculator &lt;INPUT&gt;
+
+Calculates math equations.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a calculator &lt;INPUT&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* calc
 {% endtab %}
 
 {% tab title="Permissions" %}

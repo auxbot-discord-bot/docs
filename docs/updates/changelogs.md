@@ -4,6 +4,17 @@ description: AuxBot ChangeLogs.
 
 # ChangeLogs
 
+## 0.1.3 - 0.1.4 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.1.3 - 0.1.4:
+
+• Added calculator command
+• Added a did you mean? embed for possible commands
+• Fixed more bugs
+• Cleaned up code
+```
+
 ## 0.1.2 - 0.1.3 <a id="0-0-7-0-0-8"></a>
 
 ```yaml
