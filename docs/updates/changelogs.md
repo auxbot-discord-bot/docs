@@ -4,6 +4,18 @@ description: AuxBot ChangeLogs.
 
 # ChangeLogs
 
+## 0.1.4 - 0.1.5 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.1.4 - 0.1.5:
+
+• Removed spotify command (Hopefully will come back)
+• Removed member status and activity from userinfo command (Hopefully will come back)
+• Removed member status emoji from logs (Hopefully will come back)
+
+(This is due to not having the privileged gateway presence intent)
+```
+
 ## 0.1.3 - 0.1.4 <a id="0-0-7-0-0-8"></a>
 
 ```yaml

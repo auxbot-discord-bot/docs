@@ -4,7 +4,15 @@ description: AuxBot's DownTime
 
 # DownTime
 
-##  **DownTime Update** \| **Saturday 6, February 2021**
+##  **Downtime Completed** \| **Thursday 18, February 2021** 
+
+```text
+• AuxBot has now been approved for the members privileged gateway intent so everything should be back to normal again. Thank you for your extended patience I really do appreciate it.
+
+AuxBot Status: https://status.auxbot.xyz/
+```
+
+## **DownTime Update** \| **Saturday 6, February 2021**
 
 ```text
 • AuxBot will remain online but it will be super limited in its capabilities at the current moment. There is no specific ETA to this issue it is when ever Discord emails me back. I have done everything in my power to make your experience as good as it is once again I do apologize for the inconvenience.
