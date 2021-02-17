@@ -1038,36 +1038,6 @@ Returns all of the servers emojis.
 {% endtab %}
 {% endtabs %}
 
-## !a spotify \[MEMBER\]
-
-Returns a members spotify stats.
-
-{% hint style="info" %}
-You need to have your spotify account connected to your discord account and allow spotify to act as a status in the discord setting for this command to work.
-{% endhint %}
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a spotify \[MEMBER\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
 ## !a currentwarnsbeforeban
 
 Returns the amount of warns before ban.
