@@ -1261,3 +1261,29 @@ Calculates math equations.
 {% endtab %}
 {% endtabs %}
 
+## !a voted
+
+Checks if you have voted for the bot.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a voted
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
