@@ -30,7 +30,17 @@ the only people that can see your information is the owner of AuxBot \[Auxtal\#0
 
 When kicking or banning AuxBot from a server all of the servers information and custom settings will be removed from the database instantly.
 
-> Please take note that Auxtal is able to modify the Privacy Policy anytime.
+
+
+#### Statements
+
+a. The organization of AuxBot is not liable for any information that could be lost or leaked.
+
+
+
+{% hint style="info" %}
+Please take note that Auxtal is able to modify the Privacy Policy anytime.
+{% endhint %}
 
 {% hint style="success" %}
 If you would like your data removed from the database kick AuxBot from the server.
