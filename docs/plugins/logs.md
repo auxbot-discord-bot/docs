@@ -94,7 +94,7 @@ Sets the logging channel for the server.
 Allows you to toggle the whole log plugin or just certain events.
 
 {% hint style="info" %}
-If you do not put an event argument it will toggle the whole system.
+If you do not put an event argument it will toggle the whole plugin.
 {% endhint %}
 
 {% tabs %}

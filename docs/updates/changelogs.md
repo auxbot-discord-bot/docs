@@ -33,10 +33,10 @@ description: AuxBot ChangeLogs.
 0.1.2 - 0.1.3:
 
 • Added welcome message command
-• Added edit snipe system
+• Added edit snipe plugin
 • Added more imgen commands (List is in the docs.)
 • Working on more economy commands
-• Working on automod system
+• Working on automod plugin
 • Working on web dashboard
 • Fixed more bugs
 • Cleaned up code
@@ -49,7 +49,7 @@ description: AuxBot ChangeLogs.
 
 • Added more clear subcommands (List is in the docs.)
 • Member mentions now show the members name in commands rather then their id
-• Fixed the broken level system
+• Fixed the broken level plugin
 • Updated level algorithim to make it harder to level up
 • Fixed more bugs
 • Clened up code
@@ -78,7 +78,7 @@ description: AuxBot ChangeLogs.
 • Added shit command
 • Added dank command
 • Added welcome banner command
-• Updated welcome system with custom banners! More customization coming soon.
+• Updated welcome plugin with custom banners! More customization coming soon.
 • Fixed alot of bugs
 • Cleaned up code
 ```
@@ -155,7 +155,7 @@ description: AuxBot ChangeLogs.
 
 ​• Updated lavalink music player to latest version
 • Fixed disboard timer to equate for bot shutdown time
-• Fixed spelling mistakes in logging system
+• Fixed spelling mistakes in logs plugin
 • Cleaned up code
 ```
 
