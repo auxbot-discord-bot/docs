@@ -4,6 +4,25 @@ description: AuxBot ChangeLogs.
 
 # Changelogs
 
+## 0.1.5 - 0.1.6 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.1.5 - 0.1.6:
+
+• Removed all nsfw commands
+• Recoded every command (To make them faster.)
+• Updated the documentation
+• Made code alot more efficient
+• Welcome banner GIF backgrounds
+• Working on automod plugin
+• Added multiple prefixes
+• New and updated help for plugins
+• Introducing basic economy commands (More coming soon.)
+• Removed some imgen commands due to intense blocking
+• Seperated mute command now is mute and tempmute
+• Fixed duplicate server tags
+```
+
 ## 0.1.4 - 0.1.5 <a id="0-0-7-0-0-8"></a>
 
 ```yaml
