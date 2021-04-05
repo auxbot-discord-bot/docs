@@ -1,5 +1,5 @@
 ---
-description: AuxBot's Snipe Plugin Commands.
+description: AuxBot's Snipes Plugin Commands.
 ---
 
 # Snipes
