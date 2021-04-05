@@ -94,7 +94,7 @@ description: AuxBot ChangeLogs.
 • Remade documentation
 • Added vote command
 • Added toggle command
-• Revamped the addbot system
+• Revamped the addbot plugin
 • Revamped music controller
 • Working on economy commands
 • Working on reaction commands
@@ -164,7 +164,7 @@ description: AuxBot ChangeLogs.
 ```yaml
 0.0.2 - 0.0.3:
 
-​• Fixed muting system when bot gets restarted
+​• Fixed muting plugin when bot gets restarted
 • Fixed logging Access Denied error
 • Cleaned up code
 ```
