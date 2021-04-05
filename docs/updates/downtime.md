@@ -2,7 +2,15 @@
 description: AuxBot's DownTime
 ---
 
-# DownTime
+# Downtime
+
+##  **AuxBot Downtime** \| **Sunday 14, March 2021**
+
+```text
+• Due to the fact that I do not have the required funds to keep AuxBot up and running.
+
+AuxBot Status: https://status.auxbot.xyz/
+```
 
 ##  **Downtime Completed** \| **Thursday 18, February 2021** 
 
@@ -12,7 +20,7 @@ description: AuxBot's DownTime
 AuxBot Status: https://status.auxbot.xyz/
 ```
 
-## **DownTime Update** \| **Saturday 6, February 2021**
+## **Downtime Update** \| **Saturday 6, February 2021**
 
 ```text
 • AuxBot will remain online but it will be super limited in its capabilities at the current moment. There is no specific ETA to this issue it is when ever Discord emails me back. I have done everything in my power to make your experience as good as it is once again I do apologize for the inconvenience.
@@ -20,7 +28,7 @@ AuxBot Status: https://status.auxbot.xyz/
 AuxBot Status: https://status.auxbot.xyz/
 ```
 
-## **AuxBot DownTime** \| **Saturday 6, February 2021**
+## **AuxBot Downtime** \| **Saturday 6, February 2021**
 
 ```text
 • Due to AuxBot getting verified we have run into some privileged gateway intents issues. I am hoping to have this issue solved very soon. Sorry for the inconvenience.

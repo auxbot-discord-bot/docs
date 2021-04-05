@@ -2,7 +2,7 @@
 description: AuxBot ChangeLogs.
 ---
 
-# ChangeLogs
+# Changelogs
 
 ## 0.1.4 - 0.1.5 <a id="0-0-7-0-0-8"></a>
 

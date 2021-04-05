@@ -12,7 +12,11 @@ description: >-
 
 ## How do I setup the bot?
 
-### Swearing Detection:
+These are the basic plugins to configure the bot for your server.
+
+
+
+### Swearing Detection And Prevention:
 
 ```text
 !a swearingtoggle
@@ -30,10 +34,20 @@ This will set the channel for your new member welcome messages.
 !a welcome set <CHANNEL>
 ```
 
-**To test the welcome message you can do:**
+**To test the welcome message you can do**:
 
 ```text
 !a welcome test
+```
+
+**And you can customize them**:
+
+```text
+!a welcome message <SENTENCE>
+```
+
+```text
+!a welcome banner <PNG / JPG / GIF URL>
 ```
 
 
@@ -46,7 +60,7 @@ This will set the disboard message channel.
 !a disboard set <CHANNEL>
 ```
 
-**To customize the message sent you can do:**
+**To customize the message sent you can do**:
 
 ```text
 !a disboard message <MESSAGE>
@@ -62,13 +76,13 @@ This will set the logging channel for your server.
 !a logs set <CHANNEL>
 ```
 
-**To customize what events you want toggled do:**
+**To customize what events you want toggled do**:
 
 ```text
 !a logs toggle [EVENT]
 ```
 
-**To get a list of the events you can use do:**
+**To get a list of the events you can use do**:
 
 ```text
 !a events
@@ -78,19 +92,9 @@ This will set the logging channel for your server.
 
 ### Levelling:
 
-This will enable the level system in your server.
+This will enable the level plugin in your server.
 
 ```text
 !a leveltoggle
-```
-
-### 
-
-### Nsfw Commands:
-
-This will toggle the nsfw commands in your server.
-
-```text
-!a nsfwtoggle
 ```
 

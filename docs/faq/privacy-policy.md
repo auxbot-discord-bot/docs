@@ -19,16 +19,16 @@ Upon adding AuxBot to your server you agree to allowing the bot to store the fol
 * Default And Custom Bot Settings
 * Executed Commands
 * Server Member ID's And Names
-* Command Arguments
 * Deleted messages \(Optional\)
+* Edited message \(Optional\)
 
 ### Who can see my information? <a id="who-can-see-my-information"></a>
 
-the only people that can see your information is the owner of AuxBot \[Auxtal\#0001\(327745755789918208\)\] on discord and other important people that help run AuxBot. Your information from the database is not publicly for people that do not develop AuxBot.
+the only people that can see your information is the owner of AuxBot and other developers that help run AuxBot. Your information from the database is not publicly available for people that are not apart of the AuxBot team.
 
 ### When AuxBot Leaves A Server What Does It Delete? <a id="when-auxbot-leaves-a-server-what-does-it-delete"></a>
 
-When kicking or banning AuxBot from a server all of the servers information and custom settings will be removed from the database instantly.
+When kicking or banning AuxBot from a server or deleting your server all of the servers information and custom settings will be removed from the database instantly. All information removed can be seen above.
 
 
 
@@ -43,6 +43,6 @@ Please take note that Auxtal is able to modify the Privacy Policy anytime.
 {% endhint %}
 
 {% hint style="success" %}
-If you would like your data removed from the database kick AuxBot from the server.
+If you would like your data removed from the database kick or ban AuxBot from the server.
 {% endhint %}
 
