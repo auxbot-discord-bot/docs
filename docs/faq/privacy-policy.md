@@ -39,7 +39,7 @@ a. The organization of AuxBot is not liable for any information that could be lo
 
 
 {% hint style="info" %}
-Please take note that Auxtal is able to modify the Privacy Policy anytime.
+Please take note that Auxtal is able to modify the Privacy Policy at anytime.
 {% endhint %}
 
 {% hint style="success" %}
