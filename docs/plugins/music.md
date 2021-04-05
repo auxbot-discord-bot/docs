@@ -21,10 +21,10 @@ description: AuxBot's Music Plugin Commands.
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">CHANNEL</td>
+      <td style="text-align:left">VOICE CHANNEL</td>
       <td style="text-align:left">
-        <p>A discord channel mention name or id:</p>
-        <p>#general / general / 665811293970818050</p>
+        <p>A discord voice channel name or id:</p>
+        <p>general / 665811293970818050</p>
       </td>
     </tr>
     <tr>
@@ -38,7 +38,7 @@ description: AuxBot's Music Plugin Commands.
       <td style="text-align:left">QUERY</td>
       <td style="text-align:left">
         <p>Text:</p>
-        <p>my search text</p>
+        <p>NCS faded</p>
       </td>
     </tr>
     <tr>
@@ -65,13 +65,13 @@ description: AuxBot's Music Plugin Commands.
   </tbody>
 </table>
 
-## !a connect \[CHANNEL\]
+## !a connect
 
 Makes AuxBot connect to a voice channel.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a connect \[CHANNEL\]
+* !a connect \[VOICE CHANNEL\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -87,13 +87,13 @@ Makes AuxBot connect to a voice channel.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
+* none
 {% endtab %}
 {% endtabs %}
 
-## !a play &lt;QUERY / YOUTUBE URL&gt;
+## !a play
 
-Plays a song from a url or query.
+Plays a song from a URL or query.
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -221,7 +221,7 @@ Stops the player.
 {% endtab %}
 {% endtabs %}
 
-## !a volume &lt;NUMBER \(Between 1 - 100.\)&gt;
+## !a volume
 
 Makes AuxBot connect to a voice channel.
 
@@ -274,7 +274,7 @@ Shuffles the players queue.
 {% endtab %}
 {% endtabs %}
 
-## !a equalizer &lt;EQUALIZER \(flat, boost, metal, piano\)&gt;
+## !a equalizer
 
 Changes the players equalizer.
 
@@ -322,7 +322,7 @@ Returns the players queued songs.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
+* none
 {% endtab %}
 {% endtabs %}
 
@@ -331,7 +331,7 @@ Returns the players queued songs.
 Updates the player controller.
 
 {% hint style="info" %}
-If there are 5 or more messages after the controller the bot will delete it and resend it. If there is less then 5 message after the controller it will edit the controller to the latest stats.
+If there are 5 or more messages after the controller the bot will delete it and resend it. If there is less then 5 message after the controller the bot will edit the controller to the latest stats.
 {% endhint %}
 
 {% tabs %}
@@ -358,7 +358,7 @@ If there are 5 or more messages after the controller the bot will delete it and 
 {% endtab %}
 {% endtabs %}
 
-## !a swapdj \[MEMBER\]
+## !a swapdj
 
 Swap the current DJ to another member.
 
