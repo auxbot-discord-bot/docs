@@ -38,7 +38,7 @@ description: AuxBot's Fun Plugin Commands.
       <td style="text-align:left">SENTENCE</td>
       <td style="text-align:left">
         <p>Text:</p>
-        <p>this is my sentence</p>
+        <p>I went to the shops</p>
       </td>
     </tr>
     <tr>
@@ -52,7 +52,7 @@ description: AuxBot's Fun Plugin Commands.
       <td style="text-align:left">TAILS</td>
       <td style="text-align:left">
         <p>Text:</p>
-        <p>heads</p>
+        <p>tails</p>
       </td>
     </tr>
     <tr>
@@ -86,7 +86,7 @@ description: AuxBot's Fun Plugin Commands.
   </tbody>
 </table>
 
-## !a 8ball &lt;QUESTION&gt;
+## !a 8ball
 
 Returns a random answer to your question.
 
@@ -138,7 +138,7 @@ Returns a random meme.
 {% endtab %}
 {% endtabs %}
 
-## !a say &lt;SENTENCE&gt;
+## !a say
 
 Makes AuxBot say what you said.
 
@@ -164,7 +164,7 @@ Makes AuxBot say what you said.
 {% endtab %}
 {% endtabs %}
 
-## !a coin &lt;HEADS / TAILS&gt;
+## !a coin
 
 Makes AuxBot play heads or tails with you.
 
@@ -190,7 +190,7 @@ Makes AuxBot play heads or tails with you.
 {% endtab %}
 {% endtabs %}
 
-## !a roll &lt;NUMBER&gt;
+## !a roll
 
 Ricks a random number between the number inputted.
 
@@ -244,7 +244,7 @@ Tells the chat to shut the fuck up.
 {% endtab %}
 {% endtabs %}
 
-## !a lovecalculator &lt;PERSON1&gt; &lt;PERSON2&gt;
+## !a lovecalculator
 
 Calculates love between two names.
 
@@ -272,7 +272,7 @@ Calculates love between two names.
 {% endtab %}
 {% endtabs %}
 
-## !a urban &lt;WORD&gt;
+## !a urban
 
 Searches the urban dictionary.
 
@@ -324,7 +324,7 @@ Returns a random joke.
 {% endtab %}
 {% endtabs %}
 
-## !a hug \[MEMBER\]
+## !a hug
 
 Returns a hug gif with the members name.
 
@@ -350,7 +350,7 @@ Returns a hug gif with the members name.
 {% endtab %}
 {% endtabs %}
 
-## !a cuddle \[MEMBER\]
+## !a cuddle
 
 Returns a cuddle gif with the members name.
 
@@ -376,7 +376,7 @@ Returns a cuddle gif with the members name.
 {% endtab %}
 {% endtabs %}
 
-## !a kiss \[MEMBER\]
+## !a kiss
 
 Returns a kiss gif with the members name.
 
@@ -402,7 +402,7 @@ Returns a kiss gif with the members name.
 {% endtab %}
 {% endtabs %}
 
-## !a pat \[MEMBER\]
+## !a pat
 
 Returns a pat gif with the members name.
 
@@ -428,7 +428,7 @@ Returns a pat gif with the members name.
 {% endtab %}
 {% endtabs %}
 
-## !a poke \[MEMBER\]
+## !a poke
 
 Returns a poke gif with the members name.
 
@@ -454,7 +454,7 @@ Returns a poke gif with the members name.
 {% endtab %}
 {% endtabs %}
 
-## !a tickle \[MEMBER\]
+## !a tickle
 
 Returns a tickle gif with the members name.
 
@@ -480,7 +480,7 @@ Returns a tickle gif with the members name.
 {% endtab %}
 {% endtabs %}
 
-## !a slap \[MEMBER\]
+## !a slap
 
 Returns a slap gif with the members name.
 
@@ -532,7 +532,7 @@ Returns a picture of a goose.
 {% endtab %}
 {% endtabs %}
 
-## !a pp \[MEMBER\]
+## !a pp
 
 Returns a random pp size for the member.
 

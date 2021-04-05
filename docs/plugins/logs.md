@@ -31,7 +31,7 @@ description: AuxBot Logs Plugin Commands.
       <td style="text-align:left">EVENT</td>
       <td style="text-align:left">
         <p>Text:</p>
-        <p>on_member_ban</p>
+        <p>on_member_join</p>
       </td>
     </tr>
   </tbody>
@@ -39,7 +39,7 @@ description: AuxBot Logs Plugin Commands.
 
 ## !a logs
 
-Returns all of the logs commands.
+Returns all of the logs plugin commands.
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -63,7 +63,7 @@ Returns all of the logs commands.
 {% endtab %}
 {% endtabs %}
 
-## !a logs set &lt;CHANNEL&gt;
+## !a logs set
 
 Sets the logging channel for the server.
 
@@ -89,13 +89,9 @@ Sets the logging channel for the server.
 {% endtab %}
 {% endtabs %}
 
-## !a logs toggle \[EVENT \(!a events\)\]
+## !a logs toggle
 
-Allows you to toggle the whole log systems or just certain events.
-
-{% hint style="info" %}
-This command can only work when the logs system is setup.
-{% endhint %}
+Allows you to toggle the whole log plugin or just certain events.
 
 {% hint style="info" %}
 If you do not put an event argument it will toggle the whole system.
@@ -127,10 +123,6 @@ If you do not put an event argument it will toggle the whole system.
 
 Returns the channel and and id for the logging channel.
 
-{% hint style="info" %}
-This command can only work when the disboard system is setup.
-{% endhint %}
-
 {% tabs %}
 {% tab title="Usage" %}
 * !a logs channel
@@ -153,13 +145,13 @@ This command can only work when the disboard system is setup.
 {% endtab %}
 {% endtabs %}
 
-## !a logs remove
+## !a logs reset
 
-Removes the current logging channel for the server.
+Resets the current logs settings for the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a logs remove
+* !a logs reset
 {% endtab %}
 
 {% tab title="Aliases" %}

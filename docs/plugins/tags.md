@@ -65,7 +65,7 @@ Returns all of the servers tags.
 {% endtab %}
 {% endtabs %}
 
-## !a tag &lt;TAG NAME&gt;
+## !a tag
 
 Returns the created tag.
 
@@ -91,13 +91,9 @@ Returns the created tag.
 {% endtab %}
 {% endtabs %}
 
-## !a tag create &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
+## !a tag create
 
 Creates a server that you can recall.
-
-{% hint style="danger" %}
-You are able to make duplicate tags. This is a bug that will soon be fixed.
-{% endhint %}
 
 {% tabs %}
 {% tab title="Usage" %}
@@ -121,7 +117,7 @@ You are able to make duplicate tags. This is a bug that will soon be fixed.
 {% endtab %}
 {% endtabs %}
 
-## !a tag edit &lt;TAG NAME&gt; &lt;TAG CONTENT&gt;
+## !a tag edit
 
 Edits a pre existing tag.
 
@@ -147,7 +143,7 @@ Edits a pre existing tag.
 {% endtab %}
 {% endtabs %}
 
-## !a tag delete &lt;TAG NAME&gt;
+## !a tag delete
 
 Deletes a tag from the server.
 
@@ -173,7 +169,7 @@ Deletes a tag from the server.
 {% endtab %}
 {% endtabs %}
 
-## !a tag info &lt;TAG NAME&gt;
+## !a tag info
 
 Returns information about a tag.
 

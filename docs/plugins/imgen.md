@@ -28,153 +28,16 @@ description: AuxBot's Imgen Plugin Commands.
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">WORD</td>
-      <td style="text-align:left">
-        <p>Text:</p>
-        <p>word</p>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">SENTENCE</td>
       <td style="text-align:left">
         <p>Text:</p>
-        <p>this is my sentence</p>
+        <p>I went to the shops</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-## !a pornhub &lt;MEMBER/ WORD&gt; \[MEMBER / WORD\]
-
-Returns words in a pornhub logo.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a pornhub &lt;MEMBER / WORD&gt; \[MEMBER / WORD\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* ph
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a captcha &lt;MEMBER / SENTENCE&gt;
-
-Returns a sentence in a captcha challenge.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a captcha &lt;SENTENCE&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a supreme &lt;MEMBER / SENTENCE&gt;
-
-Returns a sentence in a supreme logo.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a supreme &lt;SENTENCE&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a trash \[MEMBER\]
-
-Returns a picture of a avatar in a trash bin.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a trash \[MEMBER\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a ship &lt;MEMBER&gt;
-
-Ships one member with another member.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a ship &lt;MEMBER&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a jail \[MEMBER\]
+## !a jail
 
 Returns the members avatar behind bars.
 
@@ -200,7 +63,7 @@ Returns the members avatar behind bars.
 {% endtab %}
 {% endtabs %}
 
-## !a wanted \[MEMBER\]
+## !a wanted
 
 Returns the members avatar in a wanted poster.
 
@@ -226,7 +89,7 @@ Returns the members avatar in a wanted poster.
 {% endtab %}
 {% endtabs %}
 
-## !a brazzers \[MEMBER\]
+## !a brazzers
 
 Returns the members avatar with a brazzers logo.
 
@@ -252,7 +115,7 @@ Returns the members avatar with a brazzers logo.
 {% endtab %}
 {% endtabs %}
 
-## !a shit \[MEMBER / SENTENCE\]
+## !a shit
 
 Returns the members name on the bottom of a shoe.
 
@@ -278,7 +141,7 @@ Returns the members name on the bottom of a shoe.
 {% endtab %}
 {% endtabs %}
 
-## !a dank \[MEMBER\]
+## !a dank
 
 Returns a gif of the members avatar with MLG pictures.
 
@@ -304,7 +167,7 @@ Returns a gif of the members avatar with MLG pictures.
 {% endtab %}
 {% endtabs %}
 
-## !a corporate \[MEMBER\]
+## !a corporate
 
 Returns the members avatar in a corporate meme.
 
@@ -330,7 +193,7 @@ Returns the members avatar in a corporate meme.
 {% endtab %}
 {% endtabs %}
 
-## !a dab \[MEMBER\]
+## !a dab
 
 Returns the members avatar doing a dab.
 
@@ -356,7 +219,7 @@ Returns the members avatar doing a dab.
 {% endtab %}
 {% endtabs %}
 
-## !a door \[MEMBER\]
+## !a door
 
 Returns the members avatar looking out a door.
 
@@ -382,7 +245,7 @@ Returns the members avatar looking out a door.
 {% endtab %}
 {% endtabs %}
 
-## !a egg \[MEMBER\]
+## !a egg
 
 Returns the members avatar as an egg out of a duck.
 
@@ -408,7 +271,7 @@ Returns the members avatar as an egg out of a duck.
 {% endtab %}
 {% endtabs %}
 
-## !a failure \[MEMBER\]
+## !a failure
 
 Returns the members avatar in a classroom with everyone staring.
 
@@ -434,7 +297,7 @@ Returns the members avatar in a classroom with everyone staring.
 {% endtab %}
 {% endtabs %}
 
-## !a fakenews \[MEMBER\]
+## !a fakenews
 
 Returns the members avatar in a tv.
 
@@ -460,7 +323,7 @@ Returns the members avatar in a tv.
 {% endtab %}
 {% endtabs %}
 
-## !a fedora \[MEMBER\]
+## !a fedora
 
 Returns the members avatar in a fedora.
 
@@ -486,7 +349,7 @@ Returns the members avatar in a fedora.
 {% endtab %}
 {% endtabs %}
 
-## !a gay \[MEMBER\]
+## !a gay
 
 Returns the members avatar with rainbow colours on it.
 
@@ -512,7 +375,7 @@ Returns the members avatar with rainbow colours on it.
 {% endtab %}
 {% endtabs %}
 
-## !a goggles \[MEMBER\]
+## !a goggles
 
 Returns the members avatar in a science lab.
 
@@ -538,7 +401,7 @@ Returns the members avatar in a science lab.
 {% endtab %}
 {% endtabs %}
 
-## !a hitler \[MEMBER\]
+## !a hitler
 
 Returns the members avatar in a worst than hitler meme.
 
@@ -564,7 +427,7 @@ Returns the members avatar in a worst than hitler meme.
 {% endtab %}
 {% endtabs %}
 
-## !a invert \[MEMBER\]
+## !a invert
 
 Returns the members avatar inverted.
 
@@ -590,7 +453,7 @@ Returns the members avatar inverted.
 {% endtab %}
 {% endtabs %}
 
-## !a ipad \[MEMBER\]
+## !a ipad
 
 Returns the members avatar in an ipad.
 
@@ -616,7 +479,7 @@ Returns the members avatar in an ipad.
 {% endtab %}
 {% endtabs %}
 
-## !a kimborder \[MEMBER\]
+## !a kimborder
 
 Returns the members avatar on the floor.
 
@@ -642,7 +505,7 @@ Returns the members avatar on the floor.
 {% endtab %}
 {% endtabs %}
 
-## !a laid \[MEMBER\]
+## !a laid
 
 Returns the members avatar on a piece of paper.
 
@@ -668,7 +531,7 @@ Returns the members avatar on a piece of paper.
 {% endtab %}
 {% endtabs %}
 
-## !a magik \[MEMBER\]
+## !a magik
 
 Returns the members avatar with magic.
 
@@ -694,7 +557,7 @@ Returns the members avatar with magic.
 {% endtab %}
 {% endtabs %}
 
-## !a radialblur \[MEMBER\]
+## !a radialblur
 
 Returns members avatar with a radial blur.
 
@@ -720,7 +583,7 @@ Returns members avatar with a radial blur.
 {% endtab %}
 {% endtabs %}
 
-## !a youtube &lt;MEMBER&gt; &lt;SENTENCE&gt;
+## !a youtube
 
 Returns the members avatar and text in a youtube comment.
 
@@ -746,7 +609,7 @@ Returns the members avatar and text in a youtube comment.
 {% endtab %}
 {% endtabs %}
 
-## !a whothisis &lt;MEMBER&gt; &lt;SENTENCE&gt;
+## !a whothisis
 
 Returns the members avatar in a whothis meme.
 
@@ -772,7 +635,7 @@ Returns the members avatar in a whothis meme.
 {% endtab %}
 {% endtabs %}
 
-## !a aborted \[MEMBER\]
+## !a aborted
 
 Returns the members avatar on a persons head.
 
@@ -798,7 +661,7 @@ Returns the members avatar on a persons head.
 {% endtab %}
 {% endtabs %}
 
-## !a affect \[MEMBER\]
+## !a affect
 
 Returns the members avatar on a monitor.
 
@@ -824,7 +687,7 @@ Returns the members avatar on a monitor.
 {% endtab %}
 {% endtabs %}
 
-## !a airpods \[MEMBER\]
+## !a airpods
 
 Returns the members avatar with airpods.
 
@@ -850,7 +713,7 @@ Returns the members avatar with airpods.
 {% endtab %}
 {% endtabs %}
 
-## !a america \[MEMBER\]
+## !a america
 
 Returns the members avatar on with the American flag on top.
 
@@ -876,7 +739,7 @@ Returns the members avatar on with the American flag on top.
 {% endtab %}
 {% endtabs %}
 
-## !a bed &lt;MEMBER&gt; &lt;MEMBER&gt;
+## !a bed
 
 Returns both members avatars on a bed.
 
@@ -902,7 +765,7 @@ Returns both members avatars on a bed.
 {% endtab %}
 {% endtabs %}
 
-## !a bongocat \[MEMBER\]
+## !a bongocat
 
 Returns the members avatar with a bongocat.
 
@@ -928,7 +791,7 @@ Returns the members avatar with a bongocat.
 {% endtab %}
 {% endtabs %}
 
-## !a caner \[MEMBER\]
+## !a caner
 
 Returns the members avatar with the words caner above it.
 
@@ -954,7 +817,7 @@ Returns the members avatar with the words caner above it.
 {% endtab %}
 {% endtabs %}
 
-## !a communism \[MEMBER\]
+## !a communism
 
 Returns members avatar with a communism flag.
 
@@ -980,7 +843,7 @@ Returns members avatar with a communism flag.
 {% endtab %}
 {% endtabs %}
 
-## !a deepfry \[MEMBER\]
+## !a deepfry
 
 Returns members avatar with a bunch of weird effects.
 
@@ -1006,7 +869,7 @@ Returns members avatar with a bunch of weird effects.
 {% endtab %}
 {% endtabs %}
 
-## !a delete \[MEMBER\]
+## !a delete
 
 Returns the members avatar in a delete window.
 
@@ -1032,7 +895,7 @@ Returns the members avatar in a delete window.
 {% endtab %}
 {% endtabs %}
 
-## !a disability \[MEMBER\]
+## !a disability
 
 Returns the members avatar on a disability poster.
 
@@ -1058,13 +921,13 @@ Returns the members avatar on a disability poster.
 {% endtab %}
 {% endtabs %}
 
-## !a madethis &lt;MEMBER&gt; &lt;MEMBER&gt;
+## !a madethis
 
 Returns the members avatar in a madethis meme.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a madethis &lt;MEMBER&gt;
+* !a madethis &lt;MEMBER&gt; &lt;MEMBER&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -1084,7 +947,7 @@ Returns the members avatar in a madethis meme.
 {% endtab %}
 {% endtabs %}
 
-## !a rip \[MEMBER\]
+## !a rip
 
 Returns the members avatar on a RIP headstone.
 
@@ -1110,7 +973,7 @@ Returns the members avatar on a RIP headstone.
 {% endtab %}
 {% endtabs %}
 
-## !a roblox \[MEMBER\]
+## !a roblox
 
 Returns the members avatar on a roblox character.
 
@@ -1136,7 +999,7 @@ Returns the members avatar on a roblox character.
 {% endtab %}
 {% endtabs %}
 
-## !a salty \[MEMBER\]
+## !a salty
 
 Returns the members avatar with a salt shaker.
 
@@ -1162,7 +1025,7 @@ Returns the members avatar with a salt shaker.
 {% endtab %}
 {% endtabs %}
 
-## !a satan \[MEMBER\]
+## !a satan
 
 Returns the members avatar on satans head.
 
@@ -1188,7 +1051,7 @@ Returns the members avatar on satans head.
 {% endtab %}
 {% endtabs %}
 
-## !a screams &lt;MEMBER&gt; &lt;MEMBER&gt;
+## !a screams
 
 Returns the members avatars in a screams meme.
 
@@ -1214,7 +1077,7 @@ Returns the members avatars in a screams meme.
 {% endtab %}
 {% endtabs %}
 
-## !a sickban \[MEMBER\]
+## !a sickban
 
 Returns the members avatar in a mail segment.
 
@@ -1240,7 +1103,7 @@ Returns the members avatar in a mail segment.
 {% endtab %}
 {% endtabs %}
 
-## !a spank &lt;MEMBER&gt; &lt;MEMBER&gt;
+## !a spank
 
 Returns one member spanking the other member.
 
@@ -1266,7 +1129,7 @@ Returns one member spanking the other member.
 {% endtab %}
 {% endtabs %}
 
-## !a trigger \[MEMBER\]
+## !a trigger
 
 Returns the members avatar triggered.
 
@@ -1292,7 +1155,7 @@ Returns the members avatar triggered.
 {% endtab %}
 {% endtabs %}
 
-## !a ugly \[MEMBER\]
+## !a ugly
 
 Returns the members avatar in a bed.
 
@@ -1318,7 +1181,7 @@ Returns the members avatar in a bed.
 {% endtab %}
 {% endtabs %}
 
-## !a whodidthis \[MEMBER\]
+## !a whodidthis
 
 Returns the members avatar in a whodidthis meme.
 
