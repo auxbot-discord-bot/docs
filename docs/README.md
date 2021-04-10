@@ -14,8 +14,6 @@ description: >-
 
 These are the basic plugins to configure the bot for your server.
 
-
-
 ### Swearing Detection And Prevention:
 
 ```text
@@ -23,8 +21,6 @@ These are the basic plugins to configure the bot for your server.
 ```
 
 This will check every message in your server for profanity and it it is found the bot will delete the message and send an embed with a quote to what the offender said with the swear word hidden.
-
-
 
 ### Server Welcome Banners:
 
@@ -50,11 +46,9 @@ This will set the channel for your new member welcome messages.
 !a welcome banner <PNG / JPG / GIF URL>
 ```
 
-
-
 ### Disboard Timer:
 
-This will set the disboard message channel. 
+This will set the disboard message channel.
 
 ```text
 !a disboard set <CHANNEL>
@@ -66,11 +60,9 @@ This will set the disboard message channel.
 !a disboard message <MESSAGE>
 ```
 
-### 
-
 ### Logging:
 
-This will set the logging channel for your server. 
+This will set the logging channel for your server.
 
 ```text
 !a logs set <CHANNEL>
@@ -87,8 +79,6 @@ This will set the logging channel for your server.
 ```text
 !a events
 ```
-
-
 
 ### Levelling:
 
