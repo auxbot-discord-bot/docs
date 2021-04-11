@@ -83,6 +83,20 @@ description: AuxBot's Utilities Plugin Commands.
         <p>I went to the shops</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">URL</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>faq</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">ENDPOINT</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>privacy policy</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -765,6 +779,32 @@ Checks if you have voted for the bot.
 {% tabs %}
 {% tab title="Usage" %}
 * !a voted
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a docs
+
+Returns a documentation URL for AuxBot's docs.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a docs &lt;URL \(cmd, update, faq.\)&gt; &lt;ENDPOINT&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
