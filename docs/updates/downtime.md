@@ -4,7 +4,16 @@ description: AuxBot's DownTime
 
 # Downtime
 
-##  **AuxBot Downtime** \| **Sunday 14, March 2021**
+##  Downtime Completed \| Monday 12, April 2021
+
+```text
+• AuxBot is temporarily being hosted on my personal computer. This will entail random downtimes but not for to long. As soon as I am able to buy my servers again AuxBot will be transfered back to normal 99.99% uptime.
+• And AuxBot's website is still down as that can not be hosted from my personal computer.
+
+AuxBot Status: https://status.auxbot.xyz/
+```
+
+## **AuxBot Downtime** \| **Sunday 14, March 2021**
 
 ```text
 • Due to the fact that I do not have the required funds to keep AuxBot up and running.
