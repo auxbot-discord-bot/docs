@@ -9,23 +9,23 @@
 </div>
 <div>
     <p align="center">
-    AuxBot Discord Bot Docs
-    <br>
-    <a href="https://www.auxbot.xyz/docs"><strong>AuxBot Documentation »</strong></a>
-    <p align="center">
-    <a href="https://www.auxbot.xyz/docs">
-        <img src="https://img.shields.io/badge/gitbook-Passing-green" alt="AuxBot-Docs">
-    </a>
-    <a href="https://www.auxbot.xyz">
-        <img src="https://img.shields.io/badge/Discord.py-1.7-blue.svg" alt="AuxBot-D.py-Version">
-    </a>
-    <a href="https://www.auxbot.xyz">
-        <img src="https://img.shields.io/badge/Python-3.8-yellow.svg" alt="AuxBot-Python-Version">
-    </a>
-    <br>
-    <a href="https://www.auxbot.xyz/invite">AuxBot Invite</a>
-    ⋇
-    <a href="https://www.auxbot.xyz/support">Support Server</a>
+        AuxBot Discord Bot Docs
+        <br>
+        <a href="https://www.auxbot.xyz/docs"><strong>AuxBot Documentation »</strong></a>
+        <p align="center">
+        <a href="https://www.auxbot.xyz/docs">
+            <img src="https://img.shields.io/badge/gitbook-Passing-green" alt="AuxBot-Docs">
+        </a>
+        <a href="https://www.auxbot.xyz">
+            <img src="https://img.shields.io/badge/Discord.py-1.7-blue.svg" alt="AuxBot-D.py-Version">
+        </a>
+        <a href="https://www.auxbot.xyz">
+            <img src="https://img.shields.io/badge/Python-3.8-yellow.svg" alt="AuxBot-Python-Version">
+        </a>
+        <br>
+        <a href="https://www.auxbot.xyz/invite">AuxBot Invite</a>
+        ⋇
+        <a href="https://www.auxbot.xyz/support">Support Server</a>
     </p>
 </div>
 <div>
