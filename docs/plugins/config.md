@@ -30,19 +30,69 @@ description: AuxBot's Config Plugin Commands.
   </tbody>
 </table>
 
-## !a swearingtoggle
+## !a swearing
 
-Toggles the swearing detection plugin.
+Returns all of the swearing commands.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a swearingtoggle
+* !a swearing
 {% endtab %}
 
 {% tab title="Aliases" %}
-* swt
-* swearing\_toggle
-* swearing-toggle
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a swearing enable
+
+Toggle the swearing detection on.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a swearing enable
+{% endtab %}
+
+{% tab title="Aliases" %}
+* on
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a swearing disable
+
+Toggle the swearing detection off.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a swearing disable
+{% endtab %}
+
+{% tab title="Aliases" %}
+* off
 {% endtab %}
 
 {% tab title="Permissions" %}
