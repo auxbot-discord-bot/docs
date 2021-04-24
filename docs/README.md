@@ -15,7 +15,7 @@ These are the basic plugins to configure the bot for your server.
 ### Swearing Detection And Prevention:
 
 ```text
-!a swearingtoggle
+!a swearing toggle
 ```
 
 This will check every message in your server for profanity and it it is found the bot will delete the message and send an embed with a quote to what the offender said with the swear word hidden.
@@ -83,6 +83,6 @@ This will set the logging channel for your server.
 This will enable the level plugin in your server.
 
 ```text
-!a leveltoggle
+!a level toggle
 ```
 
