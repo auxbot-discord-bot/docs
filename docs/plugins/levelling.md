@@ -30,34 +30,6 @@ description: AuxBot's Levelling Plugin Commands.
   </tbody>
 </table>
 
-## !a leveltoggle
-
-Toggles the level plugin for the server.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a leveltoggle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* lvlt
-* level\_toggle
-* level-toggle
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
 ## !a level
 
 Returns a members level.
@@ -73,6 +45,34 @@ Returns a members level.
 
 {% tab title="Permissions" %}
 * none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a level toggle
+
+Toggles the level plugin for the server.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a level toggle
+{% endtab %}
+
+{% tab title="Aliases" %}
+* lvlt
+* level\_toggle
+* level-toggle
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage server
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
