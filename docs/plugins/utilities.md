@@ -510,13 +510,13 @@ Returns the member count for the server.
 {% endtab %}
 {% endtabs %}
 
-## !a code
+## !a bin
 
-Returns a link to a hastebin.
+Returns a link to a sourcebin.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a code
+* !a bin
 {% endtab %}
 
 {% tab title="Aliases" %}
