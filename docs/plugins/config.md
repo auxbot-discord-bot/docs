@@ -56,43 +56,17 @@ Returns all of the swearing commands.
 {% endtab %}
 {% endtabs %}
 
-## !a swearing enable
+## !a swearing toggle
 
-Toggle the swearing detection on.
+Toggles the swearing plugin on and off.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a swearing enable
+* !a swearing toggle
 {% endtab %}
 
 {% tab title="Aliases" %}
-* on
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
 * none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a swearing disable
-
-Toggle the swearing detection off.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a swearing disable
-{% endtab %}
-
-{% tab title="Aliases" %}
-* off
 {% endtab %}
 
 {% tab title="Permissions" %}
