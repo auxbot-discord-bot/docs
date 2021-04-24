@@ -22,7 +22,7 @@ This will check every message in your server for profanity and it it is found th
 
 ### Server Welcome Banners:
 
-This will set the channel for your new member welcome messages.
+This will set the channel for your new member welcome banners.
 
 ```text
 !a welcome set <CHANNEL>
