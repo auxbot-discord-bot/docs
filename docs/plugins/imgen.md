@@ -791,7 +791,7 @@ Returns the members avatar with a bongocat.
 {% endtab %}
 {% endtabs %}
 
-## !a caner
+## !a cancer
 
 Returns the members avatar with the words caner above it.
 
