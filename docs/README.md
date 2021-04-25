@@ -69,7 +69,7 @@ This will set the logging channel for your server.
 **To customize what events you want toggled do**:
 
 ```text
-!a logs toggle [EVENT]
+!a logs toggle <EVENT>
 ```
 
 **To get a list of the events you can use do**:
