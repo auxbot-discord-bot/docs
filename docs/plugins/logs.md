@@ -91,7 +91,7 @@ Sets the logging channel for the server.
 
 ## !a logs toggle
 
-Allows you to toggle the whole log plugin or just certain events.
+Allows you to toggle certain events.
 
 {% hint style="info" %}
 If you do not put an event argument it will toggle the whole plugin.
@@ -99,7 +99,7 @@ If you do not put an event argument it will toggle the whole plugin.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a logs toggle \[EVENT \(!a events\)\]
+* !a logs toggle &lt;EVENT \(!a events\)&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
