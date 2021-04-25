@@ -615,7 +615,7 @@ Returns the members avatar in a whothis meme.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a whothisis &lt;MEMBER&gt; &lt;SENTENCE&gt;
+* !a whothisis &lt;MEMBER&gt; &lt;NAME&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
