@@ -28,7 +28,6 @@
 ## 🧰 Updates
 
 * [Changelogs](updates/changelogs.md)
-* [Downtime](updates/downtime.md)
 
 ## ❔ FAQ
 
