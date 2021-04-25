@@ -192,7 +192,7 @@ Makes AuxBot play heads or tails with you.
 
 ## !a roll
 
-Ricks a random number between the number inputted.
+Rolls a random number between the number inputted.
 
 {% tabs %}
 {% tab title="Usage" %}
