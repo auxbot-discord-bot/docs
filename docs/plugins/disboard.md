@@ -141,32 +141,6 @@ Sets the disboard timer message.
 {% endtab %}
 {% endtabs %}
 
-## !a disboard toggle
-
-Toggles the disboard plugin on and off.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a disboard toggle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
 ## !a disboard channel
 
 Returns the channel for the disboard plugin channel.

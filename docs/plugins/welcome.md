@@ -175,32 +175,6 @@ Sets the welcome message for the server.
 {% endtab %}
 {% endtabs %}
 
-## !a welcome toggle
-
-Allows you to toggle the whole welcome plugin.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a welcome toggle
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage server
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
 ## !a welcome channel
 
 Returns the channel for the welcome plugin channel.
