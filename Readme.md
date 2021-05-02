@@ -14,7 +14,7 @@
         <a href="https://www.auxbot.xyz/docs"><strong>AuxBot Documentation »</strong></a>
         <p align="center">
         <a href="https://www.auxbot.xyz/docs">
-            <img src="https://img.shields.io/badge/gitbook-Passing-green" alt="AuxBot-Docs">
+            <img src="https://img.shields.io/badge/GitBook-Passing-green" alt="AuxBot-Docs">
         </a>
         <a href="https://www.auxbot.xyz">
             <img src="https://img.shields.io/badge/Discord.py-1.7-blue.svg" alt="AuxBot-D.py-Version">
