@@ -31,16 +31,16 @@
 <div>
     <p align="center">
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
-            <img src="https://img.shields.io/github/last-commit/AuxBot-Discord-Bot/AuxBot-Docs?color=purple&label=Last%20Commit&logo=GitHub&logoColor=white" alt="Repo-Last-Commit">
+            <img src="https://img.shields.io/github/last-commit/AuxBot-Discord-Bot/AuxBot-Docs?color=purple&label=Last%20Commit&logo=GitHub&logoColor=white">
         </a>
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
-            <img src="https://img.shields.io/github/license/AuxBot-Discord-Bot/AuxBot-Docs?color=orange&label=License&logo=GitHub" alt="Repo-License">
+            <img src="https://img.shields.io/github/license/AuxBot-Discord-Bot/AuxBot-Docs?color=orange&label=License&logo=GitHub">
         </a>
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
-            <img src="https://img.shields.io/github/repo-size/AuxBot-Discord-Bot/AuxBot-Docs?color=blue&label=Repo%20Size&logo=GitHub&logoColor=white" alt="Repo-Code-Size">
+            <img src="https://img.shields.io/github/repo-size/AuxBot-Discord-Bot/AuxBot-Docs?color=blue&label=Repo%20Size&logo=GitHub&logoColor=white">
         </a>
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
-            <img src="https://github.com/AuxBot-Discord-Bot/AuxBot/blob/Badges/badge.svg" alt="Repo-Code-Size">
+            <img src="https://github.com/AuxBot-Discord-Bot/AuxBot/blob/Badges/badge.svg">
         </a>
     </p>
 </div>
