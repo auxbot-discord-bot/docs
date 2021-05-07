@@ -4,13 +4,13 @@ description: AuxBot's Moderation Plugin Commands.
 
 # Moderation
 
-#### Command Argument Key
+### Command Argument Key
 
 {% hint style="success" %}
-\[Means Optional\]  \(Means Valid Options\) This / Or This
+\[Means Optional\] \(Means Valid Options\) This / Or This
 {% endhint %}
 
-#### Command Argument Specifications And Examples:
+### Command Argument Specifications And Examples:
 
 <table>
   <thead>
@@ -190,7 +190,7 @@ Soft bans a member\(s\) from the server.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-*  1 every 2 seconds per user.
+* 1 every 2 seconds per user.
 {% endtab %}
 {% endtabs %}
 
@@ -376,7 +376,7 @@ Unmutes the mentioned member.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-*  1 every 2 seconds per user.
+* 1 every 2 seconds per user.
 {% endtab %}
 {% endtabs %}
 

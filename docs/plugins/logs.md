@@ -4,13 +4,13 @@ description: AuxBot Logs Plugin Commands.
 
 # Logs
 
-#### Command Argument Key
+### Command Argument Key
 
 {% hint style="success" %}
-\[Means Optional\]  \(Means Valid Options\) This / Or This
+\[Means Optional\] \(Means Valid Options\) This / Or This
 {% endhint %}
 
-#### Command Argument Specifications And Examples:
+### Command Argument Specifications And Examples:
 
 <table>
   <thead>

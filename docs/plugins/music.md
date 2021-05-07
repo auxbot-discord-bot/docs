@@ -4,13 +4,13 @@ description: AuxBot's Music Plugin Commands.
 
 # Music
 
-#### Command Argument Key
+### Command Argument Key
 
 {% hint style="success" %}
-\[Means Optional\]  \(Means Valid Options\) This / Or This
+\[Means Optional\] \(Means Valid Options\) This / Or This
 {% endhint %}
 
-#### Command Argument Specifications And Ex
+### Command Argument Specifications And Ex
 
 <table>
   <thead>

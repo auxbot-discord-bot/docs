@@ -4,10 +4,10 @@ description: AuxBot's Snipes Plugin Commands.
 
 # Snipes
 
-#### Command Argument Key
+### Command Argument Key
 
 {% hint style="success" %}
-\[Means Optional\]  \(Means Valid Options\) This / Or This
+\[Means Optional\] \(Means Valid Options\) This / Or This
 {% endhint %}
 
 ## !a snipe

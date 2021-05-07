@@ -4,13 +4,13 @@ description: AuxBot's Fun Plugin Commands.
 
 # Fun
 
-#### Command Argument Key
+### Command Argument Key
 
 {% hint style="success" %}
-\[Means Optional\]  \(Means Valid Options\) This / Or This
+\[Means Optional\] \(Means Valid Options\) This / Or This
 {% endhint %}
 
-#### Command Argument Specifications And Examples:
+### Command Argument Specifications And Examples:
 
 <table>
   <thead>
@@ -279,32 +279,6 @@ Searches the urban dictionary.
 {% tabs %}
 {% tab title="Usage" %}
 * !a urban &lt;WORD&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a joke
-
-Returns a random joke.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a joke
 {% endtab %}
 
 {% tab title="Aliases" %}

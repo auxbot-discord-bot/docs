@@ -4,13 +4,13 @@ description: AuxBot's Utilities Plugin Commands.
 
 # Utilities
 
-#### Command Argument Key
+### Command Argument Key
 
 {% hint style="success" %}
-\[Means Optional\]  \(Means Valid Options\) This / Or This
+\[Means Optional\] \(Means Valid Options\) This / Or This
 {% endhint %}
 
-#### Command Argument Specifications And Examples:
+### Command Argument Specifications And Examples:
 
 <table>
   <thead>
@@ -107,32 +107,6 @@ Returns help for commands and plugins.
 {% tabs %}
 {% tab title="Usage" %}
 * !a help \[COMMAND / PLUGIN\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-## !a setup
-
-Returns the features of AuxBot.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a setup
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -715,34 +689,6 @@ Returns all of the servers emojis.
 
 {% tab title="Cooldown" %}
 * none
-{% endtab %}
-{% endtabs %}
-
-## !a texttospeech
-
-Returns the sentence as an mp3 file.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a texttospeech &lt;SENTENCE&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* tts
-* text\_to\_speech
-* text-to-speech
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 5 seconds per user.
 {% endtab %}
 {% endtabs %}
 
