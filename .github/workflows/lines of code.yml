@@ -14,6 +14,7 @@ jobs:
         with:
           debug: true
           directory: ./
+          ignore: '.github|.gitbook.yaml|.gitignore|license|readme.md|security.md'
           badge: ./output/badge.svg
           badge_color: 'purple'
           badge_label: 'Lines Of Code'
