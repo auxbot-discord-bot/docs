@@ -39,6 +39,8 @@
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
             <img src="https://img.shields.io/github/repo-size/AuxBot-Discord-Bot/AuxBot-Docs?color=blue&label=Repo%20Size&logo=GitHub&logoColor=white">
         </a>
+    </p>
+    <p align="center">
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
             <img src="https://github.com/AuxBot-Discord-Bot/AuxBot/blob/Badges/badge.svg">
         </a>
