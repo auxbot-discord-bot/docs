@@ -20,11 +20,11 @@ This happens when either the members avatar is to large or the welcome banner ba
 
 the main reason is for maintenance. This can vary in time. If the bot is ever offline for more then 2 hours their is a problem.
 
-For support join our support server: \[[https://www.auxbot.xyz/support\](https://www.auxbot.xyz/support\)\].
+For support join our support server: \[[https://www.auxbot.xyz/support](https://www.auxbot.xyz/support\)\].
 
 ## An error has occurred message?
 
-This happens from time to time. It means that there is an issue with the code that needs to be resolved. For more support with these join our support server: \[[https://www.auxbot.xyz/support\](https://www.auxbot.xyz/support\)\].
+This happens from time to time. It means that there is an issue with the code that needs to be resolved. For more support with these join our support server: \[[https://www.auxbot.xyz/support](https://www.auxbot.xyz/support\)\].
 
 Upon joining the support server go to the AuxBot support channel and tell us you have an error. Please state what command you did that caused this issue and please also send the **Error Id** displayed at the bottom of the message.
 
@@ -38,5 +38,5 @@ This sometimes occurs when the bot gets restarted. It is a problem that is being
 
 This is because AuxBot uses an external API meaning we have no control over how long a image manipulation command might take. We are working on a fix for this very annoying issue.
 
-For more support with this join our support server: \[[https://www.auxbot.xyz/support\](https://www.auxbot.xyz/support\)\].
+For more support with this join our support server: \[[https://www.auxbot.xyz/support](https://www.auxbot.xyz/support\)\].
 
