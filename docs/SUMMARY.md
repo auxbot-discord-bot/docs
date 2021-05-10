@@ -11,19 +11,22 @@
 
 ## 🌌 Plugins
 
-* [Moderation](plugins/moderation.md)
-* [Welcome](plugins/welcome.md)
-* [Disboard](plugins/disboard.md)
-* [Economy](plugins/economy.md)
-* [Levelling](plugins/levelling.md)
-* [Utilities](plugins/utilities.md)
-* [Snipes](plugins/snipes.md)
-* [Config](plugins/config.md)
-* [Music](plugins/music.md)
-* [Imgen](plugins/imgen.md)
-* [Logs](plugins/logs.md)
-* [Tags](plugins/tags.md)
-* [Fun](plugins/fun.md)
+* [Main Plugins:](plugins/main/README.md)
+  * [Moderation](plugins/main/moderation.md)
+  * [Welcome](plugins/main/welcome.md)
+  * [Disboard](plugins/main/disboard.md)
+  * [Logs](plugins/main/logs.md)
+* [Other Plugins:](plugins/other/README.md)
+  * [Economy](plugins/other/economy.md)
+  * [Levelling](plugins/other/levelling.md)
+  * [Utilities](plugins/other/utilities.md)
+  * [Snipes](plugins/other/snipes.md)
+  * [Config](plugins/other/config.md)
+  * [Imgen](plugins/other/imgen.md)
+  * [Music](plugins/other/music.md)
+  * [Code](plugins/other/code.md)
+  * [Tags](plugins/other/tags.md)
+  * [Fun](plugins/other/fun.md)
 
 ## 🧰 Updates
 
