@@ -4,6 +4,20 @@ description: AuxBot ChangeLogs.
 
 # Changelogs
 
+## 0.1.6 - 0.1.7 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.1.6 - 0.1.7:
+
+• Another rewrite of all code to follow pep8 formatting
+• Removed setup command
+• Removed texttospeech command
+• Added pagination to search command
+• Added caching for welcome banners (makes them slightly faster especially gifs)
+• Added code plugin: [!a run <LANGUAGE> <CODE>] and [!a run repeat] (maybe more soon idk)
+• Added logging for non traditional events (mutes, tempmutes, kicks, soft bans)
+```
+
 ## 0.1.5 - 0.1.6 <a id="0-0-7-0-0-8"></a>
 
 ```yaml
