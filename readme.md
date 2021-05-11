@@ -28,8 +28,12 @@
         <a href="https://www.auxbot.xyz/support">Support Server</a>
     </p>
 </div>
+<hr>
 <div>
     <p align="center">
+        <strong>Respository Information</strong>
+        <br>
+        <br>
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
             <img src="https://img.shields.io/github/last-commit/AuxBot-Discord-Bot/AuxBot-Docs?color=purple&label=Last%20Commit&logo=GitHub&logoColor=white">
         </a>
@@ -41,6 +45,9 @@
         </a>
     </p>
     <p align="center">
+        <strong>Code Information</strong>
+        <br>
+        <br>
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
             <img src="https://github.com/AuxBot-Discord-Bot/AuxBot/blob/Badges/badge.svg">
         </a>
