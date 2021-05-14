@@ -17,10 +17,10 @@
             <img src="https://img.shields.io/badge/GitBook-Passing-green">
         </a>
         <a href="https://www.auxbot.xyz">
-            <img src="https://img.shields.io/badge/Discord.py-1.7-blue.svg">
+            <img src="https://img.shields.io/badge/Discord.py-1.7.2-blue.svg">
         </a>
         <a href="https://www.auxbot.xyz">
-            <img src="https://img.shields.io/badge/Python-3.9.4-yellow.svg">
+            <img src="https://img.shields.io/badge/Python-3.8.5-yellow.svg">
         </a>
         <br>
         <a href="https://www.auxbot.xyz/invite">AuxBot Invite</a>
