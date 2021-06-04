@@ -42,7 +42,7 @@ description: AuxBot's Moderation Plugin Commands.
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">CASENUMBER</td>
+      <td style="text-align:left">CASE NUMBER</td>
       <td style="text-align:left">
         <p>Number:</p>
         <p>5</p>
@@ -259,6 +259,34 @@ Clears a members case\(s\) in a server.
 * cc
 * clear\_cases
 * clear-cases
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a editcase
+
+Edits a case reason in a server.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a editcase  \[REASON\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* ec
+* edit\_case
+* edit-case
 {% endtab %}
 
 {% tab title="Permissions" %}

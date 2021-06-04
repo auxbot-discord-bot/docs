@@ -2,5 +2,5 @@
 description: AuxBot's Other plugins
 ---
 
-# Other Plugins:
+# Other Plugins
 
