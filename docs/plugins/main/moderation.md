@@ -280,7 +280,7 @@ Edits a case reason in a server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a editcase  \[REASON\]
+* !a editcase &lt;CASE NUMBER&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
