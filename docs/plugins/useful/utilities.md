@@ -770,3 +770,31 @@ Returns a documentation URL for AuxBot's docs.
 {% endtab %}
 {% endtabs %}
 
+## !a messagestats
+
+Returns a graph of the channels message stats.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a messagestats
+{% endtab %}
+
+{% tab title="Aliases" %}
+* ms
+* message\_stats
+* message-stats
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 5 seconds per user
+{% endtab %}
+{% endtabs %}
+
