@@ -34,12 +34,6 @@ These errors are usually fixed within 1 day or so.
 
 This sometimes occurs when the bot gets restarted. It is a problem that is being looked at. Sorry for any inconvenience.
 
-## Why does the image generation commands take so long?
-
-This is because AuxBot uses an external API meaning we have no control over how long a image manipulation command might take. We are working on a fix for this very annoying issue.
-
-For more support with this join our support server: \[[https://www.auxbot.xyz/support](https://www.auxbot.xyz/support\)\].
-
 ## Why does my reminder not appear in the reminder list?
 
 If your reminder is set to activate in under 1 minute it is put into a cache, hence why the reminder is not in the reminder list command.
