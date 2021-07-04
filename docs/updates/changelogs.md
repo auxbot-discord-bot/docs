@@ -208,7 +208,7 @@ description: AuxBot ChangeLogs.
 0.0.1 - 0.0.2:
 
 • Major modifications to moderation commands.
-• Fixed some bugs in the code• Added jail command [Temporarily disbaled.]
+• Fixed some bugs in the code• Added jail command [Temporarily disabled.]
 • Working on docs searching commands• Updated cooldowns on 70% of commands
 • Music searching has been fixed
 • Fixed case numbers
