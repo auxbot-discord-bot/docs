@@ -4,6 +4,20 @@ description: AuxBot ChangeLogs.
 
 # Changelogs
 
+## 0.1.7 - 0.1.8 <a id="0-0-7-0-0-8"></a>
+
+```yaml
+0.1.7 - 0.1.8:
+
+• Image generation commands speed has been improved
+• Added reminders plugin: https://docs.auxbot.xyz/plugins/useful/reminders
+• Fixed broken toggle commands
+• Added a few more economy commands (More coming soon.)
+• Fixed bug with disboard test command
+• More commands work in bot dms
+• New website design in the works
+```
+
 ## 0.1.6 - 0.1.7 <a id="0-0-7-0-0-8"></a>
 
 ```yaml

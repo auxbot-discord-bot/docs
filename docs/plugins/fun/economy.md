@@ -84,6 +84,58 @@ Checks your account balance.
 {% endtab %}
 {% endtabs %}
 
+## !a withdraw
+
+Withdraws an amount of money from you bank to your wallet.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a withdraw &lt;AMOUNT&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* with
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a deposit
+
+Deposits an amount of money from you wallet to your bank.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a deposit &lt;AMOUNT&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* dep
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
 ## !a beg
 
 Allows you to beg for money.
