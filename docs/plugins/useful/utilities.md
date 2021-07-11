@@ -807,11 +807,11 @@ Returns a graph of the channels message stats.
 
 ## !a screenshot
 
-Returns a screenshot of a website, requires nsfw channel if it's a nsfw website.
+Returns a screenshot of a website.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a screenshot &lt;WEBSITE URL&gt;
+* !a screenshot &lt;WEBSITE URL&gt; \[--fullscreen\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -825,7 +825,7 @@ Returns a screenshot of a website, requires nsfw channel if it's a nsfw website.
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
-* \[nsfw channel\]
+* nsfw channel
 {% endtab %}
 
 {% tab title="Cooldown" %}
