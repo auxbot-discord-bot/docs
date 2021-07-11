@@ -37,19 +37,17 @@ description: AuxBot's Tags Plugin Commands.
   </tbody>
 </table>
 
-## !a servertags
+## !a tag
 
-Returns all of the servers tags.
+Returns the created tag.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a servertags
+* !a tag &lt;TAG NAME&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}
-* sts
-* server\_tags
-* server-tags
+* tags
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -65,13 +63,13 @@ Returns all of the servers tags.
 {% endtab %}
 {% endtabs %}
 
-## !a tag
+## !a tag list
 
-Returns the created tag.
+Returns a list of all the servers tags.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a tag &lt;TAG NAME&gt;
+* !a tag list
 {% endtab %}
 
 {% tab title="Aliases" %}

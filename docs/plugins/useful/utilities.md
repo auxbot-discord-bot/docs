@@ -97,6 +97,13 @@ description: AuxBot's Utilities Plugin Commands.
         <p>privacy policy</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">WEBSITE URL</td>
+      <td style="text-align:left">
+        <p>Text:</p>
+        <p>https://www.auxbot.xyz</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -794,7 +801,35 @@ Returns a graph of the channels message stats.
 {% endtab %}
 
 {% tab title="Cooldown" %}
-* 1 every 5 seconds per user
+* 1 every 5 seconds per server.
+{% endtab %}
+{% endtabs %}
+
+## !a screenshot
+
+Returns an screenshot of a website, requires nsfw channel if it's a nsfw website.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a screenshot &lt;WEBSITE URL&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* ss
+* screen\_shot
+* screen-shot
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* \[nsfw channel\]
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* Once every 5 seconds per server.
 {% endtab %}
 {% endtabs %}
 
