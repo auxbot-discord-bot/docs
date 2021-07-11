@@ -807,7 +807,7 @@ Returns a graph of the channels message stats.
 
 ## !a screenshot
 
-Returns an screenshot of a website, requires nsfw channel if it's a nsfw website.
+Returns a screenshot of a website, requires nsfw channel if it's a nsfw website.
 
 {% tabs %}
 {% tab title="Usage" %}
