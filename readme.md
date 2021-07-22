@@ -25,10 +25,10 @@
             <img src="https://img.shields.io/badge/GitBook-Passing-green">
         </a>
         <a href="https://www.auxbot.xyz">
-            <img src="https://img.shields.io/badge/Discord.py-1.7.2-blue.svg">
+            <img src="https://img.shields.io/badge/Discord.py-1.7.3-blue.svg">
         </a>
         <a href="https://www.auxbot.xyz">
-            <img src="https://img.shields.io/badge/Python-3.8.5-yellow.svg">
+            <img src="https://img.shields.io/badge/Python-3.9.6-yellow.svg">
         </a>
     </p>
 </div>
