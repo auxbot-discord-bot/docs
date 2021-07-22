@@ -3,7 +3,7 @@
 <div>
     <p align="center">
         <a href="https://www.auxbot.xyz">
-        <img src="https://i.imgur.com/mI2rFoO.png" alt="AuxBot-Logo" width="100" height="100">
+            <img src="https://i.imgur.com/RRivTWc.png" width="100" height="100">
         </a>
     </p>
 </div>
@@ -11,8 +11,16 @@
     <p align="center">
         AuxBot Discord Bot Docs
         <br>
+        <a href="https://www.auxbot.xyz/invite">AuxBot Invite</a>
+        ⋇
+        <a href="https://www.auxbot.xyz/support">Support Server</a>
+        <br>
         <a href="https://www.auxbot.xyz/docs"><strong>AuxBot Documentation »</strong></a>
-        <p align="center">
+        <br>
+        <br>
+        <strong>Bot Information</strong>
+        <br>
+        <br>
         <a href="https://www.auxbot.xyz/docs">
             <img src="https://img.shields.io/badge/GitBook-Passing-green">
         </a>
@@ -22,16 +30,11 @@
         <a href="https://www.auxbot.xyz">
             <img src="https://img.shields.io/badge/Python-3.8.5-yellow.svg">
         </a>
-        <br>
-        <a href="https://www.auxbot.xyz/invite">AuxBot Invite</a>
-        ⋇
-        <a href="https://www.auxbot.xyz/support">Support Server</a>
     </p>
 </div>
-<hr>
 <div>
     <p align="center">
-        <strong>Respository Information</strong>
+        <strong>Repository Information</strong>
         <br>
         <br>
         <a href="https://github.com/AuxBot-Discord-Bot/AuxBot-Docs">
