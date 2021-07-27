@@ -833,3 +833,55 @@ Returns a screenshot of a website.
 {% endtab %}
 {% endtabs %}
 
+## !a id
+
+Returns a user id.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a id \[MEMBER\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
+## !a id server
+
+Returns the servers id.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a id server
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* none
+{% endtab %}
+{% endtabs %}
+
