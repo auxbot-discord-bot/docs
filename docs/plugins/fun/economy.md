@@ -27,6 +27,13 @@ description: AuxBot's Economy Plugin Commands.
         <p>@Auxtal / Auxtal#1696 / 327745755789918201</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">AMOUNT</td>
+      <td style="text-align:left">
+        <p>Number:</p>
+        <p>100</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 

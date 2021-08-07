@@ -37,13 +37,39 @@ description: AuxBot's Code Plugin Commands
   </tbody>
 </table>
 
-## !a code
+## !a run
 
 Runs code in a chosen language.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a code &lt;LANGUAGE&gt; &lt;CODE&gt;
+* !a run &lt;LANGUAGE&gt; &lt;CODE&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* code
+{% endtab %}
+
+{% tab title="Permissions" %}
+* none
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a run repeat
+
+Runs cached code previously ran by a member.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a run repeat
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -63,17 +89,17 @@ Runs code in a chosen language.
 {% endtab %}
 {% endtabs %}
 
-## !a code repeat
+## !a run languages
 
-Runs cached code previously ran by a member.
+Returns all of the valid languages able to be used.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a code repeat
+* !a run languages
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* code
 {% endtab %}
 
 {% tab title="Permissions" %}

@@ -14,11 +14,10 @@ It is not possible for AuxBot to store you personal information without your per
 
 Upon adding AuxBot to your server you agree to allowing the bot to store the following information.
 
-* Guild ID \(Server ID\)
-* Guilds Name \(Server Name\)
-* Default And Custom Bot Settings
+* Guild Id \(Server Id\)
+* Custom Bot Settings
 * Executed Commands
-* Server Member ID's And Names
+* Server Member Id's
 * Deleted messages \(Optional\)
 * Edited message \(Optional\)
 

@@ -77,27 +77,6 @@ description: AuxBot's Utilities Plugin Commands.
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">SENTENCE</td>
-      <td style="text-align:left">
-        <p>Text:</p>
-        <p>I went to the shops</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">URL</td>
-      <td style="text-align:left">
-        <p>Text:</p>
-        <p>faq</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">ENDPOINT</td>
-      <td style="text-align:left">
-        <p>Text:</p>
-        <p>privacy policy</p>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">WEBSITE URL</td>
       <td style="text-align:left">
         <p>Text:</p>
@@ -339,7 +318,7 @@ Returns a members avatar.
 {% endtab %}
 
 {% tab title="Aliases" %}
-* none
+* av
 {% endtab %}
 
 {% tab title="Permissions" %}
@@ -543,13 +522,13 @@ Returns AuxBot invite links.
 {% endtab %}
 {% endtabs %}
 
-## !a report
+## !a support
 
-Returns ways to report errors with the bot.
+Returns a link to AuxBot's support server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a report
+* !a support
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -732,32 +711,6 @@ Checks if you have voted for the bot.
 {% tabs %}
 {% tab title="Usage" %}
 * !a voted
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* none
-{% endtab %}
-{% endtabs %}
-
-## !a docs
-
-Returns a documentation URL for AuxBot's docs.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a docs &lt;URL \(cmd, update, faq.\)&gt; &lt;ENDPOINT&gt;
 {% endtab %}
 
 {% tab title="Aliases" %}

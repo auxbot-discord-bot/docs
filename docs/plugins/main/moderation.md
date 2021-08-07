@@ -21,31 +21,24 @@ description: AuxBot's Moderation Plugin Commands.
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">MEMBER</td>
+      <td style="text-align:left">MEMBER/USER</td>
       <td style="text-align:left">
         <p>A discord member mention, username and discriminator or id:</p>
         <p>@Auxtal / Auxtal#1696 / 327745755789918201</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">MEMBER ID</td>
-      <td style="text-align:left">
-        <p>A discord member id:</p>
-        <p>701301497501188169</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">TIME</td>
+      <td style="text-align:left">DURATION</td>
       <td style="text-align:left">
         <p>Custom time:</p>
-        <p>10m</p>
+        <p>12h</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">CASE NUMBER</td>
       <td style="text-align:left">
         <p>Number:</p>
-        <p>5</p>
+        <p>1</p>
       </td>
     </tr>
     <tr>
@@ -116,11 +109,11 @@ Changes a members nickname.
 
 ## !a ban
 
-Bans a member\(s\) from the server.
+Bans a user from the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a ban &lt;MEMBER\(s\)&gt; \[REASON\]
+* !a ban &lt;USER&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -200,7 +193,7 @@ Unbans a user from the server.
 
 {% tabs %}
 {% tab title="Usage" %}
-* !a unban &lt;USERNAME AND HASHTAG / ID&gt; \[REASON\]
+* !a unban &lt;USER&gt; \[REASON\]
 {% endtab %}
 
 {% tab title="Aliases" %}
@@ -235,6 +228,86 @@ Warns a member\(s\) in the server.
 
 {% tab title="Permissions" %}
 * manage messages
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a tempmute
+
+Temp mutes a member in the server..
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a tempmute &lt;DURATION&gt; &lt;MEMBER&gt; \[REASON\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* tm
+* temp\_mute
+* temp-mute
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage roles
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a mute
+
+Mutes a member in the server.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a mute &lt;MEMBER&gt; \[REASON\]
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage roles
+{% endtab %}
+
+{% tab title="Channel Requirements" %}
+* none
+{% endtab %}
+
+{% tab title="Cooldown" %}
+* 1 every 2 seconds per user.
+{% endtab %}
+{% endtabs %}
+
+## !a unmute
+
+Unmutes the mentioned member.
+
+{% tabs %}
+{% tab title="Usage" %}
+* !a unmute &lt;MEMBER&gt;
+{% endtab %}
+
+{% tab title="Aliases" %}
+* none
+{% endtab %}
+
+{% tab title="Permissions" %}
+* manage roles
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
@@ -317,86 +390,6 @@ Returns the cases for a member.
 
 {% tab title="Permissions" %}
 * none
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a tempmute
-
-Temp mutes a member in the server..
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a tempmute &lt;MEMBER&gt; &lt;TIME&gt; \[REASON\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* tm
-* temp\_mute
-* temp-mute
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage roles
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a mute
-
-Mutes a member in the server.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a mute &lt;MEMBER&gt; \[REASON\]
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage roles
-{% endtab %}
-
-{% tab title="Channel Requirements" %}
-* none
-{% endtab %}
-
-{% tab title="Cooldown" %}
-* 1 every 2 seconds per user.
-{% endtab %}
-{% endtabs %}
-
-## !a unmute
-
-Unmutes the mentioned member.
-
-{% tabs %}
-{% tab title="Usage" %}
-* !a unmute &lt;MEMBER&gt;
-{% endtab %}
-
-{% tab title="Aliases" %}
-* none
-{% endtab %}
-
-{% tab title="Permissions" %}
-* manage roles
 {% endtab %}
 
 {% tab title="Channel Requirements" %}
