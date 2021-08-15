@@ -1,0 +1,17 @@
+{
+  "name": "auxbot-docs",
+  "version": "1.0.0",
+  "repository": "https://github.com/AuxBot-Discord-Bot/AuxBot-Docs.git",
+  "author": "Auxtal",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev docs"
+  },
+  "dependencies": {
+    "@discord-message-components/vue": "^0.2.1",
+    "@mr-hope/vuepress-plugin-pwa": "^1.19.1",
+    "vuepress-theme-yuu": "^3.1.1",
+    "vuepress-vite": "^2.0.0-beta.24"
+  }
+}
