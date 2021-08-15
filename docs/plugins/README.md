@@ -206,3 +206,140 @@ None
 ```
 :::
 ::::
+
+## Logs
+
+### Command Argument Specifications And Examples
+
+| Argument |                                      Example                                     |
+| -------- | -------------------------------------------------------------------------------- |
+| CHANNEL  | A discord channel mention name or id:<br>#general / general / 665811293970818050 |
+| EVENT    | Text:<br>on_member_join                                                          |
+
+### !a logs
+
+> Returns all of the logs plugin commands.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a logs
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+### !a logs set
+
+> Sets the logging channel for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a logs set <CHANNEL>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+Text Channel
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+### !a logs channel
+
+> Returns the channel and and id for the logging channel.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a logs channel
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+### !a logs reset
+
+> Resets the current logs settings for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a logs reset
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
