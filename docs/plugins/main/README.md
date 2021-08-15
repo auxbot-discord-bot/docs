@@ -16,3 +16,31 @@ sidebar: auto
 | MESSAGE  | Text:<br>Time to bump the server                                                 |
 
 ## !a disboard
+
+:::: code-group
+::: code-group-item Usage
+```
+!a disboard
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
