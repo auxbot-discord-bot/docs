@@ -2,11 +2,11 @@
 
 AuxBot's main plugins.
 
-## Disboard
-
 ::: tip
 [Means Optional] (Means Valid Options) This / Or This
 :::
+
+## Disboard
 
 ### Command Argument Specifications And Examples
 
