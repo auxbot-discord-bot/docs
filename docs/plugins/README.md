@@ -1995,3 +1995,143 @@ Voice Channel
 ```
 :::
 ::::
+
+### Reminder
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                                             |
+| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| TIME                 | Custom time:<br>10m                                                                                      |
+| MESSAGE              | Text:<br>Do my homework.                                                                                 |
+| ID                   | Number:<br>20                                                                                            |
+
+#### !a reminder
+
+> Creates a reminder that will remind you of your message.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a reminder <TIME> [MESSAGE]
+```
+:::
+::: code-group-item Aliases
+```
+timer
+remind
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a reminder list
+
+> Returns the 10 last latest currently running reminders.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a reminder list
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a reminder delete
+
+> Deletes a reminder by its ID.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a reminder delete <ID>
+```
+:::
+::: code-group-item Aliases
+```
+remove
+cancel
+```
+:::
+::: code-group-item Permissions
+```
+Reminder Creator
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a reminder clear
+
+> Clears all reminders that you have set.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a reminder clear
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
