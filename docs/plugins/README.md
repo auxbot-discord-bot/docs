@@ -1,12 +1,12 @@
 # Plugins
 
-## Main Plugins
-
-AuxBot's main plugins.
-
 ::: tip
 [Means Optional] (Means Valid Options) This / Or This
 :::
+
+## Main Plugins
+
+AuxBot's main plugins.
 
 #### Disboard
 
@@ -1285,10 +1285,6 @@ None
 
 AuxBot's useful plugins.
 
-::: tip
-[Means Optional] (Means Valid Options) This / Or This
-:::
-
 ### Code
 
 #### Command Argument Specifications And Examples
@@ -1380,6 +1376,206 @@ None
 ::: code-group-item Permissions
 ```
 None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+### Configuration
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                     |
+| -------------------- | -------------------------------------------------------------------------------- |
+| PREFIX               | Text:<br>!a                                                                      |
+
+#### !a swearing
+
+> Returns all of the swearing commands.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a swearing
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a swearing toggle
+
+> Toggles the swearing plugin on and off.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a swearing toggle
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a prefix
+
+> Returns your servers prefix(es).
+
+:::: code-group
+::: code-group-item Usage
+```
+!a prefix
+```
+:::
+::: code-group-item Aliases
+```
+prefixes
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a prefix add
+
+> Adds a prefix the the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a prefix add <PREFIX>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a prefix remove
+
+> Removes a prefix from the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a prefix remove <PREFIX>
+```
+:::
+::: code-group-item Aliases
+```
+delete
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a prefix reset
+
+> Resets all server prefixes.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a prefix reset
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
 ```
 :::
 ::: code-group-item Channel Requirements
