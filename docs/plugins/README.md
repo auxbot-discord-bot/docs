@@ -2265,3 +2265,204 @@ None
 ```
 :::
 ::::
+
+### Tags
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                                             |
+| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| TAG NAME             | Text:<br>welcome                                                                                         |
+| TAG CONTENT          | Text:<br>Welcome to our server!                                                                          |
+
+#### !a tag
+
+> Returns the created tag.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a tag <TAG NAME>
+```
+:::
+::: code-group-item Aliases
+```
+tags
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a tag list
+
+> Returns a list of all the servers tags.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a tag list
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a tag create
+
+> Creates a tag that you can recall.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a tag create <TAG NAME> <TAG CONTENT>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a tag edit
+
+> Edits an existing tag.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a tag edit <TAG NAME> <TAG CONTENT>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Tag Owner
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a tag delete
+
+> Deletes a tag from the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a tag delete <TAG NAME>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Tag Owner / Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a tag info
+
+> Returns information about a tag.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a tag info <TAG NAME>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
