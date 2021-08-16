@@ -1044,3 +1044,237 @@ Text Channel
 ```
 :::
 ::::
+
+## Welcomer
+
+### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                     |
+| -------------------- | -------------------------------------------------------------------------------- |
+| CHANNEL              | A discord channel mention name or id:<br>#general / general / 665811293970818050 |
+| PNG / JPG IMAGE URL  | An image url:<br>https://i.imgur.com/nKjYhYw.jpg                                 |
+| MESSAGE              | Text:<br>Welcome to the server!                                                  |
+
+### !a welcome
+
+> Returns all of the welcome plugin commands.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a welcome
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+### !a welcome set
+
+> Sets the welcome channel for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a welcome set <CHANNEL>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+Text Channel
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+### !a welcome test
+
+> Tests the welcome channel.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a welcome test
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+### !a welcome banner
+
+> Sets the welcome banner background for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a welcome banner <PNG / JPG / GIF URL>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+### !a welcome message
+
+> Sets the welcome message for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a welcome banner <PNG / JPG / GIF URL>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+### !a welcome channel
+
+> Returns the channel for the welcome plugin channel.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a welcome channel
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+### !a welcome reset
+
+> Resets the current welcome settings for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a welcome reset
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
