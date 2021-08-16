@@ -3402,3 +3402,178 @@ None
 ```
 :::
 ::::
+
+## Fun Plugins
+
+AuxBot's fun plugins.
+
+### Economy
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| MEMBER               | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| AMOUNT               | Number:<br>100                                                                                            |
+
+#### !a openaccount
+
+> Opens a new bank account for you.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a openaccount
+```
+:::
+::: code-group-item Aliases
+```
+oa
+open_account
+open-account
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a balance
+
+> Checks your account balance.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a balance [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a withdraw
+
+> Withdraws an amount of money from you bank to your wallet.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a withdraw <AMOUNT>
+```
+:::
+::: code-group-item Aliases
+```
+with
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a deposit
+
+> Deposits an amount of money from you wallet to your bank.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a deposit <AMOUNT>
+```
+:::
+::: code-group-item Aliases
+```
+dep
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a beg
+
+> Allows you to beg for money.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a beg
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
