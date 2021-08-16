@@ -2466,3 +2466,939 @@ None
 ```
 :::
 ::::
+
+### Utility
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| MEMBER               | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| ROLE                 | A discord role mention, name or id:<br>@Moderators / Moderators / 672258502307086337                      |
+| TIME                 | Custom time:<br>10m                                                                                       |
+| COLOUR               | Colour code:<br>#&lt;HEX&gt; / 0x&lt;HEX&gt; / 0x#&lt;HEX&gt;                                             |
+| COMMAND              | AuxBot command name or alias:<br>addrole / ar                                                             |
+| PLUGIN               | AuxBot plugin:<br>welcome                                                                                 |
+| EMOJI                | Emoji:<br>:wave:                                                                                          |
+| WEBSITE URL          | Text:<br>auxbot.xyz                                                                                       |
+| QUERY                | Text:<br>My query                                                                                         |
+
+#### !a help
+
+> Returns help for commands and plugins.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a help [COMMAND / PLUGIN]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a ping
+
+> Returns the ping of AuxBot.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a ping
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a botinfo
+
+> Returns the info of AuxBot.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a botinfo
+```
+:::
+::: code-group-item Aliases
+```
+bi
+bot_info
+bot-info
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a userinfo
+
+> Returns the info of a member.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a userinfo [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+ui
+user_info
+user-info
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a serverinfo
+
+> Returns the info of the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a serverinfo
+```
+:::
+::: code-group-item Aliases
+```
+si
+server_info
+server-info
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a addrole
+
+> Adds a role to a member.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a addrole <MEMBER> <ROLE>
+```
+:::
+::: code-group-item Aliases
+```
+ar
+add_role
+add-role
+```
+:::
+::: code-group-item Permissions
+```
+Manage Roles
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a removerole
+
+> Removes a role from a member.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a removerole <MEMBER> <ROLE>
+```
+:::
+::: code-group-item Aliases
+```
+rr
+remove_role
+remove-role
+```
+:::
+::: code-group-item Permissions
+```
+Manage Roles
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a slowmode
+
+> Changes the slowmode setting for a channel.
+
+::: tip
+If you do not put a time it disables slowmode.
+:::
+
+:::: code-group
+::: code-group-item Usage
+```
+!a slowmode [TIME]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Channels
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a avatar
+
+> Returns a members avatar.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a avatar
+```
+:::
+::: code-group-item Aliases
+```
+av
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a charinfo
+
+> Returns the emoji(s) information.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a charinfo <EMOJI(s)>
+```
+:::
+::: code-group-item Aliases
+```
+ci
+char_info
+char-info
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a commandstats
+
+> Returns command statistics for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a commandstats
+```
+:::
+::: code-group-item Aliases
+```
+cs
+command_stats
+command-stats
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per server.
+```
+:::
+::::
+
+#### !a colour
+
+> Returns the colour in an image.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a colour <COLOUR>
+```
+:::
+::: code-group-item Aliases
+```
+color
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a uptime
+
+> Returns the amount of time the bot has been on for.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a uptime
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a membercount
+
+> Returns the member count for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a membercount
+```
+:::
+::: code-group-item Aliases
+```
+mc
+member_count
+member-count
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a bin
+
+> Returns a link to a sourcebin.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a bin
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a invite
+
+> Returns AuxBot invite links.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a invite
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a support
+
+> Returns a link to AuxBot's support server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a support
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a search
+
+> Searches google for your query.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a search <QUERY>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a documentation
+
+> Returns a link to AuxBot docs.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a documentation
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a events
+
+> Returns all of the logging events.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a events
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a website
+
+> Returns a link to AuxBot's website.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a website
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a emojis
+
+> Returns all of the servers emojis.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a emojis
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a vote
+
+> Takes you AuxBot's top.gg vote page.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a vote
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a voted
+
+> Checks if you have voted for the bot.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a voted
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a messagestats
+
+> Returns a graph of the channels message stats.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a messagestats
+```
+:::
+::: code-group-item Aliases
+```
+ms
+message_stats
+message-stats
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per server.
+```
+:::
+::::
+
+#### !a screenshot
+
+> Returns a screenshot of a website.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a screenshot <WEBSITE URL> [--fullscreen]
+```
+:::
+::: code-group-item Aliases
+```
+ss
+screen_shot
+screen-shot
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+NSFW Channel
+```
+:::
+::: code-group-item Cooldown
+```
+Once every 5 seconds per server.
+```
+:::
+::::
+
+#### !a id
+
+> Returns a user id.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a id [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a id server
+
+> Returns the servers id.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a id server
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
