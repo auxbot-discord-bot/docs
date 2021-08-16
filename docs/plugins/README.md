@@ -2135,3 +2135,133 @@ None
 ```
 :::
 ::::
+
+### Snipes
+
+#### !a snipe
+
+> Returns the last deleted message in the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a snipe
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Messages
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a snipe toggle
+
+> Toggles the snipe plugin for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a snipe toggle
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a editsnipe
+
+> Returns the last edited message in the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a editsnipe
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Messages
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a editsnipe toggle
+
+> Toggles the edit snipe plugin for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a editsnipe toggle
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
