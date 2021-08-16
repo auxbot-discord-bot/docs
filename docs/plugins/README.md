@@ -1,4 +1,6 @@
-# Main Plugins
+# Plugins
+
+## Main Plugins
 
 AuxBot's main plugins.
 
@@ -6,16 +8,16 @@ AuxBot's main plugins.
 [Means Optional] (Means Valid Options) This / Or This
 :::
 
-## Disboard
+#### Disboard
 
-### Command Argument Specifications And Examples
+#### Command Argument Specifications And Examples
 
 | Argument |                                      Example                                     |
 | -------- | -------------------------------------------------------------------------------- |
 | CHANNEL  | A discord channel mention name or id:<br>#general / general / 665811293970818050 |
 | MESSAGE  | Text:<br>Time to bump the server                                                 |
 
-### !a disboard
+#### !a disboard
 
 > Returns all of the disboard plugin commands.
 
@@ -47,7 +49,7 @@ None
 :::
 ::::
 
-### !a disboard set
+#### !a disboard set
 
 > Sets the disboard channel for the server.
 
@@ -79,7 +81,7 @@ Text Channel
 :::
 ::::
 
-### !a disboard test
+#### !a disboard test
 
 > Tests the disboard channel.
 
@@ -111,7 +113,7 @@ None
 :::
 ::::
 
-### !a disboard message
+#### !a disboard message
 
 > Sets the disboard timer message.
 
@@ -143,7 +145,7 @@ None
 :::
 ::::
 
-### !a disboard channel
+#### !a disboard channel
 
 > Returns the channel for the disboard plugin channel.
 
@@ -175,7 +177,7 @@ None
 :::
 ::::
 
-### !a disboard reset
+#### !a disboard reset
 
 > Resets the current disboard settings for the server.
 
@@ -207,16 +209,16 @@ None
 :::
 ::::
 
-## Logs
+### Logs
 
-### Command Argument Specifications And Examples
+#### Command Argument Specifications And Examples
 
 | Argument |                                      Example                                     |
 | -------- | -------------------------------------------------------------------------------- |
 | CHANNEL  | A discord channel mention name or id:<br>#general / general / 665811293970818050 |
 | EVENT    | Text:<br>on_member_join                                                          |
 
-### !a logs
+#### !a logs
 
 > Returns all of the logs plugin commands.
 
@@ -248,7 +250,7 @@ None
 :::
 ::::
 
-### !a logs set
+#### !a logs set
 
 > Sets the logging channel for the server.
 
@@ -280,7 +282,7 @@ Text Channel
 :::
 ::::
 
-### !a logs toggle
+#### !a logs toggle
 
 > Allows you to toggle certain events.
 
@@ -316,7 +318,7 @@ None
 :::
 ::::
 
-### !a logs channel
+#### !a logs channel
 
 > Returns the channel and and id for the logging channel.
 
@@ -348,7 +350,7 @@ None
 :::
 ::::
 
-### !a logs reset
+#### !a logs reset
 
 > Resets the current logs settings for the server.
 
@@ -380,9 +382,9 @@ None
 :::
 ::::
 
-## Moderation
+### Moderation
 
-### Command Argument Specifications And Examples
+#### Command Argument Specifications And Examples
 
 | Argument     |                                      Example                                                              |
 | ------------ | --------------------------------------------------------------------------------------------------------- |
@@ -395,7 +397,7 @@ None
 | PREFIX       | Text:<br>!a                                                                                               |
 | NUMBER       | Number:<br>10                                                                                             |
 
-### !a changenickname
+#### !a changenickname
 
 > Changes a members nickname.
 
@@ -429,7 +431,7 @@ None
 :::
 ::::
 
-### !a ban
+#### !a ban
 
 > Bans a user from the server.
 
@@ -461,7 +463,7 @@ None
 :::
 ::::
 
-### !a kick
+#### !a kick
 
 > Kicks member(s) from the server.
 
@@ -493,7 +495,7 @@ None
 :::
 ::::
 
-### !a softban
+#### !a softban
 
 > Soft bans member(s) from the server.
 
@@ -527,7 +529,7 @@ None
 :::
 ::::
 
-### !a unban
+#### !a unban
 
 > Unbans a user from the server.
 
@@ -559,7 +561,7 @@ None
 :::
 ::::
 
-### !a warn
+#### !a warn
 
 > Warns a member(s) in the server.
 
@@ -591,7 +593,7 @@ None
 :::
 ::::
 
-### !a tempmute
+#### !a tempmute
 
 > Temporalily mutes a member in the server.
 
@@ -625,7 +627,7 @@ None
 :::
 ::::
 
-### !a mute
+#### !a mute
 
 > Mutes a member in the server.
 
@@ -657,7 +659,7 @@ None
 :::
 ::::
 
-### !a unmute
+#### !a unmute
 
 > Unmutes the mentioned member.
 
@@ -689,7 +691,7 @@ None
 :::
 ::::
 
-### !a clearcases
+#### !a clearcases
 
 > Clears a member's case(s) in a server.
 
@@ -723,7 +725,7 @@ None
 :::
 ::::
 
-### !a editcase
+#### !a editcase
 
 > Edits a case reason in a server.
 
@@ -757,7 +759,7 @@ None
 :::
 ::::
 
-### !a cases
+#### !a cases
 
 > Returns the cases for a member.
 
@@ -789,7 +791,7 @@ None
 :::
 ::::
 
-### !a clear
+#### !a clear
 
 > Deletes the specified amount of messages.
 
@@ -821,7 +823,7 @@ Text Channel
 :::
 ::::
 
-### !a clear embeds
+#### !a clear embeds
 
 > Deletes specified amount of messages containing an embed.
 
@@ -853,7 +855,7 @@ Text Channel
 :::
 ::::
 
-### !a clear files
+#### !a clear files
 
 > Deletes specified amount of messages containing a file.
 
@@ -885,7 +887,7 @@ Text Channel
 :::
 ::::
 
-### !a clear images
+#### !a clear images
 
 > Deletes specified amount of messages containing a file or embed.
 
@@ -917,7 +919,7 @@ Text Channel
 :::
 ::::
 
-### !a clear member
+#### !a clear member
 
 > Deletes specified amount of messages from a member.
 
@@ -949,7 +951,7 @@ Text Channel
 :::
 ::::
 
-### !a clear contains
+#### !a clear contains
 
 > Deletes specified amount of messages that contains the specified content.
 
@@ -981,7 +983,7 @@ Text Channel
 :::
 ::::
 
-### !a clear bot
+#### !a clear bot
 
 > Deletes specified amount of messages from a bot.
 
@@ -1013,7 +1015,7 @@ Text Channel
 :::
 ::::
 
-### !a clear reactions
+#### !a clear reactions
 
 > Deletes reactions from messages that have them.
 
@@ -1045,9 +1047,9 @@ Text Channel
 :::
 ::::
 
-## Welcomer
+### Welcomer
 
-### Command Argument Specifications And Examples
+#### Command Argument Specifications And Examples
 
 | Argument             |                                      Example                                     |
 | -------------------- | -------------------------------------------------------------------------------- |
@@ -1055,7 +1057,7 @@ Text Channel
 | PNG / JPG IMAGE URL  | An image url:<br>https://i.imgur.com/nKjYhYw.jpg                                 |
 | MESSAGE              | Text:<br>Welcome to the server!                                                  |
 
-### !a welcome
+#### !a welcome
 
 > Returns all of the welcome plugin commands.
 
@@ -1087,7 +1089,7 @@ None
 :::
 ::::
 
-### !a welcome set
+#### !a welcome set
 
 > Sets the welcome channel for the server.
 
@@ -1119,7 +1121,7 @@ Text Channel
 :::
 ::::
 
-### !a welcome test
+#### !a welcome test
 
 > Tests the welcome channel.
 
@@ -1151,7 +1153,7 @@ None
 :::
 ::::
 
-### !a welcome banner
+#### !a welcome banner
 
 > Sets the welcome banner background for the server.
 
@@ -1183,7 +1185,7 @@ None
 :::
 ::::
 
-### !a welcome message
+#### !a welcome message
 
 > Sets the welcome message for the server.
 
@@ -1215,7 +1217,7 @@ None
 :::
 ::::
 
-### !a welcome channel
+#### !a welcome channel
 
 > Returns the channel for the welcome plugin channel.
 
@@ -1247,7 +1249,7 @@ None
 :::
 ::::
 
-### !a welcome reset
+#### !a welcome reset
 
 > Resets the current welcome settings for the server.
 
@@ -1265,6 +1267,119 @@ None
 ::: code-group-item Permissions
 ```
 Manage Server
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+## Useful Plugins
+
+AuxBot's useful plugins.
+
+::: tip
+[Means Optional] (Means Valid Options) This / Or This
+:::
+
+### Code
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                     |
+| -------------------- | -------------------------------------------------------------------------------- |
+| LANGUAGE             | Text:<br>python                                                                  |
+| CODE                 | Text:<br>print('Hello, World!')                                                  |
+
+#### !a run
+
+> Runs code in a chosen language.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a run <LANGUAGE> <CODE>
+```
+:::
+::: code-group-item Aliases
+```
+code
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a run repeat
+
+> Runs cached code previously ran by a member.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a run repeat
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a run languages
+
+> Returns all of the valid languages able to be used.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a run languages
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
 ```
 :::
 ::: code-group-item Channel Requirements
