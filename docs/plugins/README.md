@@ -3577,3 +3577,567 @@ None
 ```
 :::
 ::::
+
+### Fun
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| MEMBER               | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| QUESTION             | Text:<br>AuxBot is awesome right?                                                                         |
+| SENTENCE             | Text:<br>I ate pizza today.                                                                               |
+| HEADS                | Text:<br>heads                                                                                            |
+| TAILS                | Text:<br>tails                                                                                            |
+| NUMBER               | Number:<br>43                                                                                             |
+| WORD                 | Text:<br>meaning                                                                                          |
+| PERSON1              | Text:<br>Rick                                                                                             |
+| PERSON2              | Text:<br>Mona                                                                                             |
+
+#### !a 8ball
+
+> Returns a random answer to your question.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a 8ball <QUESTION>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a meme
+
+> Returns a random meme.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a meme
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a say
+
+> Makes AuxBot say what you said.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a say <SENTENCE>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+Manage Messages
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a coin
+
+> Makes AuxBot play heads or tails with you.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a coin <HEADS / TAILS>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a roll
+
+> Rolls a random number between the number inputted.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a roll <NUMBER>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a shutthefuckup
+
+> Tells the chat to shut the fuck up.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a shutthefuckup
+```
+:::
+::: code-group-item Aliases
+```
+stfu
+shut_the_fuck_up
+shut-the-fuck-up
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
+
+#### !a lovecalculator
+
+> Calculates love between two names.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a lovecalculator <PERSON1> <PERSON2>
+```
+:::
+::: code-group-item Aliases
+```
+lovcalc
+love_calculator
+love-calculator
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a urban
+
+> Searches the urban dictionary.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a urban <WORD>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a hug
+
+> Returns a hug gif with the members name.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a hug [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a cuddle
+
+> Returns a cuddle gif with the members name.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a cuddle [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a kiss
+
+> Returns a kiss gif with the members name.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a kiss [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a pat
+
+> Returns a pat gif with the members name.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a pat [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a poke
+
+> Returns a poke gif with the members name.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a poke [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a tickle
+
+> Returns a tickle gif with the members name.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a tickle [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a slap
+
+> Returns a slap gif with the members name.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a slap [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a goose
+
+> Returns a picture of a goose.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a goose
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a pp
+
+> Returns a random pp size for the member.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a pp [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+None
+```
+:::
+::::
