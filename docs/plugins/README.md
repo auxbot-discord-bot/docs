@@ -4141,3 +4141,1452 @@ None
 ```
 :::
 ::::
+
+### Image Generation
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| MEMBER               | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| SENTENCE             | Text:<br>I ate pizza today.                                                                               |
+
+#### !a jail
+
+> Returns the members avatar behind bars.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a jail [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a wanted
+
+> Returns the members avatar in a wanted poster.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a wanted [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a brazzers
+
+> Returns the members avatar with a brazzers logo.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a brazzers [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a shit
+
+> Returns the members name on the bottom of a shoe.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a shit [MEMBER / SENTENCE]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a dank
+
+> Returns a gif of the members avatar with MLG pictures.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a dank [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a corporate
+
+> Returns the members avatar in a corporate meme.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a corporate [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a dab
+
+> Returns the members avatar doing a dab.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a dab [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a door
+
+> Returns the members avatar looking out a door.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a door [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a egg
+
+> Returns the members avatar as an egg out of a duck.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a egg [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a failure
+
+> Returns the members avatar in a classroom with everyone staring.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a failure [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a fakenews
+
+> Returns the members avatar in a tv.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a fakenews [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a fedora
+
+> Returns the members avatar in a fedora.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a fedora [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a gay
+
+> Returns the members avatar with rainbow colours on it.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a gay [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a goggles
+
+> Returns the members avatar in a science lab.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a goggles [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a hitler
+
+> Returns the members avatar in a worst than hitler meme.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a hitler [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a invert
+
+> Returns the members avatar inverted.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a invert [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a ipad
+
+> Returns the members avatar in an ipad.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a ipad [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a kimborder
+
+> Returns the members avatar on the floor.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a kimborder [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a laid
+
+> Returns the members avatar on a piece of paper.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a laid [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a magik
+
+> Returns the members avatar with magic.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a magik [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a radialblur
+
+> Returns members avatar with a radial blur.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a radialblur [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a youtube
+
+> Returns the members avatar and text in a youtube comment.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a youtube <MEMBER> <SENTENCE>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a whothisis
+
+> Returns the members avatar in a whothis meme.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a whothisis <MEMBER> <NAME>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a aborted
+
+> Returns the members avatar on a persons head.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a aborted [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a affect
+
+> Returns the members avatar on a monitor.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a affect [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a airpods
+
+> Returns the members avatar with airpods.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a airpods [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a america
+
+> Returns the members avatar on with the American flag on top.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a america [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a bed
+
+> Returns both members avatars on a bed.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a bed <MEMBER> <MEMBER>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a bongocat
+
+> Returns the members avatar with a bongocat.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a bongocat [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a cancer
+
+> Returns the members avatar with the words cancer above it.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a cancer [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a communism
+
+> Returns members avatar with a communism flag.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a communism [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a deepfry
+
+> Returns members avatar with a bunch of weird effects.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a deepfry [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a delete
+
+> Returns the members avatar in a delete window.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a delete [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a disability
+
+> Returns the members avatar on a disability poster.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a disability [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a madethis
+
+> Returns the members avatar in a madethis meme.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a madethis <MEMBER> <MEMBER>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a rip
+
+> Returns the members avatar on a RIP headstone.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a rip [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a roblox
+
+> Returns the members avatar on a roblox character.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a roblox [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a salty
+
+> Returns the members avatar with a salt shaker.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a salty [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a satan
+
+> Returns the members avatar on satans head.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a satan [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a screams
+
+> Returns the members avatars in a screams meme.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a screams <MEMBER> <MEMBER>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a sickban
+
+> Returns the members avatar in a mail segment.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a sickban [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a spank
+
+> Returns one member spanking the other member.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a spank <MEMBER>
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a trigger
+
+> Returns the members avatar triggered.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a trigger [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a ugly
+
+> Makes you ugly.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a ugly [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::
+
+#### !a whodidthis
+
+> Returns the members avatar in a whodidthis meme.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a whodidthis [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 5 seconds per user.
+```
+:::
+::::

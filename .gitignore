@@ -4,3 +4,6 @@ settings.json
 desktop.ini
 node_modules
 *.log
+
+.yarn/install-state.gz
+.yarn/build-state.yml
