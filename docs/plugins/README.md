@@ -5590,3 +5590,77 @@ None
 ```
 :::
 ::::
+
+### Leveling
+
+#### Command Argument Specifications And Examples
+
+| Argument             |                                      Example                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| MEMBER               | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+
+#### !a level
+
+> Returns a members level.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a level [MEMBER]
+```
+:::
+::: code-group-item Aliases
+```
+None
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
+
+#### !a level toggle
+
+> Toggles the level plugin for the server.
+
+:::: code-group
+::: code-group-item Usage
+```
+!a level toggle
+```
+:::
+::: code-group-item Aliases
+```
+lvlt
+level_toggle
+level-toggle
+```
+:::
+::: code-group-item Permissions
+```
+None
+```
+:::
+::: code-group-item Channel Requirements
+```
+None
+```
+:::
+::: code-group-item Cooldown
+```
+1 every 2 seconds per user.
+```
+:::
+::::
