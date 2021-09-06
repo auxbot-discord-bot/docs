@@ -21,7 +21,7 @@ Upon adding AuxBot to your server you agree to allowing the bot to store the fol
 
 ### Who can access the information stored?
 
-The only people that can see your information is the owner of AuxBot and other developers that help run AuxBot. Your information from the database is not publicly available for people that are not apart of the AuxBot team.
+The only people that can see your information are the developers of AuxBot. Your information from the database is not publicly available for people that are not apart of the AuxBot development team.
 
 ### When AuxBot leaves a server what data does it remove?
 
@@ -32,11 +32,11 @@ When kicking or banning AuxBot from a server or deleting your server all of the 
 a. The organization of AuxBot is not liable for any information that could be lost or leaked.
 
 ::: tip
-Please take note that Auxtal is able to modify the Privacy Policy at anytime.
+Please take note that the developers are able to modify the Privacy Policy at anytime.
 :::
 
 ::: tip
-If you would like your data removed from the database, kick or ban AuxBot from the server.
+If you would like your data removed from the database, kick or ban AuxBot from your server.
 :::
 
 ## Terms Of Use
@@ -47,7 +47,7 @@ The short answer is no you can not. The reason for this is all of AuxBot's code 
 
 ### Can I self-host [AuxBot.xyz](https://www.auxbot.xyz)?
 
-The short answer is no you can not. The website's source code is private.
+The short answer is no you can not. The website's source code is private and if anyone manages to gain a copy of [AuxBot.xyz](https://www.auxbot.xyz) source code it is under the provisions of the MIT license.
 
 ### MIT License
 
@@ -62,7 +62,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ::: tip
-Please take note that Auxtal is able to modify the Terms Of Use at anytime.
+Please take note that the developers are able to modify the Terms Of Use at anytime.
 :::
 
 ## Questions
@@ -83,11 +83,11 @@ This happens when either the members avatar is to large or the welcome banner ba
 
 The main reason is for maintenance. This can vary in time. If the bot is ever offline for more then 2 hours then there is a problem.
 
-For support, join our [support server](https://www.auxbot.xyz/support).
+For support, join our [support server](https://www.auxbot.xyz/redirect/support).
 
 ### Why did AuxBot send a "something has gone wrong" message?
 
-This happens from time to time. It means that there is an issue with the code that needs to be resolved. For more support with these messages join our [support server](https://www.auxbot.xyz/support).
+This happens from time to time. It means that there is an issue with the code that needs to be resolved. For more support with these messages join our [support server](https://www.auxbot.xyz/redirect/support).
 
 Upon joining the support server go to the AuxBot support channel and tell us you have an error. Please state what command you did that caused this issue and please also send the **Error Id** displayed at the bottom of the message.
 
