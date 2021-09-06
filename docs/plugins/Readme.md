@@ -498,7 +498,7 @@ None
 
 | Argument    | Example                                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER/USER | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#1696 / 327745755789918201 |
+| MEMBER/USER | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | DURATION    | Custom time:<br>12h                                                                                       |
 | CASE NUMBER | Number:<br>1                                                                                              |
 | NICKNAME    | Text:<br>Owner                                                                                            |
@@ -2067,7 +2067,7 @@ None
 | Argument      | Example                                                                                                  |
 | ------------- | -------------------------------------------------------------------------------------------------------- |
 | VOICE CHANNEL | A discord voice channel name or id:<br>general / 665811293970818050                                      |
-| MEMBER        | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#001 / 327745755789918201 |
+| MEMBER        | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | QUERY         | Text:<br>Never Gonna Give You Up                                                                         |
 | YOUTUBE URL   | Text:<br>https://www.youtube.com/watch?v=bM7SZ5SBzyY                                                     |
 | VOLUME        | Number:<br>50                                                                                            |
@@ -3203,7 +3203,7 @@ None
 
 | Argument    | Example                                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER      | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER      | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | ROLE        | A discord role mention, name or id:<br>@Moderators / Moderators / 672258502307086337                      |
 | TIME        | Custom time:<br>10m                                                                                       |
 | COLOUR      | Colour code:<br>#&lt;HEX&gt; / 0x&lt;HEX&gt; / 0x#&lt;HEX&gt;                                             |
@@ -4423,7 +4423,7 @@ AuxBot's fun plugins.
 
 | Argument | Example                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER   | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | AMOUNT   | Number:<br>100                                                                                            |
 
 #### !a openaccount
@@ -4644,7 +4644,7 @@ None
 
 | Argument | Example                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER   | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | QUESTION | Text:<br>AuxBot is awesome right?                                                                         |
 | SENTENCE | Text:<br>I ate pizza today.                                                                               |
 | HEADS    | Text:<br>heads                                                                                            |
@@ -5378,7 +5378,7 @@ None
 
 | Argument | Example                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER   | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | SENTENCE | Text:<br>I ate pizza today.                                                                               |
 
 #### !a jail
@@ -7277,7 +7277,7 @@ None
 
 | Argument | Example                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER   | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 
 #### !a level
 
