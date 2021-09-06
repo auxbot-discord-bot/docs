@@ -65,20 +65,6 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		[
 			'meta',
 			{
-				name: 'msapplication-TileColor',
-				content: '#f72b39'
-			}
-		],
-		[
-			'meta',
-			{
-				name: 'theme-color',
-				content: '#f72b39'
-			}
-		],
-		[
-			'meta',
-			{
 				charset: 'utf-8'
 			}
 		],
@@ -99,8 +85,8 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		[
 			'meta',
 			{
-				name: 'twitter:card',
-				content: 'summary'
+				property: 'og:site_name',
+				content: 'docs.auxbot.xyz'
 			}
 		],
 		[
@@ -114,7 +100,21 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 			'meta',
 			{
 				property: 'og:description',
-				content: 'AuxBot is a multipurpose discord bot with many features.'
+				content: 'This is AuxBot, a powerful discord bot that has many features that will suit any discord server and power your community.'
+			}
+		],
+		[
+			'meta',
+			{
+				property: 'og:url',
+				content: 'https://docs.auxbot.xyz/'
+			}
+		],
+		[
+			'meta',
+			{
+				property: 'og:image',
+				content: '/auxbot-banner.png'
 			}
 		],
 		[
@@ -127,8 +127,15 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		[
 			'meta',
 			{
-				property: 'og:url',
-				content: 'https://docs.auxbot.xyz/'
+				name: 'msapplication-TileColor',
+				content: '#fa2b38'
+			}
+		],
+		[
+			'meta',
+			{
+				name: 'theme-color',
+				content: '#fa2b38'
 			}
 		],
 		[
