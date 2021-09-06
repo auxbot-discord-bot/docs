@@ -1,88 +1,126 @@
 ---
-description: >-
-  AuxBot is a multi use discord bot which has many different things such as
-  logging, moderation, music, memes, fun, and so many more commands.
+home: true
+heroImage: /auxbot-logo.png
+actions:
+    - text: Website
+      link: https://www.auxbot.xyz
+      type: secondary
+    - text: Invite
+      link: https://www.auxbot.xyz/redirect/invite
+      type: secondary
+footer: MIT | Copyright © 2021
 ---
-
-# AuxBot Docs
-
-![](.gitbook/assets/auxbot-redesign-round-logo.png)
 
 ## How do I setup the bot?
 
 These are the basic plugins to configure the bot for your server.
 
-### Swearing Detection And Prevention:
+### Swearing Detection And Prevention
 
-```text
-!a swearing toggle
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a swearing toggle
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
 This will check every message in your server for profanity and it it is found the bot will delete the message and send an embed with a quote to what the offender said with the swear word hidden.
 
-### Server Welcome Banners:
+### Server Welcome Banners
 
 This will set the channel for your new member welcome banners.
 
-```text
-!a welcome set <CHANNEL>
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a welcome set &lt;CHANNEL&gt;
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
-**To test the welcome message you can do**:
+**To test the welcome message you can do**
 
-```text
-!a welcome test
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a welcome test
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
-**And you can customize them**:
+**And you can customize them**
 
-```text
-!a welcome message <SENTENCE>
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a welcome message &lt;SENTENCE&gt;<br>!a welcome banner &lt;PNG / JPG / GIF URL&gt;
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
-```text
-!a welcome banner <PNG / JPG / GIF URL>
-```
-
-### Disboard Timer:
+### Disboard Timer
 
 This will set the disboard message channel.
 
-```text
-!a disboard set <CHANNEL>
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a disboard set &lt;CHANNEL&gt;
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
-**To customize the message sent you can do**:
+**To customize the message sent you can do**
 
-```text
-!a disboard message <MESSAGE>
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a disboard message &lt;MESSAGE&gt;
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
-### Logging:
+### Logging
 
 This will set the logging channel for your server.
 
-```text
-!a logs set <CHANNEL>
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a logs set &lt;CHANNEL&gt;
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
-**To customize what events you want toggled do**:
+**To customize what events you want toggled do**
 
-```text
-!a logs toggle <EVENT>
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a logs toggle &lt;EVENT&gt;
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
-**To get a list of the events you can use do**:
+**To get a list of the events you can use do**
 
-```text
-!a events
-```
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a events
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
 
-### Levelling:
+### Levelling
 
 This will enable the level plugin in your server.
 
-```text
-!a level toggle
-```
-
+<ClientOnly>
+	<DiscordMessages>
+		<DiscordMessage profile="user">
+			!a level toggle
+		</DiscordMessage>
+	</DiscordMessages>
+</ClientOnly>
