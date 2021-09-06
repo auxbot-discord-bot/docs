@@ -1,7 +1,6 @@
 name: Lines Of Code
 
-on:
-  [push]
+on: [push]
 
 jobs:
   update-badge:

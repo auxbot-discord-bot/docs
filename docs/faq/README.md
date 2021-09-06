@@ -12,12 +12,12 @@ It is not possible for AuxBot to store your personal information without your pe
 
 Upon adding AuxBot to your server you agree to allowing the bot to store the following information.
 
-- Guild Id
-- Custom Bot Settings
-- Executed Commands
-- Server Member Id's
-- Deleted Messages (Optional)
-- Edited Messages (Optional)
+-   Guild Id
+-   Custom Bot Settings
+-   Executed Commands
+-   Server Member Id's
+-   Deleted Messages (Optional)
+-   Edited Messages (Optional)
 
 ### Who can access the information stored?
 
@@ -69,11 +69,11 @@ Please take note that Auxtal is able to modify the Terms Of Use at anytime.
 
 ### Why is AuxBot unresponsive?
 
-- Check to see it the bot is online.
-- First make sure that the command your trying to run has all of the correct arguments.
-- Do you have a custom prefix(es)? If so reset them to the default by running: `!a prefix reset`.
-- The bot is online and you don't have a custom prefix? The bot is probably restarting try again in a few seconds or minutes.
-- Still have issues after waiting? Make sure that AuxBot has the correct permissions to view and send messages. It is best to give AuxBot the administrator permission to ensure proper functionality.
+-   Check to see it the bot is online.
+-   First make sure that the command your trying to run has all of the correct arguments.
+-   Do you have a custom prefix(es)? If so reset them to the default by running: `!a prefix reset`.
+-   The bot is online and you don't have a custom prefix? The bot is probably restarting try again in a few seconds or minutes.
+-   Still have issues after waiting? Make sure that AuxBot has the correct permissions to view and send messages. It is best to give AuxBot the administrator permission to ensure proper functionality.
 
 ### Why did AuxBot not send my welcome banner?
 

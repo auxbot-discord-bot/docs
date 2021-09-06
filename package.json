@@ -1,17 +1,30 @@
 {
-  "name": "auxbot-docs",
-  "version": "1.0.0",
-  "repository": "https://github.com/AuxBot-Discord-Bot/AuxBot-Docs.git",
-  "author": "Auxtal",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "dev": "vuepress dev docs"
-  },
-  "dependencies": {
-    "@discord-message-components/vue": "^0.2.1",
-    "@vuepress/plugin-search": "next",
-    "vuepress-vite": "next"
-  },
-  "packageManager": "yarn@3.1.0-rc.1"
+	"name": "auxbot-docs",
+	"version": "1.0.0",
+	"repository": "https://github.com/AuxBot-Discord-Bot/AuxBot-Docs.git",
+	"author": "Auxtal",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "vuepress dev docs",
+		"start": "http-server ./docs/.vuepress/dist",
+		"build": "vuepress build docs",
+		"fmt": "prettier . --write"
+	},
+	"dependencies": {
+		"@discord-message-components/vue": "^0.2.1",
+		"@vuepress/plugin-pwa": "next",
+		"@vuepress/plugin-pwa-popup": "next",
+		"@vuepress/plugin-search": "next",
+		"@vuepress/plugin-shiki": "next",
+		"http-server": "^13.0.1",
+		"vuepress-vite": "next"
+	},
+	"devDependencies": {
+		"@sapphire/prettier-config": "^1.1.6",
+		"@types/prettier": "^2",
+		"prettier": "^2.3.2"
+	},
+	"packageManager": "yarn@3.1.0-rc.1",
+	"prettier": "@sapphire/prettier-config"
 }

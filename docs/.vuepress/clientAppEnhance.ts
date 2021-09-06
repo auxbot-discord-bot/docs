@@ -1,6 +1,6 @@
 import { defineClientAppEnhance } from '@vuepress/client';
 import { DiscordMessages, DiscordMessage, install as DiscordMessageComponents } from '@discord-message-components/vue';
-import '@discord-message-components/vue/dist/style.css'
+import '@discord-message-components/vue/dist/style.css';
 
 export default defineClientAppEnhance(({ app }) => {
 	app.use(DiscordMessageComponents, {

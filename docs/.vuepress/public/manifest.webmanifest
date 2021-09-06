@@ -1,0 +1,21 @@
+{
+	"name": "AuxBot Documentation",
+	"short_name": "AuxBot Docs",
+	"description": "AuxBot is a multipurpose discord bot with many features.",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#f72b39",
+	"theme_color": "#f72b39",
+	"icons": [
+		{
+			"src": "/icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/icon-384x384.png",
+			"sizes": "384x384",
+			"type": "image/png"
+		}
+	]
+}
