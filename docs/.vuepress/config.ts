@@ -8,7 +8,7 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 	description: 'AuxBot is a multipurpose discord bot with many features.',
 	plugins: [
 		['@vuepress/plugin-search'],
-		['@vuepress/plugin-pwa'],
+		['@vuepress/plugin-pwa', { skipWaiting: true }],
 		['@vuepress/plugin-pwa-popup'],
 		['@vuepress/plugin-shiki', { theme: 'dark-plus' }]
 	],
