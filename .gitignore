@@ -1,0 +1,13 @@
+.vscode
+
+desktop.ini
+node_modules
+*.log
+
+.yarn/install-state.gz
+.yarn/build-state.yml
+
+.vuepress/*
+.vuepress/.cache/*
+.vuepress/.temp/*
+.vuepress/dist/*
