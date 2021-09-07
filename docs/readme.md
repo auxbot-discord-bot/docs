@@ -8,7 +8,7 @@ actions:
     - text: Invite
       link: https://www.auxbot.xyz/redirect/invite
       type: secondary
-footer: MIT | Copyright © 2021
+footer: © Copyright AuxBot 2020-2021
 ---
 
 ## How do I setup the bot?
