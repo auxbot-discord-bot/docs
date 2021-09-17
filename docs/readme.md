@@ -59,14 +59,18 @@ This will set the channel for your new member welcome banners.
 	</DiscordMessages>
 </ClientOnly>
 
-### Disboard Timer
+### Bump Timer
 
-This will set the disboard message channel.
+::: warning
+The bump plugin only works with the disboard bot for the moment.
+:::
+
+This will set the bump message channel.
 
 <ClientOnly>
 	<DiscordMessages>
 		<DiscordMessage profile="user">
-			!a disboard set &lt;CHANNEL&gt;
+			!a bump set &lt;CHANNEL&gt;
 		</DiscordMessage>
 	</DiscordMessages>
 </ClientOnly>
@@ -76,7 +80,7 @@ This will set the disboard message channel.
 <ClientOnly>
 	<DiscordMessages>
 		<DiscordMessage profile="user">
-			!a disboard message &lt;MESSAGE&gt;
+			!a bump message &lt;MESSAGE&gt;
 		</DiscordMessage>
 	</DiscordMessages>
 </ClientOnly>

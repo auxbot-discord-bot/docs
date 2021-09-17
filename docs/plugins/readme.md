@@ -8,7 +8,7 @@
 
 AuxBot's main plugins.
 
-#### Disboard
+### Bump
 
 #### Command Argument Specifications And Examples
 
@@ -17,15 +17,19 @@ AuxBot's main plugins.
 | CHANNEL  | A discord channel mention name or id:<br>#general / general / 665811293970818050 |
 | MESSAGE  | Text:<br>Time to bump the server                                                 |
 
-#### !a disboard
+::: warning
+The bump plugin only works with the disboard bot for the moment.
+:::
 
-> Returns all of the disboard plugin commands.
+#### !a bump
+
+> Returns all of the bump plugin commands.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard
+!a bump
 ```
 
 :::
@@ -59,15 +63,15 @@ None
 :::
 ::::
 
-#### !a disboard set
+#### !a bump set
 
-> Sets the disboard channel for the server.
+> Sets the bump channel for the server.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard set <CHANNEL>
+!a bump set <CHANNEL>
 ```
 
 :::
@@ -101,15 +105,15 @@ Text Channel
 :::
 ::::
 
-#### !a disboard test
+#### !a bump test
 
-> Tests the disboard channel.
+> Tests the bump channel.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard test
+!a bump test
 ```
 
 :::
@@ -143,15 +147,15 @@ None
 :::
 ::::
 
-#### !a disboard message
+#### !a bump message
 
-> Sets the disboard timer message.
+> Sets the bump timer message.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard message <MESSAGE>
+!a bump message <MESSAGE>
 ```
 
 :::
@@ -185,15 +189,15 @@ None
 :::
 ::::
 
-#### !a disboard channel
+#### !a bump channel
 
-> Returns the channel for the disboard plugin channel.
+> Returns the channel for the bump plugin channel.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard channel
+!a bump channel
 ```
 
 :::
@@ -227,15 +231,15 @@ None
 :::
 ::::
 
-#### !a disboard reset
+#### !a bump reset
 
-> Resets the current disboard settings for the server.
+> Resets the current bump settings for the server.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard reset
+!a bump reset
 ```
 
 :::
