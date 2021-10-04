@@ -11,6 +11,8 @@ actions:
 footer: MIT | Copyright © 2021
 ---
 
+<Docsearch />
+
 ## How do I setup the bot?
 
 These are the basic plugins to configure the bot for your server.

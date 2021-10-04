@@ -1,4 +1,5 @@
 .vscode
+.env
 
 desktop.ini
 node_modules
