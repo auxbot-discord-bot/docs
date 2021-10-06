@@ -1,6 +1,5 @@
 .vscode
 
-desktop.ini
 node_modules
 *.log
 
@@ -8,3 +7,6 @@ node_modules
 .yarn/build-state.yml
 
 .vuepress/*
+.vuepress/.cache/*
+.vuepress/.temp/*
+.vuepress/dist/*

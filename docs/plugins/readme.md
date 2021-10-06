@@ -8,7 +8,7 @@
 
 AuxBot's main plugins.
 
-#### Disboard
+### Bump
 
 #### Command Argument Specifications And Examples
 
@@ -17,15 +17,19 @@ AuxBot's main plugins.
 | CHANNEL  | A discord channel mention name or id:<br>#general / general / 665811293970818050 |
 | MESSAGE  | Text:<br>Time to bump the server                                                 |
 
-#### !a disboard
+::: warning
+The bump plugin only works with the disboard bot for the moment.
+:::
 
-> Returns all of the disboard plugin commands.
+#### !a bump
+
+> Returns all of the bump plugin commands.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard
+!a bump
 ```
 
 :::
@@ -59,15 +63,15 @@ None
 :::
 ::::
 
-#### !a disboard set
+#### !a bump set
 
-> Sets the disboard channel for the server.
+> Sets the bump channel for the server.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard set <CHANNEL>
+!a bump set <CHANNEL>
 ```
 
 :::
@@ -101,15 +105,15 @@ Text Channel
 :::
 ::::
 
-#### !a disboard test
+#### !a bump test
 
-> Tests the disboard channel.
+> Tests the bump channel.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard test
+!a bump test
 ```
 
 :::
@@ -143,15 +147,15 @@ None
 :::
 ::::
 
-#### !a disboard message
+#### !a bump message
 
-> Sets the disboard timer message.
+> Sets the bump timer message.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard message <MESSAGE>
+!a bump message <MESSAGE>
 ```
 
 :::
@@ -185,15 +189,15 @@ None
 :::
 ::::
 
-#### !a disboard channel
+#### !a bump channel
 
-> Returns the channel for the disboard plugin channel.
+> Returns the channel for the bump plugin channel.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard channel
+!a bump channel
 ```
 
 :::
@@ -227,15 +231,15 @@ None
 :::
 ::::
 
-#### !a disboard reset
+#### !a bump reset
 
-> Resets the current disboard settings for the server.
+> Resets the current bump settings for the server.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a disboard reset
+!a bump reset
 ```
 
 :::
@@ -498,7 +502,7 @@ None
 
 | Argument    | Example                                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER/USER | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#1696 / 327745755789918201 |
+| MEMBER/USER | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | DURATION    | Custom time:<br>12h                                                                                       |
 | CASE NUMBER | Number:<br>1                                                                                              |
 | NICKNAME    | Text:<br>Owner                                                                                            |
@@ -2067,7 +2071,7 @@ None
 | Argument      | Example                                                                                                  |
 | ------------- | -------------------------------------------------------------------------------------------------------- |
 | VOICE CHANNEL | A discord voice channel name or id:<br>general / 665811293970818050                                      |
-| MEMBER        | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#001 / 327745755789918201 |
+| MEMBER        | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | QUERY         | Text:<br>Never Gonna Give You Up                                                                         |
 | YOUTUBE URL   | Text:<br>https://www.youtube.com/watch?v=bM7SZ5SBzyY                                                     |
 | VOLUME        | Number:<br>50                                                                                            |
@@ -3203,7 +3207,7 @@ None
 
 | Argument    | Example                                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER      | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER      | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | ROLE        | A discord role mention, name or id:<br>@Moderators / Moderators / 672258502307086337                      |
 | TIME        | Custom time:<br>10m                                                                                       |
 | COLOUR      | Colour code:<br>#&lt;HEX&gt; / 0x&lt;HEX&gt; / 0x#&lt;HEX&gt;                                             |
@@ -4423,7 +4427,7 @@ AuxBot's fun plugins.
 
 | Argument | Example                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER   | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | AMOUNT   | Number:<br>100                                                                                            |
 
 #### !a openaccount
@@ -4644,7 +4648,7 @@ None
 
 | Argument | Example                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER   | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | QUESTION | Text:<br>AuxBot is awesome right?                                                                         |
 | SENTENCE | Text:<br>I ate pizza today.                                                                               |
 | HEADS    | Text:<br>heads                                                                                            |
@@ -5378,7 +5382,7 @@ None
 
 | Argument | Example                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER   | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | SENTENCE | Text:<br>I ate pizza today.                                                                               |
 
 #### !a jail
@@ -7277,7 +7281,7 @@ None
 
 | Argument | Example                                                                                                   |
 | -------- | --------------------------------------------------------------------------------------------------------- |
-| MEMBER   | A discord member mention, username and discriminator or id:<br>@Auxtal / Auxtal#0001 / 327745755789918201 |
+| MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 
 #### !a level
 
