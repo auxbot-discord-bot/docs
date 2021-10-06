@@ -13,9 +13,9 @@
 	},
 	"dependencies": {
 		"@discord-message-components/vue": "^0.2.1",
+		"@vuepress/plugin-docsearch": "next",
 		"@vuepress/plugin-pwa": "next",
 		"@vuepress/plugin-pwa-popup": "next",
-		"@vuepress/plugin-search": "next",
 		"@vuepress/plugin-shiki": "next",
 		"http-server": "^13.0.1",
 		"vuepress-vite": "next"
