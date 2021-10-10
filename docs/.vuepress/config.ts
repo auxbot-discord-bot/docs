@@ -13,7 +13,7 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		[
 			'@vuepress/plugin-docsearch',
 			{
-				apiKey: process.env.ALGOLIA_KEY!,
+				apiKey: process.env.ALGOLIA_KEY,
 				indexName: 'auxbot'
 			}
 		]
