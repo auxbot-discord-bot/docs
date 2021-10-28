@@ -500,16 +500,16 @@ None
 
 #### Command Argument Specifications And Examples
 
-| Argument    | Example                                                                                                   |
-| ----------- | --------------------------------------------------------------------------------------------------------- |
+| Argument    | Example                                                                                                               |
+| ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | MEMBER/USER | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
-| DURATION    | Custom time:<br>12h                                                                                       |
-| CASE NUMBER | Number:<br>1                                                                                              |
-| NICKNAME    | Text:<br>Owner                                                                                            |
-| REASON      | Text:<br>Banned for spamming.                                                                             |
-| SENTENCE    | Text:<br>I went to the shop.                                                                              |
-| PREFIX      | Text:<br>!a                                                                                               |
-| NUMBER      | Number:<br>10                                                                                             |
+| DURATION    | Custom time:<br>12h                                                                                                   |
+| CASE NUMBER | Number:<br>1                                                                                                          |
+| NICKNAME    | Text:<br>Owner                                                                                                        |
+| REASON      | Text:<br>Banned for spamming.                                                                                         |
+| SENTENCE    | Text:<br>I went to the shop.                                                                                          |
+| PREFIX      | Text:<br>!a                                                                                                           |
+| NUMBER      | Number:<br>10                                                                                                         |
 
 #### !a changenickname
 
@@ -2064,532 +2064,6 @@ None
 :::
 ::::
 
-### Music
-
-#### Command Argument Specifications And Examples
-
-| Argument      | Example                                                                                                  |
-| ------------- | -------------------------------------------------------------------------------------------------------- |
-| VOICE CHANNEL | A discord voice channel name or id:<br>general / 665811293970818050                                      |
-| MEMBER        | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
-| QUERY         | Text:<br>Never Gonna Give You Up                                                                         |
-| YOUTUBE URL   | Text:<br>https://www.youtube.com/watch?v=bM7SZ5SBzyY                                                     |
-| VOLUME        | Number:<br>50                                                                                            |
-| EQUALIZER     | Text:<br>boost                                                                                           |
-
-#### !a connect
-
-> Makes AuxBot connect to a voice channel.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a connect [VOICE CHANNEL]
-```
-
-:::
-::: code-group-item Aliases
-
-```
-c
-```
-
-:::
-::: code-group-item Permissions
-
-```
-None
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a play
-
-> Plays a song from a URL or query.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a play <QUERY / YOUTUBE URL>
-```
-
-:::
-::: code-group-item Aliases
-
-```
-p
-```
-
-:::
-::: code-group-item Permissions
-
-```
-None
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a pause
-
-> Pause the currently playing song.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a pause
-```
-
-:::
-::: code-group-item Aliases
-
-```
-pa
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a resume
-
-> Resume a currently paused player.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a resume
-```
-
-:::
-::: code-group-item Aliases
-
-```
-r
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a skip
-
-> Skips the currently playing song.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a skip
-```
-
-:::
-::: code-group-item Aliases
-
-```
-s
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a stop
-
-> Stops the player.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a stop
-```
-
-:::
-::: code-group-item Aliases
-
-```
-st
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a volume
-
-> Changes the volume of the player.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a volume <NUMBER (Between 1 - 100.)>
-```
-
-:::
-::: code-group-item Aliases
-
-```
-v
-vol
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a shuffle
-
-> Shuffles the players queue.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a shuffle
-```
-
-:::
-::: code-group-item Aliases
-
-```
-sh
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a equalizer
-
-> Changes the players equalizer.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a equalizer <EQUALIZER (flat, boost, metal, piano)>
-```
-
-:::
-::: code-group-item Aliases
-
-```
-eq
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-1 every 2 seconds per user.
-```
-
-:::
-::::
-
-#### !a queue
-
-> Returns the players queued songs.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a queue
-```
-
-:::
-::: code-group-item Aliases
-
-```
-q
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a nowplaying
-
-> Updates the player controller.
-
-::: tip
-If there are 5 or more messages after the controller the bot will delete it and resend it. If there is less then 5 messages after the controller the bot will edit the controller to the latest stats.
-:::
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a nowplaying
-```
-
-:::
-::: code-group-item Aliases
-
-```
-np
-now_playing
-now-playing
-```
-
-:::
-::: code-group-item Permissions
-
-```
-None
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-1 every 2 seconds per user.
-```
-
-:::
-::::
-
-#### !a swapdj
-
-> Swap the current DJ to another member.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a swapdj [MEMBER]
-```
-
-:::
-::: code-group-item Aliases
-
-```
-sw
-swap_dj
-swap-dj
-```
-
-:::
-::: code-group-item Permissions
-
-```
-Manage Server / DJ
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-Voice Channel
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-1 every 2 seconds per user.
-```
-
-:::
-::::
-
 ### Reminder
 
 #### Command Argument Specifications And Examples
@@ -3205,17 +2679,17 @@ None
 
 #### Command Argument Specifications And Examples
 
-| Argument    | Example                                                                                                   |
-| ----------- | --------------------------------------------------------------------------------------------------------- |
+| Argument    | Example                                                                                                               |
+| ----------- | --------------------------------------------------------------------------------------------------------------------- |
 | MEMBER      | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
-| ROLE        | A discord role mention, name or id:<br>@Moderators / Moderators / 672258502307086337                      |
-| TIME        | Custom time:<br>10m                                                                                       |
-| COLOUR      | Colour code:<br>#&lt;HEX&gt; / 0x&lt;HEX&gt; / 0x#&lt;HEX&gt;                                             |
-| COMMAND     | AuxBot command name or alias:<br>addrole / ar                                                             |
-| PLUGIN      | AuxBot plugin:<br>welcome                                                                                 |
-| EMOJI       | Emoji:<br>:wave:                                                                                          |
-| WEBSITE URL | Text:<br>auxbot.xyz                                                                                       |
-| QUERY       | Text:<br>My query                                                                                         |
+| ROLE        | A discord role mention, name or id:<br>@Moderators / Moderators / 672258502307086337                                  |
+| TIME        | Custom time:<br>10m                                                                                                   |
+| COLOUR      | Colour code:<br>#&lt;HEX&gt; / 0x&lt;HEX&gt; / 0x#&lt;HEX&gt;                                                         |
+| COMMAND     | AuxBot command name or alias:<br>addrole / ar                                                                         |
+| PLUGIN      | AuxBot plugin:<br>welcome                                                                                             |
+| EMOJI       | Emoji:<br>:wave:                                                                                                      |
+| WEBSITE URL | Text:<br>auxbot.xyz                                                                                                   |
+| QUERY       | Text:<br>My query                                                                                                     |
 
 #### !a help
 
@@ -4425,10 +3899,10 @@ AuxBot's fun plugins.
 
 #### Command Argument Specifications And Examples
 
-| Argument | Example                                                                                                   |
-| -------- | --------------------------------------------------------------------------------------------------------- |
+| Argument | Example                                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------------------------------- |
 | MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
-| AMOUNT   | Number:<br>100                                                                                            |
+| AMOUNT   | Number:<br>100                                                                                                        |
 
 #### !a openaccount
 
@@ -4646,17 +4120,17 @@ None
 
 #### Command Argument Specifications And Examples
 
-| Argument | Example                                                                                                   |
-| -------- | --------------------------------------------------------------------------------------------------------- |
+| Argument | Example                                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------------------------------- |
 | MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
-| QUESTION | Text:<br>AuxBot is awesome right?                                                                         |
-| SENTENCE | Text:<br>I ate pizza today.                                                                               |
-| HEADS    | Text:<br>heads                                                                                            |
-| TAILS    | Text:<br>tails                                                                                            |
-| NUMBER   | Number:<br>43                                                                                             |
-| WORD     | Text:<br>meaning                                                                                          |
-| PERSON1  | Text:<br>Rick                                                                                             |
-| PERSON2  | Text:<br>Mona                                                                                             |
+| QUESTION | Text:<br>AuxBot is awesome right?                                                                                     |
+| SENTENCE | Text:<br>I ate pizza today.                                                                                           |
+| HEADS    | Text:<br>heads                                                                                                        |
+| TAILS    | Text:<br>tails                                                                                                        |
+| NUMBER   | Number:<br>43                                                                                                         |
+| WORD     | Text:<br>meaning                                                                                                      |
+| PERSON1  | Text:<br>Rick                                                                                                         |
+| PERSON2  | Text:<br>Mona                                                                                                         |
 
 #### !a 8ball
 
@@ -5380,10 +4854,10 @@ None
 
 #### Command Argument Specifications And Examples
 
-| Argument | Example                                                                                                   |
-| -------- | --------------------------------------------------------------------------------------------------------- |
+| Argument | Example                                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------------------------------- |
 | MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
-| SENTENCE | Text:<br>I ate pizza today.                                                                               |
+| SENTENCE | Text:<br>I ate pizza today.                                                                                           |
 
 #### !a jail
 
@@ -7279,8 +6753,8 @@ None
 
 #### Command Argument Specifications And Examples
 
-| Argument | Example                                                                                                   |
-| -------- | --------------------------------------------------------------------------------------------------------- |
+| Argument | Example                                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------------------------------- |
 | MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 
 #### !a level
