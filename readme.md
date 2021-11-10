@@ -9,7 +9,7 @@
 </div>
 <div>
     <p align="center">
-        AuxBot Discord Bot Docs
+        AuxBot Docs
         <br>
         <a href="https://www.auxbot.xyz/invite">AuxBot Invite</a>
         ⋇
