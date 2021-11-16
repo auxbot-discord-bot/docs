@@ -19,7 +19,7 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 		]
 	],
 	themeConfig: {
-		repo: 'AuxBot-Discord-Bot/AuxBot-Docs',
+		repo: 'AuxBot-Discord-Bot/Docs',
 		logo: '/auxbot-logo.png',
 		sidebarDepth: 3,
 		editLinks: true,

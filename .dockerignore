@@ -1,0 +1,10 @@
+.github
+.vscode
+
+.tool-versions
+
+.gitignore
+
+license
+readme.md
+security.md

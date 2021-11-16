@@ -1,9 +1,9 @@
 FROM node:alpine
 
-ARG ALGOLIA_KEY
+COPY . /Docs
+WORKDIR /Docs
 
-WORKDIR /auxbot-docs
-COPY . .
+ARG ALGOLIA_KEY
 ENV NODE_ENV production
 
 RUN npm install && npm run build
