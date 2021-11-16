@@ -6,8 +6,5 @@ WORKDIR /auxbot-docs
 COPY . .
 ENV NODE_ENV production
 
-RUN npm && \
-	npm install && \
-	npm build
-
+RUN npm install && npm run build
 CMD ["npm", "start"]
