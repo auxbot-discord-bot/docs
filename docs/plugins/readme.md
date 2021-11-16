@@ -813,13 +813,13 @@ None
 
 #### !a mute
 
-> Mutes a member in the server.
+> Mutes a member(s) in the server.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a mute <MEMBER> [REASON]
+!a mute <MEMBER(s)> [REASON]
 ```
 
 :::
@@ -855,13 +855,223 @@ None
 
 #### !a unmute
 
-> Unmutes the mentioned member.
+> Unmutes the mentioned member(s)
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a unmute <MEMBER>
+!a unmute <MEMBER(s)>
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Roles
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a mute role
+
+> Returns the server mute role configuration.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a mute role
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Roles
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a mute role set
+
+> Sets the servers mute role to a pre existing role.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a mute role set <ROLE>
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Roles
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a mute role update
+
+> Updates the servers mute role permissions in all text channels.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a mute role update
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Roles
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a mute role create
+
+> Creates a mute role for the server.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a mute role create <NAME>
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Roles
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a mute role reset
+
+> Resets the servers mute role without deleting it.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a mute role reset
 ```
 
 :::
@@ -1370,6 +1580,7 @@ Text Channel
 | CHANNEL             | A discord channel mention name or id:<br>#general / general / 665811293970818050 |
 | PNG / JPG IMAGE URL | An image url:<br>https://i.imgur.com/nKjYhYw.jpg                                 |
 | MESSAGE             | Text:<br>Welcome to the server!                                                  |
+| WIDTH               | Text:<br>10                                                                      |
 
 #### !a welcome
 
@@ -1457,13 +1668,13 @@ Text Channel
 
 #### !a welcome test
 
-> Tests the welcome channel.
+> Tests the welcome plugin in the server.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a welcome test
+!a welcome test [MEMBER]
 ```
 
 :::
@@ -1497,15 +1708,15 @@ None
 :::
 ::::
 
-#### !a welcome banner
+#### !a welcome background
 
-> Sets the welcome banner background for the server.
+> Sets the welcome background for the server.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a welcome banner <PNG / JPG / GIF URL>
+!a welcome background <PNG / JPG / GIF URL>
 ```
 
 :::
@@ -1547,7 +1758,133 @@ None
 ::: code-group-item Usage
 
 ```
-!a welcome banner <PNG / JPG / GIF URL>
+!a welcome message <MESSAGE>
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Server
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a welcome border
+
+> Returns all of the welcome border commands.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a welcome border
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+None
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+None
+```
+
+:::
+::::
+
+#### !a welcome border colour
+
+> Sets the welcome border colour for the server.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a welcome border colour <COLOUR>
+```
+
+:::
+::: code-group-item Aliases
+
+```
+color
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Server
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a welcome border width
+
+> Sets the welcome border width for the server.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a welcome border width <WIDTH>
 ```
 
 :::
@@ -1677,6 +2014,7 @@ AuxBot's useful plugins.
 | -------- | ------------------------------- |
 | LANGUAGE | Text:<br>python                 |
 | CODE     | Text:<br>print('Hello, World!') |
+| QUERY    | Text:<br>python3                |
 
 #### !a run
 
@@ -1771,6 +2109,48 @@ None
 
 ```
 !a run languages
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+None
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a run languages search
+
+> Searches through the list of languages with your query.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a run languages search <QUERY>
 ```
 
 :::
@@ -2733,6 +3113,50 @@ None
 :::
 ::::
 
+#### !a commands
+
+> Returns all of the bots commands
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a commands
+```
+
+:::
+::: code-group-item Aliases
+
+```
+cmds
+cmd
+command
+```
+
+:::
+::: code-group-item Permissions
+
+```
+None
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+None
+```
+
+:::
+::::
+
 #### !a ping
 
 > Returns the ping of AuxBot.
@@ -3273,48 +3697,6 @@ None
 mc
 member_count
 member-count
-```
-
-:::
-::: code-group-item Permissions
-
-```
-None
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-None
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-None
-```
-
-:::
-::::
-
-#### !a bin
-
-> Returns a link to a sourcebin.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a bin
-```
-
-:::
-::: code-group-item Aliases
-
-```
-None
 ```
 
 :::
