@@ -370,10 +370,6 @@ Text Channel
 
 > Allows you to toggle certain events.
 
-::: warning
-If you do not put an event argument it will toggle the whole plugin.
-:::
-
 :::: code-group
 ::: code-group-item Usage
 
@@ -1571,7 +1567,7 @@ Text Channel
 :::
 ::::
 
-### Welcomer
+### Welcome
 
 #### Command Argument Specifications And Examples
 
@@ -3597,7 +3593,7 @@ None
 
 #### !a colour
 
-> Returns the colour in an image.
+> Returns the information about a colour.
 
 :::: code-group
 ::: code-group-item Usage

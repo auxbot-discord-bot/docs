@@ -1,11 +1,9 @@
+.tool-versions
 .vscode
 .env
 
 node_modules
 *.log
-
-.yarn/install-state.gz
-.yarn/build-state.yml
 
 .vuepress/*
 .vuepress/.cache/*

@@ -4,7 +4,7 @@
 
 ### What information does AuxBot store?
 
-AuxBot stores a lot of your information into a database on a secure server. The data that AuxBot stores is all publicly available information and is in no way private.
+AuxBot stores your information into a postgres and or redis database on a secure server. The data that AuxBot stores is all publicly available information and is in no way private.
 
 It is not possible for AuxBot to store your personal information without your permission. Private information such as passwords, OAuth backup codes and emails is all secured by discord and not available for any bot.
 
@@ -12,12 +12,12 @@ It is not possible for AuxBot to store your personal information without your pe
 
 Upon adding AuxBot to your server you agree to allowing the bot to store the following information.
 
--   Guild Id
--   Custom Bot Settings
--   Executed Commands
--   Server Member Id's
--   Deleted Messages (Optional)
--   Edited Messages (Optional)
+- Server ID
+- Custom Bot Settings
+- Executed Commands
+- Server Member ID's
+- Deleted Messages (Optional)
+- Edited Messages (Optional)
 
 ### Who can access the information stored?
 
@@ -36,7 +36,7 @@ Please take note that the developers are able to modify the Privacy Policy at an
 :::
 
 ::: tip
-If you would like your data removed from the database, kick or ban AuxBot from your server.
+If you would like your data removed from the database, kick or ban AuxBot from your server. Or join our [support server](https://www.auxbot.xyz/redirect/support) and request for your data to be removed.
 :::
 
 ## Terms Of Use
@@ -69,15 +69,15 @@ Please take note that the developers are able to modify the Terms Of Use at anyt
 
 ### Why is AuxBot unresponsive?
 
--   Check to see it the bot is online.
--   First make sure that the command your trying to run has all of the correct arguments.
--   Do you have a custom prefix(es)? If so reset them to the default by running: `!a prefix reset`.
--   The bot is online and you don't have a custom prefix? The bot is probably restarting try again in a few seconds or minutes.
--   Still have issues after waiting? Make sure that AuxBot has the correct permissions to view and send messages. It is best to give AuxBot the administrator permission to ensure proper functionality.
+- Check to see it the bot is online.
+- First make sure that the command your trying to run has all of the correct arguments.
+- Do you have a custom prefix(es)? If so reset them to the default by running: `!a prefix reset`.
+- The bot is online and you don't have a custom prefix? The bot is probably restarting try again in a few seconds or minutes.
+- Still have issues after waiting? Make sure that AuxBot has the correct permissions to view and send messages. It is best to give AuxBot the administrator permission to ensure proper functionality.
 
 ### Why did AuxBot not send my welcome banner?
 
-This happens when either the members avatar is to large or the welcome banner background is to large. This is more prone to happen when you have a GIF background.
+This happens when the welcome background background is to large. This is more prone to happen when you have a GIF background.
 
 ### Why is AuxBot offline?
 
@@ -95,7 +95,7 @@ These errors are usually fixed within 1 day or so.
 
 ### Disboard bump message doesn't send after 2 hours?
 
-This sometimes occurs when the bot gets restarted. It is a problem that is being looked at. Sorry for any inconvenience.
+This only occurs when AuxBot has been down for longer then 2 hours, once AuxBot comes back online it will send your bump message.
 
 ### Why does my reminder not appear in my reminder list?
 
