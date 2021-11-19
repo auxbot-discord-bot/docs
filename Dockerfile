@@ -1,4 +1,4 @@
-FROM node:17-bullseye
+FROM node:17-alpine
 
 COPY . /Docs
 WORKDIR /Docs
