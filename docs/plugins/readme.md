@@ -765,13 +765,13 @@ None
 
 #### !a tempmute
 
-> Temporalily mutes a member in the server.
+> Temporarily mutes a member(s) in the server.
 
 :::: code-group
 ::: code-group-item Usage
 
 ```
-!a tempmute <DURATION> <MEMBER> [REASON]
+!a tempmute <DURATION> <MEMBER(s)> [REASON]
 ```
 
 :::
