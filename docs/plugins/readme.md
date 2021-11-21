@@ -525,6 +525,9 @@ None
 cn
 change_nickname
 change-nickname
+changenick
+change_nick
+change-nick
 ```
 
 :::
@@ -551,6 +554,90 @@ None
 :::
 ::::
 
+#### !a lock
+
+> Locks a or all text channels in the server.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a lock [CHANNEL] [--all]
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Channels
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a unlock
+
+> Unlocks a or all text channels in the server.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a unlock [CHANNEL] [--all]
+```
+
+:::
+::: code-group-item Aliases
+
+```
+None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Manage Channels
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
 #### !a ban
 
 > Bans a user from the server.
@@ -567,6 +654,50 @@ None
 
 ```
 None
+```
+
+:::
+::: code-group-item Permissions
+
+```
+Ban Members
+```
+
+:::
+::: code-group-item Channel Requirements
+
+```
+None
+```
+
+:::
+::: code-group-item Cooldown
+
+```
+1 every 2 seconds per user.
+```
+
+:::
+::::
+
+#### !a tempban
+
+> Temp bans a member(s) in the server.
+
+:::: code-group
+::: code-group-item Usage
+
+```
+!a tempban <DURATION> <MEMBER(s)> [REASON]
+```
+
+:::
+::: code-group-item Aliases
+
+```
+tb
+temp_ban
+temp-ban
 ```
 
 :::
@@ -1119,6 +1250,9 @@ None
 cc
 clear_cases
 clear-cases
+clearcase
+clear_case
+clear-case
 ```
 
 :::
