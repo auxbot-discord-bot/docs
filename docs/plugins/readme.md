@@ -4416,50 +4416,6 @@ AuxBot's fun plugins.
 | MEMBER   | A discord member mention, username and discriminator or id:<br>@Discord User / Discord User#0001 / 123456789123456789 |
 | AMOUNT   | Number:<br>100                                                                                                        |
 
-#### !a openaccount
-
-> Opens a new bank account for you.
-
-:::: code-group
-::: code-group-item Usage
-
-```
-!a openaccount
-```
-
-:::
-::: code-group-item Aliases
-
-```
-oa
-open_account
-open-account
-```
-
-:::
-::: code-group-item Permissions
-
-```
-None
-```
-
-:::
-::: code-group-item Channel Requirements
-
-```
-None
-```
-
-:::
-::: code-group-item Cooldown
-
-```
-1 every 2 seconds per user.
-```
-
-:::
-::::
-
 #### !a balance
 
 > Checks your account balance.
