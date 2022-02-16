@@ -5,6 +5,7 @@ on: [push]
 jobs:
   update-badge:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@master
       - name: Update Badge
@@ -13,16 +14,14 @@ jobs:
         with:
           debug: true
           directory: ./
-          ignore: '.github|.gitbook.yaml|.gitignore|license|readme.md|security.md'
           badge: ./output/badge.svg
-          badge_color: 'purple'
-          badge_label: 'Lines Of Code'
-
-      - name: Deploy to Badges branch
+          badge_color: "purple"
+          badge_label: "Lines Of Code"
+      - name: Deploy to badges branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./output
-          publish_branch: Badges
+          publish_branch: badges
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
