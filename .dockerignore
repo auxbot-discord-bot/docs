@@ -1,7 +1,5 @@
-.github
-
 .gitignore
-
-license
-readme.md
+.github
 security.md
+readme.md
+license

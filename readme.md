@@ -28,8 +28,5 @@
             <img src="https://img.shields.io/github/repo-size/auxbot-discord-bot/docs?color=blue&label=Repo%20Size&logo=GitHub&logoColor=white">
         </a>
         <br>
-        <a href="https://github.com/auxbot-discord-bot/docs">
-            <img src="https://github.com/auxbot-discord-bot/docs/blob/badges/badge.svg">
-        </a>
     </p>
 </div>

@@ -7,7 +7,7 @@ edit_uri: ""
 theme:
   favicon: assets/AuxBot.png
   logo: assets/AuxBot-Bars.png
-  name: 'material'
+  name: "material"
 
   features:
     - header.autohide
