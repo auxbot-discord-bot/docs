@@ -4,7 +4,7 @@
 	"description": "AuxBot is the number one bot to setup a bot requesting system in your server!",
 	"start_url": "/index.html",
 	"display": "standalone",
-	"background_color": "#f72b39",
+	"background_color": "#202020",
 	"theme_color": "#f82b3a",
 	"icons": [
 		{
