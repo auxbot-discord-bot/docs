@@ -6,4 +6,4 @@ WORKDIR /Docs
 RUN npm install
 RUN npm run docs:build
 
-CMD [ "npm", "run docs:start" ]
+CMD [ "npm run docs:start" ]
