@@ -3,7 +3,9 @@ FROM node:17-alpine
 COPY . /Docs
 WORKDIR /Docs
 
-RUN npm install
-RUN npm run docs:build
+ARG ALGOLIA_KEY
+ENV NODE_ENV production
 
-CMD [ "npm run docs:start" ]
+RUN npm install && npm run build
+
+CMD ["npm", "start"]
