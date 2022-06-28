@@ -1,24 +1,36 @@
 {
-	"name": "docs.auxbot.xyz",
-	"version": "1.0.0",
-	"repository": "https://github.com/AuxBot-Discord-Bot/AuxBot-Docs.git",
-	"author": "Auxtal",
-	"license": "MIT",
-	"private": true,
-	"scripts": {
-		"dev": "vuepress dev docs",
-		"start": "http-server ./docs/.vuepress/dist",
-		"build": "vuepress build docs",
-		"fmt": "prettier . --write"
-	},
-	"dependencies": {
-		"@discord-message-components/vue": "^0.2.1",
-		"@vuepress/plugin-docsearch": "next",
-		"@vuepress/plugin-pwa": "next",
-		"@vuepress/plugin-pwa-popup": "next",
-		"@vuepress/plugin-shiki": "next",
-		"http-server": "^13.0.1",
-		"vuepress-vite": "next",
-		"yarn": "^1.22.17"
-	}
+  "name": "docs.auxbot.xyz",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuxBot-Discord-Bot/Docs.git"
+  },
+  "author": "Auxtal",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:start": "http-server ./docs/.vuepress/dist"
+  },
+  "description": "<div>\r     <p align=\"center\">\r         <a href=\"https://www.auxbot.xyz\">\r             <img src=\"https://i.imgur.com/RRivTWc.png\" width=\"100\" height=\"100\">\r         </a>\r     </p>\r </div>\r <div>\r     <p align=\"center\">\r         AuxBot docs\r         <br>\r         <a href=\"https://www.auxbot.xyz/invite\">AuxBot Invite</a>\r         ⋇\r         <a href=\"https://www.auxbot.xyz/support\">Support Server</a>\r         <br>\r         <a href=\"https://www.auxbot.xyz/docs\"><strong>AuxBot Documentation »</strong></a>\r         <br>\r         <br>\r         <a href=\"https://github.com/auxbot-discord-bot/docs\">\r             <img src=\"https://img.shields.io/github/last-commit/auxbot-discord-bot/docs?color=purple&label=Last%20Commit&logo=GitHub&logoColor=white\">\r         </a>\r         <a href=\"https://github.com/auxbot-discord-bot/docs\">\r             <img src=\"https://img.shields.io/github/license/auxbot-discord-bot/docs?color=orange&label=License&logo=GitHub\">\r         </a>\r         <a href=\"https://github.com/auxbot-discord-bot/docs\">\r             <img src=\"https://img.shields.io/github/repo-size/auxbot-discord-bot/docs?color=blue&label=Repo%20Size&logo=GitHub&logoColor=white\">\r         </a>\r         <br>\r     </p>\r </div>",
+  "bugs": {
+    "url": "https://github.com/AuxBot-Discord-Bot/Docs/issues"
+  },
+  "homepage": "https://github.com/AuxBot-Discord-Bot/Docs#readme",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.48",
+    "@vuepress/plugin-pwa": "^2.0.0-beta.48",
+    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.48",
+    "@vuepress/plugin-shiki": "^2.0.0-beta.48",
+    "prettier": "^2.7.1",
+    "vuepress": "^2.0.0-beta.48"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
 }
