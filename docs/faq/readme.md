@@ -31,14 +31,11 @@ When kicking or banning AuxBot from a server or deleting your server all of the 
 
 ### Statements
 
-a. The organization of AuxBot is not liable for any information that could be lost or leaked.
+1. The developer of AuxBot is not liable for any information that could be lost or leaked.
+2. The developer of AuxBot is able to change the state of any policy at his discretion.
 
 ::: tip
 If you would like your data removed from the database, kick or ban AuxBot from your server. Or join our [support server](https://www.auxbot.xyz/redirect/support) and request for your data to be removed.
-:::
-
-::: warning
-Please take note that the developers are able to modify the Privacy Policy at anytime.
 :::
 
 ## Terms Of Use
@@ -50,10 +47,6 @@ The short answer is no you can not. The reason for this is all of AuxBot's code 
 ### Can I self-host [AuxBot.xyz](https://www.auxbot.xyz)?
 
 The short answer is no you can not. The website's source code is private and if anyone manages to gain a copy of [AuxBot.xyz](https://www.auxbot.xyz) source code it is not licensed therefore you may not use it.
-
-::: warning
-Please take note that the developers are able to modify the Terms Of Use at anytime.
-:::
 
 ## Questions
 
@@ -73,8 +66,8 @@ For support, join our [support server](https://www.auxbot.xyz/redirect/support).
 
 ### Why did AuxBot send a "something has gone wrong" message?
 
-This happens from time to time. It means that there is an issue with the code that needs to be resolved. For more support with these messages join our [support server](https://www.auxbot.xyz/redirect/support).
+This happens from time to time. It means that there is an issue that needs to be resolved. For more support with these messages join our [support server](https://www.auxbot.xyz/redirect/support).
 
-Upon joining the support server go to the AuxBot support channel and tell us you have an error. Please state what command you did that caused this issue and please also send the **Error ID** displayed at the bottom of the message.
+Upon joining the support server go to the AuxBot support channel and tell us you have an error. Please state what your **Error ID** is, it's displayed at the bottom of the error message.
 
 These errors are usually fixed within 1 week or so.
