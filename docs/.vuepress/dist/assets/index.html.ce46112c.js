@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-146a1d7e","path":"/cogs/","title":"Currently Under Maintenance","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1656391921000,"contributors":[{"name":"Auxtal","email":"real.auxtal@gmail.com","commits":1}]},"filePathRelative":"cogs/readme.md"}');export{e as data};
