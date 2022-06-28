@@ -1,0 +1,21 @@
+{
+	"name": "AuxBot Documentation",
+	"short_name": "AuxBot Docs",
+	"description": "AuxBot is the number one bot to setup a bot requesting system in your server!",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#202020",
+	"theme_color": "#f82b3a",
+	"icons": [
+		{
+			"src": "/icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/icon-384x384.png",
+			"sizes": "384x384",
+			"type": "image/png"
+		}
+	]
+}
