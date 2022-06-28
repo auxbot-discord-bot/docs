@@ -19,6 +19,10 @@
         <br>
         <br>
         <a href="https://github.com/auxbot-discord-bot/docs">
+            <img src="https://github.com/auxbot-discord-bot/docs/actions/workflows/publish%20docker%20image.yml/badge.svg">
+        </a>
+        <br>
+        <a href="https://github.com/auxbot-discord-bot/docs">
             <img src="https://img.shields.io/github/last-commit/auxbot-discord-bot/docs?color=purple&label=Last%20Commit&logo=GitHub&logoColor=white">
         </a>
         <a href="https://github.com/auxbot-discord-bot/docs">
