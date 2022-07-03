@@ -1,4 +1,6 @@
 .tool-versions
+.cache
+.temp
 .env
-
 node_modules
+dist

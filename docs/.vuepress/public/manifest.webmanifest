@@ -1,11 +1,11 @@
 {
 	"name": "AuxBot Documentation",
 	"short_name": "AuxBot Docs",
-	"description": "AuxBot is a multipurpose discord bot with many features.",
+	"description": "AuxBot is the number one bot to setup a bot requesting system in your server!",
 	"start_url": "/index.html",
 	"display": "standalone",
-	"background_color": "#f72b39",
-	"theme_color": "#f72b39",
+	"background_color": "#202020",
+	"theme_color": "#f82b3a",
 	"icons": [
 		{
 			"src": "/icon-192x192.png",

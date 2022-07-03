@@ -6,7 +6,10 @@ actions:
     link: https://www.auxbot.xyz
     type: secondary
   - text: Invite
-    link: https://www.auxbot.xyz/redirect/invite
+    link: https://www.auxbot.xyz/invite
+    type: secondary
+  - text: Support
+    link: https://www.auxbot.xyz/support
     type: secondary
 features:
   - title: Fast
@@ -14,22 +17,6 @@ features:
   - title: No Pay Walls
     details: Every single feature of AuxBot is completely free!
   - title: Versatile
-    details: AuxBot is very versatile it has many feature that will suit any server!
-footer: © Copyright AuxBot 2020-2021
+    details: AuxBot is the number one bot to setup a bot requesting system in your server!
+footer: Copyright © AuxBot 2022 All Rights Reserved
 ---
-
-## Quick Start Guide
-
-::: warning
-This feature is coming soon.
-:::
-
-This command will walk you through everything and it only takes a few minutes.
-
-<ClientOnly>
-  <DiscordMessages>
-    <DiscordMessage profile="user">
-      !a setup
-    </DiscordMessage>
-  </DiscordMessages>
-</ClientOnly>
